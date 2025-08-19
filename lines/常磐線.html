@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="title" content="常磐線線 | どこでも駅メロ">
+  <meta name="description" content="常磐線線の駅メロ一覧。各駅の発車メロディを簡単に再生できます。">
+  <meta name="keywords" content="発車メロディ,駅メロ,常磐線線">
+  <title>常磐線線 | どこでも駅メロ</title>
+  <link rel="stylesheet" href="/index.css">
+
+  <style>
+    body { font-family:sans-serif; margin:0; padding:0; background:#f5f5f5; }
+    header { padding:12px 24px; display:flex; align-items:center; background:#fff; box-shadow:0 2px 6px rgba(0,0,0,0.1);}
+    header .title-link { display:flex; align-items:center; text-decoration:none; color:#1976d2; font-weight:bold; font-size:1.2em; }
+    header .title-link img { height:40px; margin-right:12px; }
+    nav { margin-left:auto; display:flex; align-items:center; gap:12px; }
+    .company-btn { padding:6px 12px; background:#1976d2; color:#fff; border-radius:6px; text-decoration:none; font-size:0.95em; }
+    #header-search { font-size:1em; padding:8px 14px; border-radius:8px; border:1px solid #bcd; box-shadow:0 2px 12px #1976d220; width:250px; }
+    #header-search-results { position:absolute; top:110%; left:0; width:100%; background:#fff; box-shadow:0 2px 12px #1976d220; border-radius:8px; z-index:100; display:none; }
+    main { max-width:1000px; margin:32px auto; padding:0 24px; }
+    h1 { font-size:2em; color:#1976d2; margin-bottom:24px; text-align:center; }
+    .melody-item { display:flex; justify-content:space-between; align-items:center; padding:16px; margin-bottom:12px; background:#fff; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.05);}
+    .melody-info { flex:1; min-width:0; }
+    .melody-name { font-weight:600; font-size:1.1em; color:#333; }
+    .melody-line { font-size:0.9em; color:#666; }
+    .melody-audio-wrapper { display:flex; flex-direction:row; align-items:center; gap:8px; }
+    .melody-audio { width:180px; min-width:120px; }
+    .no-melodies { color:#888; font-style:italic; padding:20px; text-align:center; }
+  </style>
+</head>
+<body>
+<header>
+  <a href="/index.html" class="title-link">
+    <img src="/logo.png" alt="どこでも駅メロのロゴ">
+    どこでも駅メロ
+  </a>
+  <nav>
+    <a href="/index.html" class="company-btn">ホーム</a>
+    <div style="position:relative;">
+      <input id="header-search" type="text" placeholder="駅名・メロディ名で検索">
+      <div id="header-search-results"></div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <h1>常磐線線の駅メロ一覧</h1>
+  <div id="melody-list">
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">取手 - 首都圏12-1番</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/首都圏12-1番.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">取手 - 首都圏21番</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/首都圏21番.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">取手 - 首都圏12番</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/首都圏12番.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">取手 - 首都圏21-1番</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/首都圏21-1番.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">藤代 - Water Crown</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Water Crown.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">藤代 - Gota del Vient</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Gota del Vient.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">龍ケ崎市 - RYUとぴあ音頭</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/RYUとぴあ音頭.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">龍ケ崎市 - 白鳥の湖</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/白鳥の湖.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">龍ケ崎市 - かえるの合唱</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/かえるの合唱.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">牛久 - オー・シャンゼリゼ</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/オー・シャンゼリゼ.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">牛久 - グリーン・グリーン</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/グリーン・グリーン.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">ひたち野うしく - Water Crown</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Water Crown.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">ひたち野うしく - Gota del Vient</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Gota del Vient.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">荒川沖 - 風の贈り物</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/風の贈り物.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">荒川沖 - きらきら星変奏曲</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/きらきら星変奏曲.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">土浦 - 風の贈り物</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/風の贈り物.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">土浦 - きらきら星変奏曲</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/きらきら星変奏曲.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">神立 - 風の贈り物</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/風の贈り物.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">神立 - きらきら星変奏曲</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/きらきら星変奏曲.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">高浜 - Water Crown</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Water Crown.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">高浜 - Gota del Vient</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Gota del Vient.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">石岡 - ここで君を待ってるよ</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/ここで君を待ってるよ.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">石岡 - バラが咲いた</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/バラが咲いた.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">石岡 - 石岡のお囃子</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/石岡のお囃子.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">羽鳥 - Gota del Vient</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Gota del Vient.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">羽鳥 - Water Crown</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Water Crown.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">岩間 - 幸せなら手をたたこうV2</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/幸せなら手をたたこうV2.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">岩間 - レットキス(ジェンカ)</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/レットキス(ジェンカ).mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">友部 - 上を向いて歩こう</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/上を向いて歩こう.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">友部 - 明日があるさ</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/明日があるさ.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">友部 - 幸せなら手をたたこうV1</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/幸せなら手をたたこうV1.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">内原 - Gota del Vient</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Gota del Vient.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">内原 - Water Crown</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Water Crown.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">赤塚 - Water Crown</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Water Crown.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">赤塚 - Gota del Vient</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Gota del Vient.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">水戸 - 大都会の雑踏の中で聞こえるチャイム</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/大都会の雑踏の中で聞こえるチャイム.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">水戸 - 日本庭園の水と草木</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/日本庭園の水と草木.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">水戸 - 太平洋の海岸での生命の誕生</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/太平洋の海岸での生命の誕生.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">勝田 - Water Crown</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Water Crown.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">勝田 - Gota del Vient</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Gota del Vient.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">佐和 - Water Crown</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Water Crown.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">佐和 - Gota del Vient</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Gota del Vient.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">東海 - Gota del Vient</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Gota del Vient.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">東海 - Water Crown</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Water Crown.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">大甕 - いつでも夢をV1</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/いつでも夢をV1.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">大甕 - 恋のメキシカンロック</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/恋のメキシカンロック.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">常陸多賀 - いつでも夢をV1</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/いつでも夢をV1.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">常陸多賀 - 公園の手品師</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/公園の手品師.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">日立 - いつでも夢をV1</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/いつでも夢をV1.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">日立 - 寒い朝</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/寒い朝.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">小木津 - いつでも夢をV2</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/いつでも夢をV2.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">小木津 - 明日は咲こう花咲こう</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/明日は咲こう花咲こう.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">十王 - いつでも夢をV2</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/いつでも夢をV2.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">十王 - 若い港</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/若い港.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">高萩 - あしたの風とひとつになって V2</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/あしたの風とひとつになって V2.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">高萩 - あしたの風とひとつになって V1</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/あしたの風とひとつになって V1.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">磯原 - 七つの子</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/七つの子.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">勿来 - Water Crown</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Water Crown.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">勿来 - Gota del Vient</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Gota del Vient.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">植田 - Gota del Vient</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Gota del Vient.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">植田 - Water Crown</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Water Crown.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">泉 - Water Crown</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Water Crown.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">泉 - Gota del Vient</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Gota del Vient.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">湯本 - シャボン玉</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/シャボン玉.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">内郷 - Water Crown</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Water Crown.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">内郷 - Gota del Vient</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Gota del Vient.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">いわき - フラガール～虹を～</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/フラガール～虹を～.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">いわき - 楽興の時</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/楽興の時.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">いわき - 春の歌</div>
+          <div class="melody-line">常磐線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/春の歌.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+  </div>
+</main>
+
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyBrgf00OFxksjZuFOQxgB1qUjZmLSG7yqk",
+    authDomain: "dokodemo-ekimero.firebaseapp.com",
+    databaseURL: "https://dokodemo-ekimero-default-rtdb.firebaseio.com",
+    projectId: "dokodemo-ekimero",
+    storageBucket: "dokodemo-ekimero.firebasestorage.app",
+    messagingSenderId: "189766315545",
+    appId: "1:189766315545:web:e88fb50dc039f7d2f28488"
+  };
+  if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
+</script>
+<script src="/playcounter.js"></script>
+
+<!-- Header search -->
+<script>
+let headerStationsData = [];
+fetch('/stations.json').then(res => res.json()).then(data => headerStationsData = data);
+
+const headerInput = document.getElementById('header-search');
+const headerResults = document.getElementById('header-search-results');
+
+headerInput.addEventListener('input', function() {
+  const q = headerInput.value.trim().toLowerCase();
+  if (!q) { headerResults.style.display='none'; return; }
+
+  const matches = headerStationsData.filter(st =>
+    st.station.toLowerCase().includes(q) || (st.melody && st.melody.toLowerCase().includes(q))
+  ).slice(0,8);
+
+  if (!matches.length) {
+    headerResults.innerHTML='<div style="padding:12px;color:#888;">該当なし</div>';
+    headerResults.style.display='block';
+    return;
+  }
+
+  headerResults.innerHTML = matches.map(st => {
+    const audioSrc = st.file ? (st.file.match(/^https?:\/\//) ? st.file : `/${st.file}`) : '';
+    const stationUrl = `/stations/${encodeURIComponent(st.station)}.html`;
+    return `
+      <div style="padding:12px; border-bottom:1px solid #eee;">
+        <a href="${stationUrl}" style="font-weight:700;color:#1976d2;text-decoration:underline;">${st.station}</a>
+        <div>${st.melody || ''}</div>
+        ${audioSrc ? `<audio controls controlsList="nodownload" src="${audioSrc}" style="width:100%;" loop></audio>` : ''}
+      </div>`;
+  }).join('');
+  headerResults.style.display='block';
+});
+
+document.addEventListener('click', e => {
+  if (!headerResults.contains(e.target) && e.target!==headerInput) headerResults.style.display='none';
+});
+</script>
+
+</body>
+</html>
