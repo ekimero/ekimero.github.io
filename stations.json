@@ -1200,8 +1200,15 @@
     "company": "JR東日本",
     "line": "東海道線",
     "station": "川崎",
-    "melody": "上を向いて歩こう",
-    "file": "audio/上を向いて歩こう.mp3"
+    "melody": "上を向いて歩こうA",
+    "file": "audio/上を向いて歩こうA.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "東海道線",
+    "station": "川崎",
+    "melody": "上を向いて歩こうB",
+    "file": "audio/上を向いて歩こうB.mp3"
   },
   {
     "company": "JR東日本",
@@ -4616,8 +4623,8 @@
     "company": "JR東日本",
     "line": "根岸線",
     "station": "大船",
-    "melody": "Water Crown(標準)",
-    "file": "audio/Water Crown(標準).mp3"
+    "melody": "Water Crown",
+    "file": "audio/Water Crown.mp3"
   },
   {
     "company": "JR東日本",
@@ -5491,15 +5498,15 @@
     "company": "JR東日本",
     "line": "青梅線",
     "station": "立川",
-    "melody": "立川1番(首都圏22番)",
-    "file": "audio/立川1番(首都圏22番).mp3"
+    "melody": "立川1番",
+    "file": "audio/立川1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "立川",
-    "melody": "立川2番(首都圏23番)",
-    "file": "audio/立川2番(首都圏23番).mp3"
+    "melody": "立川2番",
+    "file": "audio/立川2番.mp3"
   },
   {
     "company": "JR東日本",
@@ -5701,155 +5708,155 @@
     "company": "JR東日本",
     "line": "青梅線",
     "station": "宮ノ平",
-    "melody": "Gota del Vient(乗降促進)",
-    "file": "audio/Gota del Vient(乗降促進).mp3"
+    "melody": "Gota del Vient",
+    "file": "audio/Gota del Vient.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "宮ノ平",
-    "melody": "Water Crown(乗降促進)",
-    "file": "audio/Water Crown(乗降促進).mp3"
+    "melody": "Water Crown",
+    "file": "audio/Water Crown.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "日向和田",
-    "melody": "Gota del Vient(乗降促進)",
-    "file": "audio/Gota del Vient(乗降促進).mp3"
+    "melody": "Gota del Vient",
+    "file": "audio/Gota del Vient.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "日向和田",
-    "melody": "Water Crown(乗降促進)",
-    "file": "audio/Water Crown(乗降促進).mp3"
+    "melody": "Water Crown",
+    "file": "audio/Water Crown.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "石神前",
-    "melody": "Gota del Vient(乗降促進)",
-    "file": "audio/Gota del Vient(乗降促進).mp3"
+    "melody": "Gota del Vient",
+    "file": "audio/Gota del Vient.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "石神前",
-    "melody": "Water Crown(乗降促進)",
-    "file": "audio/Water Crown(乗降促進).mp3"
+    "melody": "Water Crown",
+    "file": "audio/Water Crown.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "二俣尾",
-    "melody": "Gota del Vient(乗降促進)",
-    "file": "audio/Gota del Vient(乗降促進).mp3"
+    "melody": "Gota del Vient",
+    "file": "audio/Gota del Vient.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "二俣尾",
-    "melody": "Water Crown(乗降促進)",
-    "file": "audio/Water Crown(乗降促進).mp3"
+    "melody": "Water Crown",
+    "file": "audio/Water Crown.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "軍畑",
-    "melody": "Gota del Vient(乗降促進)",
-    "file": "audio/Gota del Vient(乗降促進).mp3"
+    "melody": "Gota del Vient",
+    "file": "audio/Gota del Vient.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "軍畑",
-    "melody": "Water Crown(乗降促進)",
-    "file": "audio/Water Crown(乗降促進).mp3"
+    "melody": "Water Crown",
+    "file": "audio/Water Crown.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "沢井",
-    "melody": "Gota del Vient(乗降促進)",
-    "file": "audio/Gota del Vient(乗降促進).mp3"
+    "melody": "Gota del Vient",
+    "file": "audio/Gota del Vient.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "沢井",
-    "melody": "Water Crown(乗降促進)",
-    "file": "audio/Water Crown(乗降促進).mp3"
+    "melody": "Water Crown",
+    "file": "audio/Water Crown.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "御嶽",
-    "melody": "Gota del Vient(乗降促進)",
-    "file": "audio/Gota del Vient(乗降促進).mp3"
+    "melody": "Gota del Vient",
+    "file": "audio/Gota del Vient.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "御嶽",
-    "melody": "Water Crown(乗降促進)",
-    "file": "audio/Water Crown(乗降促進).mp3"
+    "melody": "Water Crown",
+    "file": "audio/Water Crown.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "川井",
-    "melody": "Gota del Vient(乗降促進)",
-    "file": "audio/Gota del Vient(乗降促進).mp3"
+    "melody": "Gota del Vient",
+    "file": "audio/Gota del Vient.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "川井",
-    "melody": "Water Crown(乗降促進)",
-    "file": "audio/Water Crown(乗降促進).mp3"
+    "melody": "Water Crown",
+    "file": "audio/Water Crown.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "古里",
-    "melody": "Gota del Vient(乗降促進)",
-    "file": "audio/Gota del Vient(乗降促進).mp3"
+    "melody": "Gota del Vient",
+    "file": "audio/Gota del Vient.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "古里",
-    "melody": "Water Crown(乗降促進)",
-    "file": "audio/Water Crown(乗降促進).mp3"
+    "melody": "Water Crown",
+    "file": "audio/Water Crown.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "鳩ノ巣",
-    "melody": "Gota del Vient(乗降促進)",
-    "file": "audio/Gota del Vient(乗降促進).mp3"
+    "melody": "Gota del Vient",
+    "file": "audio/Gota del Vient.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "鳩ノ巣",
-    "melody": "Water Crown(乗降促進)",
-    "file": "audio/Water Crown(乗降促進).mp3"
+    "melody": "Water Crown",
+    "file": "audio/Water Crown.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "白丸",
-    "melody": "Gota del Vient(乗降促進)",
-    "file": "audio/Gota del Vient(乗降促進).mp3"
+    "melody": "Gota del Vient",
+    "file": "audio/Gota del Vient.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "白丸",
-    "melody": "Water Crown(乗降促進)",
-    "file": "audio/Water Crown(乗降促進).mp3"
+    "melody": "Water Crown",
+    "file": "audio/Water Crown.mp3"
   },
   {
     "company": "JR東日本",
@@ -6499,15 +6506,15 @@
     "company": "JR東日本",
     "line": "横浜線",
     "station": "相原",
-    "melody": "遠い青空V1",
-    "file": "audio/遠い青空V1.mp3"
+    "melody": "遠い青空A",
+    "file": "audio/遠い青空A.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "相原",
-    "melody": "春待ち風V2",
-    "file": "audio/春待ち風V2.mp3"
+    "melody": "春待ち風B",
+    "file": "audio/春待ち風B.mp3"
   },
   {
     "company": "JR東日本",
@@ -6898,15 +6905,15 @@
     "company": "JR東日本",
     "line": "総武本線",
     "station": "八街",
-    "melody": "すすきの高原 V1",
-    "file": "audio/すすきの高原 V1.mp3"
+    "melody": "すすきの高原",
+    "file": "audio/すすきの高原.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武本線",
     "station": "八街",
-    "melody": "すすきの高原 V1",
-    "file": "audio/すすきの高原 V1.mp3"
+    "melody": "すすきの高原",
+    "file": "audio/すすきの高原.mp3"
   },
   {
     "company": "JR東日本",
@@ -6926,8 +6933,8 @@
     "company": "JR東日本",
     "line": "総武本線",
     "station": "成東",
-    "melody": "すすきの高原 V1",
-    "file": "audio/すすきの高原 V1.mp3"
+    "melody": "すすきの高原",
+    "file": "audio/すすきの高原.mp3"
   },
   {
     "company": "JR東日本",
@@ -7108,15 +7115,15 @@
     "company": "JR東日本",
     "line": "外房線",
     "station": "蘇我",
-    "melody": "Over AメロVer.",
-    "file": "audio/Over AメロVer..mp3"
+    "melody": "Over AメロVer",
+    "file": "audio/Over AメロVer.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "蘇我",
-    "melody": "Over サビVer.",
-    "file": "audio/Over サビVer..mp3"
+    "melody": "Over サビVer",
+    "file": "audio/Over サビVer.mp3"
   },
   {
     "company": "JR東日本",
@@ -7150,8 +7157,8 @@
     "company": "JR東日本",
     "line": "外房線",
     "station": "土気",
-    "melody": "すすきの高原V1",
-    "file": "audio/すすきの高原V1.mp3"
+    "melody": "すすきの高原",
+    "file": "audio/すすきの高原.mp3"
   },
   {
     "company": "JR東日本",
@@ -7171,8 +7178,8 @@
     "company": "JR東日本",
     "line": "外房線",
     "station": "大網",
-    "melody": "すすきの高原V1",
-    "file": "audio/すすきの高原V1.mp3"
+    "melody": "すすきの高原",
+    "file": "audio/すすきの高原.mp3"
   },
   {
     "company": "JR東日本",
@@ -7276,15 +7283,15 @@
     "company": "JR東日本",
     "line": "内房線",
     "station": "蘇我",
-    "melody": "Over AメロVer.",
-    "file": "audio/Over AメロVer..mp3"
+    "melody": "Over AメロVer",
+    "file": "audio/Over AメロVer.mp3"
   },
   {
     "company": "JR東日本",
     "line": "内房線",
     "station": "蘇我",
-    "melody": "Over サビVer.",
-    "file": "audio/Over サビVer..mp3"
+    "melody": "Over サビVer",
+    "file": "audio/Over サビVer.mp3"
   },
   {
     "company": "JR東日本",
@@ -7444,8 +7451,8 @@
     "company": "JR東日本",
     "line": "東金線",
     "station": "東金",
-    "melody": "すすきの高原 V1",
-    "file": "audio/すすきの高原 V1.mp3"
+    "melody": "すすきの高原",
+    "file": "audio/すすきの高原.mp3"
   },
   {
     "company": "JR東日本",
@@ -7878,8 +7885,8 @@
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "赤羽",
-    "melody": "すすきの高原V1",
-    "file": "audio/すすきの高原V1.mp3"
+    "melody": "すすきの高原",
+    "file": "audio/すすきの高原.mp3"
   },
   {
     "company": "JR東日本",
@@ -8039,8 +8046,8 @@
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "古河",
-    "melody": "遠い青空V1",
-    "file": "audio/遠い青空V1.mp3"
+    "melody": "遠い青空A",
+    "file": "audio/遠い青空A.mp3"
   },
   {
     "company": "JR東日本",
@@ -8306,7 +8313,7 @@
     "line": "宇都宮線",
     "station": "那須塩原",
     "melody": "浜千鳥F",
-    "file": "audio/浜千鳥F.mp3"
+    "file": "audio/浜千鳥南北線.mp3"
   },
   {
     "company": "JR東日本",
@@ -8333,8 +8340,8 @@
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "黒磯",
-    "melody": "春待ち風V2",
-    "file": "audio/春待ち風V2.mp3"
+    "melody": "春待ち風B",
+    "file": "audio/春待ち風B.mp3"
   },
   {
     "company": "JR東日本",
