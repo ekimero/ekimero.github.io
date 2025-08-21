@@ -1,27 +1,26 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // Initialize Firebase if not already initialized
-  if (!firebase.apps.length) {
-    const firebaseConfig = {
-      apiKey: "AIzaSyBrgf00OFxksjZuFOQxgB1qUjZmLSG7yqk",
-      authDomain: "dokodemo-ekimero.firebaseapp.com",
-      databaseURL: "https://dokodemo-ekimero-default-rtdb.firebaseio.com",
-      projectId: "dokodemo-ekimero",
-      storageBucket: "dokodemo-ekimero.firebasestorage.app",
-      messagingSenderId: "189766315545",
-      appId: "1:189766315545:web:e88fb50dc039f7d2f28488",
-      measurementId: "G-EPCBNCPN4F"
-    };
-    firebase.initializeApp(firebaseConfig);
-  }
+  // Firebase config
+  const firebaseConfig = {
+    apiKey: "AIzaSyBrgf00OFxksjZuFOQxgB1qUjZmLSG7yqk",
+    authDomain: "dokodemo-ekimero.firebaseapp.com",
+    databaseURL: "https://dokodemo-ekimero-default-rtdb.firebaseio.com",
+    projectId: "dokodemo-ekimero",
+    storageBucket: "dokodemo-ekimero.firebasestorage.app",
+    messagingSenderId: "189766315545",
+    appId: "1:189766315545:web:e88fb50dc039f7d2f28488",
+    measurementId: "G-EPCBNCPN4F"
+  };
 
+  // Initialize Firebase if not already
+  if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
   const db = firebase.database();
   const auth = firebase.auth();
 
-  // Sign in anonymously to satisfy auth != null
+  // Sign in anonymously
   auth.signInAnonymously().catch(console.error);
 
-  // Increment totalPlays safely per user (10-second cooldown)
-  function incrementPlayCount() {
+  // Increment function with limits
+  function incrementPlay() {
     const user = auth.currentUser;
     if (!user) return;
 
@@ -30,36 +29,66 @@ document.addEventListener('DOMContentLoaded', function() {
 
     userRef.transaction(userData => {
       const now = Date.now();
-      if (!userData) return { lastUpdate: now };
-      if (now - userData.lastUpdate > 10000) {
-        return { lastUpdate: now };
+
+      if (!userData) {
+        // First-time user
+        return {
+          lastUpdate: now,
+          lastHourStart: now,
+          lastHourCount: 1,
+          lastDayStart: now,
+          lastDayCount: 1
+        };
       }
-      return; // abort if within 10s
+
+      // 10-second cooldown
+      if (now - (userData.lastUpdate || 0) < 10000) return;
+
+      // Hourly limit
+      let hourStart = userData.lastHourStart || now;
+      let hourCount = userData.lastHourCount || 0;
+      if (now - hourStart > 3600_000) { hourStart = now; hourCount = 0; }
+      if (hourCount >= 60) return;
+
+      // Daily limit
+      let dayStart = userData.lastDayStart || now;
+      let dayCount = userData.lastDayCount || 0;
+      if (now - dayStart > 24 * 3600_000) { dayStart = now; dayCount = 0; }
+      if (dayCount >= 200) return;
+
+      return {
+        lastUpdate: now,
+        lastHourStart: hourStart,
+        lastHourCount: hourCount + 1,
+        lastDayStart: dayStart,
+        lastDayCount: dayCount + 1
+      };
     }, (error, committed) => {
-      if (error || !committed) return;
+      if (!committed || error) return;
+      // Increment global counter
       counterRef.transaction(current => (current || 0) + 1);
     });
   }
 
-  // Attach event listeners to all audio elements
+  // Add listeners to audio elements
   function setupAudioListeners() {
-    const audioElements = document.querySelectorAll('audio');
-    audioElements.forEach(audio => {
+    document.querySelectorAll('audio').forEach(audio => {
       if (!audio.dataset.playListenerAdded) {
-        audio.addEventListener('play', incrementPlayCount);
+        audio.addEventListener('play', incrementPlay);
         audio.dataset.playListenerAdded = 'true';
       }
     });
   }
 
-  // Initial setup
   setupAudioListeners();
 
   // Observe dynamically added audio elements
-  const observer = new MutationObserver(() => setupAudioListeners());
-  observer.observe(document.body, { childList: true, subtree: true });
+  new MutationObserver(() => setupAudioListeners()).observe(document.body, {
+    childList: true,
+    subtree: true
+  });
 
-  // Real-time update of play counter
+  // Real-time totalPlays display
   db.ref("totalPlays").on("value", snapshot => {
     const count = snapshot.val() || 0;
     const el = document.getElementById("playCountNumber");
