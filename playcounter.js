@@ -88,10 +88,20 @@ document.addEventListener('DOMContentLoaded', function() {
     subtree: true
   });
 
-  // Real-time totalPlays display
-  db.ref("totalPlays").on("value", snapshot => {
-    const count = snapshot.val() || 0;
-    const el = document.getElementById("playCountNumber");
-    if (el) el.textContent = count.toLocaleString();
-  });
+  // Daily display update
+  function updateDailyCounter() {
+    const today = new Date().toISOString().split('T')[0]; // e.g., "2025-08-21"
+    const lastUpdate = localStorage.getItem('counterLastUpdate');
+
+    if (lastUpdate === today) return; // Already updated today
+
+    db.ref("totalPlays").once("value").then(snapshot => {
+      const count = snapshot.val() || 0;
+      const el = document.getElementById("playCountNumber");
+      if (el) el.textContent = count.toLocaleString();
+      localStorage.setItem('counterLastUpdate', today);
+    });
+  }
+
+  updateDailyCounter();
 });
