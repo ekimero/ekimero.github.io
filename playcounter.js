@@ -1,4 +1,3 @@
-// Track play counts for all audio elements on the page
 document.addEventListener('DOMContentLoaded', function() {
   // Initialize Firebase if not already initialized
   if (!firebase.apps.length) {
@@ -15,11 +14,30 @@ document.addEventListener('DOMContentLoaded', function() {
     firebase.initializeApp(firebaseConfig);
   }
 
-  // Function to increment play count
+  const db = firebase.database();
+  const auth = firebase.auth();
+
+  // Sign in anonymously to satisfy auth != null
+  auth.signInAnonymously().catch(console.error);
+
+  // Increment totalPlays safely per user (10-second cooldown)
   function incrementPlayCount() {
-    const counterRef = firebase.database().ref("totalPlays");
-    counterRef.transaction((currentCount) => {
-      return (currentCount || 0) + 1;
+    const user = auth.currentUser;
+    if (!user) return;
+
+    const userRef = db.ref(`users/${user.uid}`);
+    const counterRef = db.ref("totalPlays");
+
+    userRef.transaction(userData => {
+      const now = Date.now();
+      if (!userData) return { lastUpdate: now };
+      if (now - userData.lastUpdate > 10000) {
+        return { lastUpdate: now };
+      }
+      return; // abort if within 10s
+    }, (error, committed) => {
+      if (error || !committed) return;
+      counterRef.transaction(current => (current || 0) + 1);
     });
   }
 
@@ -27,7 +45,6 @@ document.addEventListener('DOMContentLoaded', function() {
   function setupAudioListeners() {
     const audioElements = document.querySelectorAll('audio');
     audioElements.forEach(audio => {
-      // Only add listener if not already added
       if (!audio.dataset.playListenerAdded) {
         audio.addEventListener('play', incrementPlayCount);
         audio.dataset.playListenerAdded = 'true';
@@ -38,17 +55,14 @@ document.addEventListener('DOMContentLoaded', function() {
   // Initial setup
   setupAudioListeners();
 
-  // Also set up a MutationObserver to catch dynamically added audio elements
-  const observer = new MutationObserver(function(mutations) {
-    mutations.forEach(function(mutation) {
-      if (mutation.addedNodes.length) {
-        setupAudioListeners();
-      }
-    });
-  });
+  // Observe dynamically added audio elements
+  const observer = new MutationObserver(() => setupAudioListeners());
+  observer.observe(document.body, { childList: true, subtree: true });
 
-  observer.observe(document.body, {
-    childList: true,
-    subtree: true
+  // Real-time update of play counter
+  db.ref("totalPlays").on("value", snapshot => {
+    const count = snapshot.val() || 0;
+    const el = document.getElementById("playCountNumber");
+    if (el) el.textContent = count.toLocaleString();
   });
 });

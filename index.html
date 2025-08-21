@@ -173,38 +173,67 @@
   </main>
 
 <!-- Firebase and other scripts -->
-  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
-  <script>
-    // Initialize Firebase
-    const firebaseConfig = {
-      apiKey: "AIzaSyBrgf00OFxksjZuFOQxgB1qUjZmLSG7yqk",
-      authDomain: "dokodemo-ekimero.firebaseapp.com",
-      databaseURL: "https://dokodemo-ekimero-default-rtdb.firebaseio.com",
-      projectId: "dokodemo-ekimero",
-      storageBucket: "dokodemo-ekimero.firebasestorage.app",
-      messagingSenderId: "189766315545",
-      appId: "1:189766315545:web:e88fb50dc039f7d2f28488",
-      measurementId: "G-EPCBNCPN4F"
-    };
-    
-    // Initialize Firebase if not already initialized
-    if (!firebase.apps.length) {
-      firebase.initializeApp(firebaseConfig);
-    }
+<!-- Firebase SDKs -->
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
 
-    // Real-time play counter with error handling
-    const counterRef = firebase.database().ref("totalPlays");
-    counterRef.on("value", 
-      (snapshot) => {
-        const count = snapshot.val() || 0;
-        document.getElementById("playCountNumber").textContent = count.toLocaleString();
-      },
-      (error) => {
-        console.error("Counter error:", error);
-        document.getElementById("playCountNumber").textContent = "エラー";
+<script>
+  // Initialize Firebase
+  const firebaseConfig = {
+    apiKey: "AIzaSyBrgf00OFxksjZuFOQxgB1qUjZmLSG7yqk",
+    authDomain: "dokodemo-ekimero.firebaseapp.com",
+    databaseURL: "https://dokodemo-ekimero-default-rtdb.firebaseio.com",
+    projectId: "dokodemo-ekimero",
+    storageBucket: "dokodemo-ekimero.firebasestorage.app",
+    messagingSenderId: "189766315545",
+    appId: "1:189766315545:web:e88fb50dc039f7d2f28488",
+    measurementId: "G-EPCBNCPN4F"
+  };
+  if (!firebase.apps.length) {
+    firebase.initializeApp(firebaseConfig);
+  }
+
+  const db = firebase.database();
+  const auth = firebase.auth();
+
+  // Sign in anonymously to satisfy auth != null rules
+  auth.signInAnonymously().catch(error => console.error("Auth error:", error));
+
+  // Increment totalPlays safely
+  function incrementPlay() {
+    const userId = auth.currentUser?.uid;
+    if (!userId) return; // wait until auth ready
+
+    const userRef = db.ref(`users/${userId}`);
+    const counterRef = db.ref("totalPlays");
+
+    userRef.transaction(userData => {
+      const now = Date.now();
+      if (!userData) return { lastUpdate: now }; // first time
+      // Only allow increment if >10 seconds since last increment
+      if (now - userData.lastUpdate > 10000) {
+        return { lastUpdate: now };
       }
-    );
+      return; // abort transaction if too soon
+    }, (error, committed) => {
+      if (error || !committed) return; // do nothing if failed/too soon
+      // Increment global totalPlays by 1
+      counterRef.transaction(current => (current || 0) + 1);
+    });
+  }
+
+  // Update the displayed counter in real-time
+  db.ref("totalPlays").on("value", snapshot => {
+    const count = snapshot.val() || 0;
+    document.getElementById("playCountNumber").textContent = count.toLocaleString();
+  });
+
+  // Example: incrementPlay() whenever a melody plays
+  // Call incrementPlay() in your audio play handlers
+</script>
+
+  
   </script>
   
   <!-- Play counter tracking -->
