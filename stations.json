@@ -920,8 +920,8 @@
     "company": "JR東日本",
     "line": "埼京線",
     "station": "北赤羽",
-    "melody": "せせらぎ 高音Ver",
-    "file": "audio/せせらぎ 高音Ver.mp3"
+    "melody": "せせらぎ",
+    "file": "audio/せせらぎ.mp3"
   },
   {
     "company": "JR東日本",
@@ -934,8 +934,8 @@
     "company": "JR東日本",
     "line": "埼京線",
     "station": "浮間舟渡",
-    "melody": "せせらぎ 高音Ver",
-    "file": "audio/せせらぎ 高音Ver.mp3"
+    "melody": "せせらぎ",
+    "file": "audio/せせらぎ.mp3"
   },
   {
     "company": "JR東日本",
@@ -3839,8 +3839,8 @@
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "我孫子",
-    "melody": "すすきの高原 V2",
-    "file": "audio/すすきの高原 V2.mp3"
+    "melody": "すすきの高原V1 V2",
+    "file": "audio/すすきの高原V1 V2.mp3"
   },
   {
     "company": "JR東日本",
@@ -4616,8 +4616,8 @@
     "company": "JR東日本",
     "line": "根岸線",
     "station": "大船",
-    "melody": "Water Crown 半音低いVer",
-    "file": "audio/Water Crown 半音低いVer.mp3"
+    "melody": "Water Crown(半音低い",
+    "file": "audio/Water Crown(半音低い).mp3"
   },
   {
     "company": "JR東日本",
@@ -6072,8 +6072,8 @@
     "company": "JR東日本",
     "line": "水戸線",
     "station": "小田林",
-    "melody": "Water Crown(低い)",
-    "file": "audio/Water Crown(低い).mp3"
+    "melody": "Water Crown(半音低い)",
+    "file": "audio/Water Crown(半音低い).mp3"
   },
   {
     "company": "JR東日本",
@@ -6114,8 +6114,8 @@
     "company": "JR東日本",
     "line": "水戸線",
     "station": "川島",
-    "melody": "Water Crown(低い)",
-    "file": "audio/Water Crown(低い).mp3"
+    "melody": "Water Crown(半音低い)",
+    "file": "audio/Water Crown(半音低い).mp3"
   },
   {
     "company": "JR東日本",
@@ -6170,8 +6170,8 @@
     "company": "JR東日本",
     "line": "水戸線",
     "station": "大和",
-    "melody": "Water Crown(低い)",
-    "file": "audio/Water Crown(低い).mp3"
+    "melody": "Water Crown(半音低い)",
+    "file": "audio/Water Crown(半音低い).mp3"
   },
   {
     "company": "JR東日本",
@@ -6205,15 +6205,15 @@
     "company": "JR東日本",
     "line": "水戸線",
     "station": "羽黒",
-    "melody": "Gota del Vient(低い)",
-    "file": "audio/Gota del Vient(低い).mp3"
+    "melody": "Water Crown(半音低い)",
+    "file": "audio/Water Crown(半音低い).mp3"
   },
   {
     "company": "JR東日本",
     "line": "水戸線",
     "station": "福原",
-    "melody": "Water Crown(低い)",
-    "file": "audio/Water Crown(低い).mp3"
+    "melody": "Water Crown(半音低い)",
+    "file": "audio/Water Crown(半音低い).mp3"
   },
   {
     "company": "JR東日本",
@@ -6296,43 +6296,43 @@
     "company": "JR東日本",
     "line": "横浜線",
     "station": "大口",
-    "melody": "Water Crown 微低Ver",
-    "file": "audio/Water Crown 微低Ver.mp3"
+    "melody": "Water Crown(微低)",
+    "file": "audio/Water Crown(微低).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "大口",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "菊名",
-    "melody": "Water Crown 微低Ver",
-    "file": "audio/Water Crown 微低Ver.mp3"
+    "melody": "Water Crown(微低)",
+    "file": "audio/Water Crown(微低).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "菊名",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "新横浜",
-    "melody": "Water Crown 微低Ver",
-    "file": "audio/Water Crown 微低Ver.mp3"
+    "melody": "Water Crown(微低)",
+    "file": "audio/Water Crown(微低).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "新横浜",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
@@ -6352,99 +6352,99 @@
     "company": "JR東日本",
     "line": "横浜線",
     "station": "鴨居",
-    "melody": "Water Crown 微低Ver",
-    "file": "audio/Water Crown 微低Ver.mp3"
+    "melody": "Water Crown(微低)",
+    "file": "audio/Water Crown(微低).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "鴨居",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "中山",
-    "melody": "Water Crown 微低Ver",
-    "file": "audio/Water Crown 微低Ver.mp3"
+    "melody": "Water Crown(微低)",
+    "file": "audio/Water Crown(微低).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "中山",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "十日市場",
-    "melody": "Water Crown 微低Ver",
-    "file": "audio/Water Crown 微低Ver.mp3"
+    "melody": "Water Crown(微低)",
+    "file": "audio/Water Crown(微低).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "十日市場",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "長津田",
-    "melody": "Water Crown 微低Ver",
-    "file": "audio/Water Crown 微低Ver.mp3"
+    "melody": "Water Crown(微低)",
+    "file": "audio/Water Crown(微低).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "長津田",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "成瀬",
-    "melody": "Water Crown 微低Ver",
-    "file": "audio/Water Crown 微低Ver.mp3"
+    "melody": "Water Crown(微低)",
+    "file": "audio/Water Crown(微低).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "成瀬",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "町田",
-    "melody": "Water Crown 微低Ver",
-    "file": "audio/Water Crown 微低Ver.mp3"
+    "melody": "Water Crown(微低)",
+    "file": "audio/Water Crown(微低).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "町田",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "古淵",
-    "melody": "Water Crown 微低Ver",
-    "file": "audio/Water Crown 微低Ver.mp3"
+    "melody": "Water Crown(微低)",
+    "file": "audio/Water Crown(微低).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "古淵",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
@@ -6464,43 +6464,43 @@
     "company": "JR東日本",
     "line": "横浜線",
     "station": "矢部",
-    "melody": "Water Crown 微低Ver",
-    "file": "audio/Water Crown 微低Ver.mp3"
+    "melody": "Water Crown(微低)",
+    "file": "audio/Water Crown(微低).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "矢部",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "相模原",
-    "melody": "Water Crown 微低Ver",
-    "file": "audio/Water Crown 微低Ver.mp3"
+    "melody": "Water Crown(微低)",
+    "file": "audio/Water Crown(微低).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "相模原",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "橋本",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "橋本",
-    "melody": "Water Crown 微低Ver",
-    "file": "audio/Water Crown 微低Ver.mp3"
+    "melody": "Water Crown(微低)",
+    "file": "audio/Water Crown(微低).mp3"
   },
   {
     "company": "JR東日本",
@@ -6520,15 +6520,15 @@
     "company": "JR東日本",
     "line": "横浜線",
     "station": "八王子みなみ野",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "八王子みなみ野",
-    "melody": "Water Crown 微低Ver",
-    "file": "audio/Water Crown 微低Ver.mp3"
+    "melody": "Water Crown(微低)",
+    "file": "audio/Water Crown(微低).mp3"
   },
   {
     "company": "JR東日本",
@@ -6688,8 +6688,15 @@
     "company": "JR東日本",
     "line": "中央本線",
     "station": "石和温泉",
-    "melody": "武田節",
-    "file": "audio/武田節.mp3"
+    "melody": "武田節 歌い出しVer",
+    "file": "audio/武田節 歌い出しVer.mp3"
+  },
+   {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "石和温泉",
+    "melody": "武田節 サビVer",
+    "file": "audio/武田節 サビVer.mp3"
   },
   {
     "company": "JR東日本",
@@ -6905,15 +6912,15 @@
     "company": "JR東日本",
     "line": "総武本線",
     "station": "八街",
-    "melody": "すすきの高原",
-    "file": "audio/すすきの高原.mp3"
+    "melody": "すすきの高原V1",
+    "file": "audio/すすきの高原V1.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武本線",
     "station": "八街",
-    "melody": "すすきの高原",
-    "file": "audio/すすきの高原.mp3"
+    "melody": "すすきの高原V1",
+    "file": "audio/すすきの高原V1.mp3"
   },
   {
     "company": "JR東日本",
@@ -6933,8 +6940,8 @@
     "company": "JR東日本",
     "line": "総武本線",
     "station": "成東",
-    "melody": "すすきの高原",
-    "file": "audio/すすきの高原.mp3"
+    "melody": "すすきの高原V1",
+    "file": "audio/すすきの高原V1.mp3"
   },
   {
     "company": "JR東日本",
@@ -6968,36 +6975,36 @@
     "company": "JR東日本",
     "line": "成田線",
     "station": "都賀",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "都賀",
-    "melody": "Gota del Vient 半音低いVer",
-    "file": "audio/Gota del Vient 半音低いVer.mp3"
+    "melody": "Gota del Vient(半音低い)",
+    "file": "audio/Gota del Vient(半音低い).mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "四街道",
-    "melody": "Verde Rayo 遅いVer",
-    "file": "audio/Verde Rayo 遅いVer.mp3"
+    "melody": "Verde Rayo(遅い)",
+    "file": "audio/Verde Rayo(遅い).mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "四街道",
-    "melody": "Gota del Vient 四街道Ver",
-    "file": "audio/Gota del Vient 四街道Ver.mp3"
+    "melody": "Gota del Vient(新四街道)",
+    "file": "audio/Gota del Vient(新四街道).mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "物井",
-    "melody": "Gota del Vient 半音低いVer",
-    "file": "audio/Gota del Vient 半音低いVer.mp3"
+    "melody": "Gota del Vient(半音低い)",
+    "file": "audio/Gota del Vient(半音低い).mp3"
   },
   {
     "company": "JR東日本",
@@ -7031,15 +7038,15 @@
     "company": "JR東日本",
     "line": "成田線",
     "station": "酒々井",
-    "melody": "Water Crown 低いVer",
-    "file": "audio/Water Crown 低いVer.mp3"
+    "melody": "Water Crown(半音低い)",
+    "file": "audio/Water Crown(半音低い).mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "酒々井",
-    "melody": "Gota del Vient 半音低いVer",
-    "file": "audio/Gota del Vient 半音低いVer.mp3"
+    "melody": "Gota del Vient(半音低い)",
+    "file": "audio/Gota del Vient(半音低い).mp3"
   },
   {
     "company": "JR東日本",
@@ -7171,8 +7178,8 @@
     "company": "JR東日本",
     "line": "成田線",
     "station": "我孫子",
-    "melody": "すすきの高原V2",
-    "file": "audio/すすきの高原V2.mp3"
+    "melody": "すすきの高原V1V2",
+    "file": "audio/すすきの高原V1V2.mp3"
   },
   {
     "company": "JR東日本",
@@ -7311,15 +7318,15 @@
     "company": "JR東日本",
     "line": "外房線",
     "station": "鎌取",
-    "melody": "Gota del Vient 半音低いVer",
-    "file": "audio/Gota del Vient 半音低いVer.mp3"
+    "melody": "Gota del Vient(半音低い)",
+    "file": "audio/Gota del Vient(半音低い).mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "鎌取",
-    "melody": "Verde Rayo 低音強調Ver",
-    "file": "audio/Verde Rayo 低音強調Ver.mp3"
+    "melody": "Verde Rayo(低音強調)",
+    "file": "audio/Verde Rayo(低音強調).mp3"
   },
   {
     "company": "JR東日本",
@@ -7339,8 +7346,8 @@
     "company": "JR東日本",
     "line": "外房線",
     "station": "土気",
-    "melody": "すすきの高原",
-    "file": "audio/すすきの高原.mp3"
+    "melody": "すすきの高原V1",
+    "file": "audio/すすきの高原V1.mp3"
   },
   {
     "company": "JR東日本",
@@ -7360,8 +7367,8 @@
     "company": "JR東日本",
     "line": "外房線",
     "station": "大網",
-    "melody": "すすきの高原",
-    "file": "audio/すすきの高原.mp3"
+    "melody": "すすきの高原V1",
+    "file": "audio/すすきの高原V1.mp3"
   },
   {
     "company": "JR東日本",
@@ -7514,8 +7521,8 @@
     "company": "JR東日本",
     "line": "内房線",
     "station": "姉ケ崎",
-    "melody": "Water Crown(低い)",
-    "file": "audio/Water Crown(低い).mp3"
+    "melody": "Water Crown(半音低い)",
+    "file": "audio/Water Crown(半音低い).mp3"
   },
   {
     "company": "JR東日本",
@@ -7577,8 +7584,8 @@
     "company": "JR東日本",
     "line": "内房線",
     "station": "君津",
-    "melody": "Verde Rayo 遅いVer",
-    "file": "audio/Verde Rayo 遅いVer.mp3"
+    "melody": "Verde Rayo(遅い)",
+    "file": "audio/Verde Rayo(遅い).mp3"
   },
   {
     "company": "JR東日本",
@@ -7633,8 +7640,8 @@
     "company": "JR東日本",
     "line": "東金線",
     "station": "東金",
-    "melody": "すすきの高原",
-    "file": "audio/すすきの高原.mp3"
+    "melody": "すすきの高原V1",
+    "file": "audio/すすきの高原V1.mp3"
   },
   {
     "company": "JR東日本",
@@ -7647,8 +7654,8 @@
     "company": "JR東日本",
     "line": "東金線",
     "station": "成東",
-    "melody": "すすきの高原V1",
-    "file": "audio/すすきの高原V1.mp3"
+    "melody": "すすきの高原V1V1",
+    "file": "audio/すすきの高原V1V1.mp3"
   },
   {
     "company": "JR東日本",
@@ -7899,8 +7906,8 @@
     "company": "JR東日本",
     "line": "高崎線",
     "station": "行田",
-    "melody": "夢伝説 Ver.A",
-    "file": "audio/夢伝説 Ver.A.mp3"
+    "melody": "夢伝説",
+    "file": "audio/夢伝説.mp3"
   },
   {
     "company": "JR東日本",
@@ -8067,8 +8074,8 @@
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "赤羽",
-    "melody": "すすきの高原",
-    "file": "audio/すすきの高原.mp3"
+    "melody": "すすきの高原V1",
+    "file": "audio/すすきの高原V1.mp3"
   },
   {
     "company": "JR東日本",
