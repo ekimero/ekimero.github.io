@@ -3839,8 +3839,8 @@
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "我孫子",
-    "melody": "すすきの高原V1 V2",
-    "file": "audio/すすきの高原V1 V2.mp3"
+    "melody": "すすきの高原V2",
+    "file": "audio/すすきの高原V2.mp3"
   },
   {
     "company": "JR東日本",
@@ -7178,8 +7178,8 @@
     "company": "JR東日本",
     "line": "成田線",
     "station": "我孫子",
-    "melody": "すすきの高原V1V2",
-    "file": "audio/すすきの高原V1V2.mp3"
+    "melody": "すすきの高原V2",
+    "file": "audio/すすきの高原V2.mp3"
   },
   {
     "company": "JR東日本",
@@ -7654,8 +7654,8 @@
     "company": "JR東日本",
     "line": "東金線",
     "station": "成東",
-    "melody": "すすきの高原V1V1",
-    "file": "audio/すすきの高原V1V1.mp3"
+    "melody": "すすきの高原V1",
+    "file": "audio/すすきの高原V1.mp3"
   },
   {
     "company": "JR東日本",
