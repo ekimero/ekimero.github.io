@@ -8151,15 +8151,15 @@
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "東大宮",
-    "melody": "メロディー",
-    "file": "audio/メロディー.mp3"
+    "melody": "首都圏3-1番",
+    "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "東大宮",
-    "melody": "シンコペーション",
-    "file": "audio/シンコペーション.mp3"
+    "melody": "首都圏3-3番",
+    "file": "audio/首都圏3-3番.mp3"
   },
   {
     "company": "JR東日本",
@@ -8179,22 +8179,36 @@
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "白岡",
-    "melody": "アマリリス",
-    "file": "audio/アマリリス.mp3"
+    "melody": "首都圏3-1番",
+    "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "白岡",
-    "melody": "すみれの花咲く頃",
-    "file": "audio/すみれの花咲く頃.mp3"
+    "melody": "首都圏3-5番",
+    "file": "audio/首都圏3-5番.mp3"
+  },
+   {
+    "company": "JR東日本",
+    "line": "宇都宮線",
+    "station": "白岡",
+    "melody": "首都圏3番",
+    "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "新白岡",
-    "melody": "すみれの花咲く頃",
-    "file": "audio/すみれの花咲く頃.mp3"
+    "melody": "首都圏3番",
+    "file": "audio/首都圏3番.mp3"
+  },
+    {
+    "company": "JR東日本",
+    "line": "宇都宮線",
+    "station": "新白岡",
+    "melody": "首都圏3-1番",
+    "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
@@ -8207,43 +8221,57 @@
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "東鷲宮",
-    "melody": "Water Crown",
-    "file": "audio/Water Crown.mp3"
+    "melody": "首都圏3-1番",
+    "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "東鷲宮",
-    "melody": "Gota del Vient",
-    "file": "audio/Gota del Vient.mp3"
+    "melody": "首都圏3番",
+    "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "栗橋",
-    "melody": "Water Crown",
-    "file": "audio/Water Crown.mp3"
+    "melody": "首都圏3-1番",
+    "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "栗橋",
-    "melody": "Gota del Vient",
-    "file": "audio/Gota del Vient.mp3"
+    "melody": "首都圏3番",
+    "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "古河",
-    "melody": "遠い青空A",
-    "file": "audio/遠い青空A.mp3"
+    "melody": "首都圏3-1番",
+    "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "古河",
-    "melody": "木々の目覚め",
-    "file": "audio/木々の目覚め.mp3"
+    "melody": "首都圏3番",
+    "file": "audio/首都圏3番.mp3"
+  },
+   {
+    "company": "JR東日本",
+    "line": "宇都宮線",
+    "station": "古河",
+    "melody": "首都圏3-8番",
+    "file": "audio/首都圏3-8番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "宇都宮線",
+    "station": "古河",
+    "melody": "首都圏3-9番",
+    "file": "audio/首都圏3-9番.mp3"
   },
   {
     "company": "JR東日本",
@@ -8277,85 +8305,85 @@
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小山",
-    "melody": "Water Crown",
-    "file": "audio/Water Crown.mp3"
+    "melody": "首都圏3-1番",
+    "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小山",
-    "melody": "Verde Rayo",
-    "file": "audio/Verde Rayo.mp3"
+    "melody": "首都圏3番",
+    "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小山",
-    "melody": "Gota del Vient",
-    "file": "audio/Gota del Vient.mp3"
+    "melody": "首都圏3-4番",
+    "file": "audio/首都圏3-4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小山",
-    "melody": "Cielo Estrellado",
-    "file": "audio/Cielo Estrellado.mp3"
+    "melody": "首都圏3-3番",
+    "file": "audio/首都圏3-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小金井",
-    "melody": "シンコペーション",
-    "file": "audio/シンコペーション.mp3"
+    "melody": "首都圏3-1番",
+    "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小金井",
-    "melody": "朝の静けさ",
-    "file": "audio/朝の静けさ.mp3"
+    "melody": "首都圏3番",
+    "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小金井",
-    "melody": "くるみあそび",
-    "file": "audio/くるみあそび.mp3"
+    "melody": "首都圏3-10番",
+    "file": "audio/首都圏3-10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小金井",
-    "melody": "mellow Time",
-    "file": "audio/mellow Time.mp3"
+    "melody": "首都圏3-11番",
+    "file": "audio/首都圏3-11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "自治医大",
-    "melody": "Water Crown",
-    "file": "audio/Water Crown.mp3"
+    "melody": "首都圏3-1番",
+    "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "自治医大",
-    "melody": "Gota del Vient",
-    "file": "audio/Gota del Vient.mp3"
+    "melody": "首都圏3番",
+    "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "石橋",
-    "melody": "Gota del Vient",
-    "file": "audio/Gota del Vient.mp3"
+    "melody": "首都圏3-1番",
+    "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "石橋",
-    "melody": "Water Crown",
-    "file": "audio/Water Crown.mp3"
+    "melody": "首都圏3番",
+    "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
@@ -8375,15 +8403,29 @@
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "宇都宮",
-    "melody": "カリフォルニアシャワー上りver",
-    "file": "audio/カリフォルニアシャワー上りver.mp3"
+    "melody": "首都圏3-1番",
+    "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "宇都宮",
-    "melody": "カリフォルニアシャワー下りver",
-    "file": "audio/カリフォルニアシャワー下りver.mp3"
+    "melody": "首都圏3-8番",
+    "file": "audio/首都圏3-8番.mp3"
+  },
+    {
+    "company": "JR東日本",
+    "line": "宇都宮線",
+    "station": "宇都宮",
+    "melody": "首都圏3番",
+    "file": "audio/首都圏3番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "宇都宮線",
+    "station": "宇都宮",
+    "melody": "首都圏3-12番",
+    "file": "audio/首都圏3-12番.mp3"
   },
   {
     "company": "JR東日本",
