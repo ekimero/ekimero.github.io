@@ -109,37 +109,7 @@
         <p> <strong>多数の誤りを本日修正させていただきました。なお、当サイトは個人の趣味のプロジェクトのため、まだまだ不具合や誤りが複数あると思います。より正確な情報・メロディーは、「どこでもステーションベル」様のサイトをおすすめします。</strong></p>
     </section>
 
-<section class="play-stats-section" style="margin: 60px auto; max-width: 900px; text-align: center;">
- <div class="stats-container" style="background: linear-gradient(135deg, #f0f7ff 0%, #e3f0ff 100%); border-radius: 24px; padding: 40px; box-shadow: 0 8px 32px rgba(25, 118, 210, 0.2); position: relative; overflow: hidden;">
-   <!-- Decorative elements... -->
-  
-   <h2 style="font-size: 1.8em; color: #0d47a1; margin-bottom: 30px; font-weight: 700; position: relative;">
-     <img src="https://cdn-icons-png.flaticon.com/512/3634/3634036.png" alt="Music icon" style="width: 36px; height: 36px; vertical-align: middle; margin-right: 12px;">
-     駅メロ統計データ
-   </h2>
-  
-   <div class="stats-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; margin-bottom: 30px;">
-     <div class="stat-box" style="background: white; border-radius: 16px; padding: 20px; box-shadow: 0 4px 16px rgba(25, 118, 210, 0.1);">
-       <div style="font-size: 1em; color: #555; margin-bottom: 8px;">総再生回数</div>
-       <div id="playCountNumber" style="font-size: 2.2em; font-weight: 800; color: #1976d2; background: linear-gradient(90deg, #1976d2, #42a5f5); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">読み込み中...</div>
-     </div>
-    
-     <div class="stat-box" style="background: white; border-radius: 16px; padding: 20px; box-shadow: 0 4px 16px rgba(25, 118, 210, 0.1);">
-       <div style="font-size: 1em; color: #555; margin-bottom: 8px;">登録駅数</div>
-       <div id="stationCount" style="font-size: 2.2em; font-weight: 800; color: #1976d2;">読み込み中...</div>
-     </div>
-    
-     <div class="stat-box" style="background: white; border-radius: 16px; padding: 20px; box-shadow: 0 4px 16px rgba(25, 118, 210, 0.1);">
-       <div style="font-size: 1em; color: #555; margin-bottom: 8px;">メロディ数</div>
-       <div id="melodyCount" style="font-size: 2.2em; font-weight: 800; color: #1976d2;">読み込み中...</div>
-     </div>
-   </div>
-  
-   <div style="font-size: 1.1em; color: #555; max-width: 800px; margin: 0 auto; line-height: 1.6; position: relative;">
-     リアルタイムデータで総再生回数、登録駅数、メロディ数を表示しています！
-   </div>
- </div>
-</section>
+s
 
 
     <section class="news" style="margin-bottom:56px;background:#fff;border-radius:24px;box-shadow:0 4px 24px #1976d2a0;padding:32px;max-width:700px;margin-left:auto;margin-right:auto;">
@@ -280,7 +250,25 @@ document.addEventListener('DOMContentLoaded', function() {
     subtree: true
   });
 
- 
+ // Daily display counter
+ async function showDailyCount() {
+   const today = new Date().toISOString().slice(0, 10);
+   const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+
+   let snapshot = await db.ref(`dailyDisplayCount/${today}`).once("value");
+   let count = snapshot.val();
+
+   // Fallback to yesterday if today's count is not yet set
+   if (count === null) {
+     snapshot = await db.ref(`dailyDisplayCount/${yesterday}`).once("value");
+     count = snapshot.val() || 0;
+   }
+
+   const el = document.getElementById("playCountNumber");
+   if (el) el.textContent = count.toLocaleString();
+ }
+
+
 
   showDailyCount();
 });
