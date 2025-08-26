@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="title" content="南武線線 | どこでも駅メロ">
+  <meta name="description" content="南武線線の駅メロ一覧。各駅の発車メロディを簡単に再生できます。">
+  <meta name="keywords" content="発車メロディ,駅メロ,南武線線">
+  <title>南武線線 | どこでも駅メロ</title>
+  <link rel="stylesheet" href="/index.css">
+
+  <style>
+    body { font-family:sans-serif; margin:0; padding:0; background:#f5f5f5; }
+    header { padding:12px 24px; display:flex; align-items:center; background:#fff; box-shadow:0 2px 6px rgba(0,0,0,0.1);}
+    header .title-link { display:flex; align-items:center; text-decoration:none; color:#1976d2; font-weight:bold; font-size:1.2em; }
+    header .title-link img { height:40px; margin-right:12px; }
+    nav { margin-left:auto; display:flex; align-items:center; gap:12px; }
+    .company-btn { padding:6px 12px; background:#1976d2; color:#fff; border-radius:6px; text-decoration:none; font-size:0.95em; }
+    #header-search { font-size:1em; padding:8px 14px; border-radius:8px; border:1px solid #bcd; box-shadow:0 2px 12px #1976d220; width:250px; }
+    #header-search-results { position:absolute; top:110%; left:0; width:100%; background:#fff; box-shadow:0 2px 12px #1976d220; border-radius:8px; z-index:100; display:none; }
+    main { max-width:1000px; margin:32px auto; padding:0 24px; }
+    h1 { font-size:2em; color:#1976d2; margin-bottom:24px; text-align:center; }
+    .melody-item { display:flex; justify-content:space-between; align-items:center; padding:16px; margin-bottom:12px; background:#fff; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.05);}
+    .melody-info { flex:1; min-width:0; }
+    .melody-name { font-weight:600; font-size:1.1em; color:#333; }
+    .melody-line { font-size:0.9em; color:#666; }
+    .melody-audio-wrapper { display:flex; flex-direction:row; align-items:center; gap:8px; }
+    .melody-audio { width:180px; min-width:120px; }
+    .no-melodies { color:#888; font-style:italic; padding:20px; text-align:center; }
+  </style>
+</head>
+<body>
+<header>
+  <a href="/index.html" class="title-link">
+    <img src="/logo.png" alt="どこでも駅メロのロゴ">
+    どこでも駅メロ
+  </a>
+  <nav>
+    <a href="/index.html" class="company-btn">ホーム</a>
+    <div style="position:relative;">
+      <input id="header-search" type="text" placeholder="駅名・メロディ名で検索">
+      <div id="header-search-results"></div>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <h1>南武線線の駅メロ一覧</h1>
+  <div id="melody-list">
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">川崎 - 川崎市歌A</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/川崎市歌A.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">川崎 - 川崎市歌B</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/川崎市歌B.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">尻手 - JR-SH2</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/JR-SH2-1.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">尻手 - JR-SH5</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/JR-SH5-1.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">矢向 - JR-SH2</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/JR-SH2-1.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">矢向 - JR-SH5</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/JR-SH5-1.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">鹿島田 - Dance On</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Dance On.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">鹿島田 - sunny islands</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/sunny islands.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">平間 - JR-SH2</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/JR-SH2-1.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">平間 - JR-SH5</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/JR-SH5-1.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">向河原 - JR-SH2</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/JR-SH2-1.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">向河原 - JR-SH5</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/JR-SH5-1.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">武蔵小杉 - ナンバーワン野郎A</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/ナンバーワン野郎A.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">武蔵小杉 - ナンバーワン野郎B</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/ナンバーワン野郎B.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">武蔵中原 - FRONTALE2000</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/FRONTALE2000.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">武蔵中原 - FRONTALE20000</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/FRONTALE20000.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">武蔵新城 - JR-SH2</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/JR-SH2-1.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">武蔵新城 - JR-SH5</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/JR-SH5-1.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">武蔵溝ノ口 - Jupiter アルト</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Jupiter アルト.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">武蔵溝ノ口 - Jupiter ソプラノ</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Jupiter ソプラノ.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">武蔵溝ノ口 - Jupiter 大サビ</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Jupiter 大サビ.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">津田山 - ホリデイA</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/ホリデイA.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">津田山 - 遠い青空A</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/遠い青空A.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">久地 - ホリデイA</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/ホリデイA.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">久地 - 遠い青空A</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/遠い青空A.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">宿河原 - 夢を叶えてドラえもん</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/夢を叶えてドラえもん.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">宿河原 - 睡眠不足</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/睡眠不足.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">登戸 - ドラえもんの歌</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/ドラえもんの歌.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">登戸 - 僕ドラえもん</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/僕ドラえもん.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">登戸 - 来てよパーマン</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/来てよパーマン.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">中野島 - ホリデイA</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/ホリデイA.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">中野島 - 遠い青空A</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/遠い青空A.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">稲田堤 - 丘を越えて上り</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/丘を越えて上り.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">稲田堤 - 丘を越えて下り</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/丘を越えて下り.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">矢野口 - 稲城繁盛節上り</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/稲城繁盛節上り.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">矢野口 - 稲城繁盛節下り</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/稲城繁盛節下り.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">稲城長沼 - 春待ち風B</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/春待ち風B.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">稲城長沼 - 浜千鳥南武線</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/浜千鳥南武線.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">稲城長沼 - ホリデイA</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/ホリデイA.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">南多摩 - 春待ち風B</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/春待ち風B.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">南多摩 - 浜千鳥南武線</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/浜千鳥南武線.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">南多摩 - ホリデイA</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/ホリデイA.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">府中本町 - twilight</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/Twilight.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+      <div class="melody-item">
+        <div class="melody-info">
+          <div class="melody-name">府中本町 - 星空の下</div>
+          <div class="melody-line">南武線</div>
+        </div>
+        
+          <div class="melody-audio-wrapper">
+            <audio controls controlsList="nodownload" src="/audio/audio/星空の下.mp3" loop></audio>
+            <label>
+              <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+              ループ
+            </label>
+          </div>
+        
+      </div>
+    
+  </div>
+</main>
+
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyBrgf00OFxksjZuFOQxgB1qUjZmLSG7yqk",
+    authDomain: "dokodemo-ekimero.firebaseapp.com",
+    databaseURL: "https://dokodemo-ekimero-default-rtdb.firebaseio.com",
+    projectId: "dokodemo-ekimero",
+    storageBucket: "dokodemo-ekimero.firebasestorage.app",
+    messagingSenderId: "189766315545",
+    appId: "1:189766315545:web:e88fb50dc039f7d2f28488"
+  };
+  if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
+</script>
+<script src="/playcounter.js"></script>
+
+<!-- Header search -->
+<script>
+let headerStationsData = [];
+fetch('/stations.json').then(res => res.json()).then(data => headerStationsData = data);
+
+const headerInput = document.getElementById('header-search');
+const headerResults = document.getElementById('header-search-results');
+
+headerInput.addEventListener('input', function() {
+  const q = headerInput.value.trim().toLowerCase();
+  if (!q) { headerResults.style.display='none'; return; }
+
+  const matches = headerStationsData.filter(st =>
+    st.station.toLowerCase().includes(q) || (st.melody && st.melody.toLowerCase().includes(q))
+  ).slice(0,8);
+
+  if (!matches.length) {
+    headerResults.innerHTML='<div style="padding:12px;color:#888;">該当なし</div>';
+    headerResults.style.display='block';
+    return;
+  }
+
+  headerResults.innerHTML = matches.map(st => {
+    const audioSrc = st.file ? (st.file.match(/^https?:\/\//) ? st.file : `/${st.file}`) : '';
+    const stationUrl = `/stations/${encodeURIComponent(st.station)}.html`;
+    return `
+      <div style="padding:12px; border-bottom:1px solid #eee;">
+        <a href="${stationUrl}" style="font-weight:700;color:#1976d2;text-decoration:underline;">${st.station}</a>
+        <div>${st.melody || ''}</div>
+        ${audioSrc ? `<audio controls controlsList="nodownload" src="${audioSrc}" style="width:100%;" loop></audio>` : ''}
+      </div>`;
+  }).join('');
+  headerResults.style.display='block';
+});
+
+document.addEventListener('click', e => {
+  if (!headerResults.contains(e.target) && e.target!==headerInput) headerResults.style.display='none';
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Analytics & Clarity -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E7R52K1NYL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E7R52K1NYL');
+  </script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "spvu3f92us");
+  </script>
+
+  <meta charset="utf-8" />
+  <meta name="title" content="埼京線 | どこでも駅メロ・発車メロディー検索">
+  <meta name="author" content="ekimero">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="埼京線 | 駅メロを探して簡単に再生できるサイトです。もさまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。">
+  <meta name="keywords" content="発車メロディ,発車メロディー,駅メロ,駅ベル,発車ベル,どこでも駅メロ,どこでも発車ベル,どこでも発車メロディー,埼京線発車メロディー">
+  <meta property="og:image" content="/logo.png">
+  <meta property="og:description" content="埼京線 | 駅メロを探して簡単に再生できるサイトです。もさまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。">
+  <meta property="og:title" content="埼京線 | どこでも駅メロ・発車メロディー検索">
+  <meta property="og:url" content="https://ekimero.github.io/jr-east/埼京線.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>埼京線 | どこでも駅メロ・発車メロディー検索</title>
+  <link rel="canonical" href="https://ekimero.github.io/jr-east/埼京線.html" />
+   <link rel="stylesheet" href="/index.css">
+  <link rel="icon" href="/images/favicon-32x32.png" type="image/png" sizes="32x32">
+   <link rel="icon" href="/images/favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/android-chrome-192x192.png" type="image/png" sizes="192x192">
+  <link rel="icon" href="/images/android-chrome-512x512.png" type="image/png" sizes="512x512">
+  <link rel="shortcut icon" href="/images/favicon-16x16.png" type="/image/png" sizes="16x16">
+  <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/images/android-chrome-192x192.png" type="image/png" sizes="192x192">
+  <link rel="shortcut icon" href="/images/android-chrome-512x512.png" type="image/png" sizes="512x512">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <meta name="msapplication-TileImage" content="/images/favicon-32x32.png">
+  <meta name="msapplication-TileColor" content="#000000">
+
+ 
+</head>
+<body>
+<header>
+    <a href="/index.html" class="title-link">
+      <img src="/logo.png" alt="どこでも駅メロのロゴ - 発車メロディ検索サイト" class="logo">
+      <b class="header1">どこでも駅メロ</b>
+    </a>
+    <nav>
+      <a href="/index.html" class="company-btn">ホーム</a>
+      <a href="/jr-east.html" class="company-btn">JR東日本</a>
+
+      <a href="/archive.html" class="company-btn">全アーカイブ</a>
+      <div style="position:relative;display:inline-block;min-width:220px;vertical-align:middle;">
+        <input id="header-search" type="text" placeholder="駅名・メロディ名で検索" style="font-size:1em;padding:8px 14px;border-radius:8px;border:1px solid #bcd;box-shadow:0 2px 12px #1976d220;width:300px;">
+        <div id="header-search-results" style="position:absolute;top:110%;left:0;width:100%;background:#fff;box-shadow:0 2px 12px #1976d220;border-radius:8px;z-index:100;display:none;"></div>
+      </div>
+    </nav>
+  </header>
+
+<main style="padding:24px; text-align:center;">
+  <div style="margin-bottom:16px;">
+    <img src="/images/埼京線.png" alt="埼京線ロゴ" style="max-width:120px; height:auto;">
+  </div>
+  <h1 style="color:#1976d2; margin-bottom:16px;">埼京線の発車メロディー一覧</h1>
+  <h2 style="color:#555; font-weight:500; margin-bottom:24px;">
+  どこでも駅メロ | 埼京線の駅ごとに発車メロディーを再生できます
+</h2>
+
+<!-- Container for all line logos -->
+<div id="line-logos-container" style="margin-bottom:32px; display:flex; flex-wrap:wrap; gap:12px; justify-content:center;"></div>
+
+<div style="margin-bottom:32px; width:100%;">
+  <input id="line-filter" type="text" placeholder="駅名・メロディ名で絞り込み" 
+         style="width:100%; max-width:300px; padding:8px; border-radius:8px; border:1px solid #bcd;">
+</div>
+
+  <div id="stations-container" style="text-align:left;"></div>
+</main>
+
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const lineName = decodeURIComponent(window.location.pathname.split('/').pop().replace('.html',''));
+  const container = document.getElementById('stations-container');
+  const filterInput = document.getElementById('line-filter');
+
+  fetch('/stations.json')
+    .then(res => res.json())
+    .then(data => {
+      const lineStations = data.filter(s => s.company === 'JR東日本' && s.line === lineName);
+      if (!lineStations.length) {
+        container.innerHTML = '<p style="text-align:center;color:#888;">この路線の駅メロは見つかりませんでした</p>';
+        return;
+      }
+
+      // Group by station
+      const stationsMap = {};
+      lineStations.forEach(s => {
+        if (!stationsMap[s.station]) stationsMap[s.station] = [];
+        stationsMap[s.station].push(s);
+      });
+
+      function renderStations() {
+        const query = filterInput.value.toLowerCase().trim();
+        container.innerHTML = Object.entries(stationsMap).map(([station, melodies]) => {
+          const matchStation = station.toLowerCase().includes(query);
+          const filteredMelodies = melodies.filter(m => m.melody.toLowerCase().includes(query));
+          if (!matchStation && !filteredMelodies.length) return '';
+          return `
+            <div class="station-card">
+              <div class="station-title">
+                <a href="/stations/${encodeURIComponent(station)}.html" style="color:#1976d2; text-decoration:underline;">
+                  ${station}駅
+                </a>
+              </div>
+              ${melodies.map(m => `
+                <div class="melody-item">
+                  <div class="melody-name">${m.melody || '名称不明'}</div>
+                  <div class="melody-line">${m.line}</div>
+                  ${m.file ? `
+                    <div style="display:flex; align-items:center; gap:8px; margin-top:8px;">
+                      <audio class="melody-audio" controls controlsList="nodownload" src="/${m.file}" loop></audio>
+                      <label style="font-size:0.85em; display:flex; align-items:center; gap:4px; cursor:pointer;">
+                        <input type="checkbox" class="loop-checkbox" checked> ループ
+                      </label>
+                    </div>` : '<span style="color:#888;">音源なし</span>'}
+                </div>
+              `).join('')}
+            </div>
+          `;
+        }).join('');
+
+        // Attach loop checkbox functionality
+        document.querySelectorAll('.loop-checkbox').forEach(cb => {
+          const audio = cb.closest('div').querySelector('audio');
+          if (audio) audio.loop = cb.checked;
+          cb.addEventListener('change', () => { if (audio) audio.loop = cb.checked; });
+        });
+      }
+
+      renderStations();
+      filterInput.addEventListener('input', renderStations);
+    });
+});
+
+// Header search
+let headerStationsData = [];
+fetch('/stations.json').then(r => r.json()).then(data => headerStationsData = data);
+document.addEventListener('DOMContentLoaded', () => {
+  const input = document.getElementById('header-search');
+  const results = document.getElementById('header-search-results');
+
+  input.addEventListener('input', () => {
+    const q = input.value.toLowerCase().trim();
+    if (!q) { results.style.display='none'; return; }
+    const matches = headerStationsData.filter(st => st.station.toLowerCase().includes(q) || st.melody.toLowerCase().includes(q)).slice(0,8);
+    results.innerHTML = matches.length ? matches.map(st => `
+      <div style="padding:12px;border-bottom:1px solid #eee;">
+        <a href="/stations/${encodeURIComponent(st.station)}.html" style="font-weight:700;color:#1976d2;">${st.station}</a>
+        <div>${st.melody}</div>
+        ${st.file ? `<audio controls controlsList="nodownload" src="/${st.file}" style="width:100%;" loop></audio>` : ''}
+      </div>
+    `).join('') : '<div style="padding:12px;color:#888;">該当なし</div>';
+    results.style.display = 'block';
+  });
+
+  document.addEventListener('click', e => { if (!results.contains(e.target) && e.target !== input) results.style.display='none'; });
+});
+
+</script>
+
+<!-- Firebase & play counter -->
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+
+<script>
+  // Initialize Firebase
+  const firebaseConfig = {
+    apiKey: "AIzaSyBrgf00OFxksjZuFOQxgB1qUjZmLSG7yqk",
+    authDomain: "dokodemo-ekimero.firebaseapp.com",
+    databaseURL: "https://dokodemo-ekimero-default-rtdb.firebaseio.com",
+    projectId: "dokodemo-ekimero",
+    storageBucket: "dokodemo-ekimero.firebasestorage.app",
+    messagingSenderId: "189766315545",
+    appId: "1:189766315545:web:e88fb50dc039f7d2f28488",
+    measurementId: "G-EPCBNCPN4F"
+  };
+  if (!firebase.apps.length) {
+    firebase.initializeApp(firebaseConfig);
+  }
+
+  const db = firebase.database();
+  const auth = firebase.auth();
+
+  // Sign in anonymously to satisfy auth != null rules
+  auth.signInAnonymously().catch(error => console.error("Auth error:", error));
+
+  // Increment totalPlays safely
+  function incrementPlay() {
+    const userId = auth.currentUser?.uid;
+    if (!userId) return; // wait until auth ready
+
+    const userRef = db.ref(`users/${userId}`);
+    const counterRef = db.ref("totalPlays");
+
+    userRef.transaction(userData => {
+      const now = Date.now();
+      if (!userData) return { lastUpdate: now }; // first time
+      // Only allow increment if >10 seconds since last increment
+      if (now - userData.lastUpdate > 10000) {
+        return { lastUpdate: now };
+      }
+      return; // abort transaction if too soon
+    }, (error, committed) => {
+      if (error || !committed) return; // do nothing if failed/too soon
+      // Increment global totalPlays by 1
+      counterRef.transaction(current => (current || 0) + 1);
+    });
+  }
+</script>
+<script src="/playcounter.js"></script>
+<footer>
+  <!-- Logo -->
+  <a href="/index.html" class="footer-logo-link">
+    <img src="/logo.png" alt="Site Icon" class="footer-icon">
+  </a>
+
+ <div class="footer-links" style="margin: 12px 0; display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
+    <a href="/index.html">ホーム</a>
+    <a href="/jr-east.html">JR東日本</a>
+    <a href="/archive.html">全アーカイブ</a>
+    <a href="/jr-east-archive.html">JR東日本アーカイブ</a>
+    <a href="/credits.html" target="_blank">音声提供</a>
+    <a href="/jr-east/東海道線.html" target="_blank">東海道線</a>
+  <a href="/jr-east/山手線.html" target="_blank">山手線</a>
+  </div>
+
+  <!-- Clear and open footer description -->
+  <div style="color: #bbb; font-size: 0.95em; max-width: 800px; margin: 12px auto; line-height: 1.5;">
+    いつもご利用ありがとうございます。
+    鉄道モバイル: <a href="https://www.te2do.jp" target="_blank">https://www.te2do.jp</a>
+  </div>
+</footer>
+</body>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+  const filterInput = document.getElementById('line-filter');
+  const stationsContainer = document.getElementById('stations-container');
+
+  filterInput.addEventListener('input', () => {
+    const query = filterInput.value.toLowerCase().trim();
+
+    // Show/hide station cards based on filter
+    document.querySelectorAll('.station-card').forEach(card => {
+      const stationName = card.querySelector('.station-title').textContent.toLowerCase();
+      const melodies = Array.from(card.querySelectorAll('.melody-item')).map(m => m.querySelector('.melody-name').textContent.toLowerCase());
+
+      const matchStation = stationName.includes(query);
+      const matchMelody = melodies.some(name => name.includes(query));
+
+      card.style.display = (matchStation || matchMelody) ? 'block' : 'none';
+    });
+  });
+});
+
+</script>
+</html>
