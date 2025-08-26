@@ -1,17 +1,25 @@
+.mp3
+Cielo Estrellado.mp3
 Cielo Estrellado(半音低い).mp3
+Gota del Vient 四街道Ver.mp3
+Gota del Vient(やや低い.mp3
+Gota del Vient(やや低い).mp3
 Gota del Vient(新四街道).mp3
 HANDS〜大きな手から、小さな手へ〜 Ver.A.mp3
 HANDS〜大きな手から、小さな手へ〜 Ver.B.mp3
 HANDS〜大きな手から、小さな手へ〜 Ver.C.mp3
+JR-SH2-1.mp3
+JR-SH5-1.mp3
+SF10-68.mp3
 Verde Rayo(遅い).mp3
+Water Crown(半音低い).mp3
 Water Crown(微低).mp3
-すすきの高原V1 V2.mp3
-すすきの高原V1V1.mp3
-すすきの高原V1V2.mp3
+ふる里「みなかみ」ver.A.mp3
 ふる里「みなかみ」ver.B.mp3
 ベル.mp3
 ベル(極小).mp3
 大都会の雑踏の中で聞こえるチャイム.mp3
+希望のまち09.mp3
 幸せなら手をたたこうV2.mp3
 武田節 サビVer.mp3
 武田節 歌い出しVer.mp3
@@ -21,4 +29,8 @@ Water Crown(微低).mp3
 電子ベル.mp3
 電子ベル(低音).mp3
 電子ベル(高音).mp3
+電車ごっこB.mp3
+電車ごっこC.mp3
 首都圏25-1番.mp3
+首都圏5-1番(高音).mp3
+首都圏5番(高音).mp3
