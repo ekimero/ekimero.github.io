@@ -280,23 +280,7 @@ document.addEventListener('DOMContentLoaded', function() {
     subtree: true
   });
 
-  // Daily display counter
-  async function showDailyCount() {
-    const today = new Date().toISOString().slice(0, 10);
-    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
-
-    let snapshot = await db.ref(`dailyDisplayCount/${today}`).once("value");
-    let count = snapshot.val();
-
-    // Fallback to yesterday if today's count is not yet set
-    if (count === null) {
-      snapshot = await db.ref(`dailyDisplayCount/${yesterday}`).once("value");
-      count = snapshot.val() || 0;
-    }
-
-    const el = document.getElementById("playCountNumber");
-    if (el) el.textContent = count.toLocaleString();
-  }
+ 
 
   showDailyCount();
 });
