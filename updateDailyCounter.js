@@ -1,12 +1,14 @@
-const admin = require("firebase-admin");
+const admin = require('firebase-admin');
 
-// Initialize Firebase using env secret
 const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
   databaseURL: "https://dokodemo-ekimero-default-rtdb.firebaseio.com"
 });
+
+const db = admin.database();
+
 
 async function updateDailyCounter() {
   const db = admin.database();

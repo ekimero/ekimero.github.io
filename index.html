@@ -76,7 +76,7 @@
   <main>
     <section class="hero" style="padding: 64px 0 48px 0; text-align: center; background: linear-gradient(120deg, #e3f0ff 0%, #f5f5f5 100%); border-radius: 32px; box-shadow: 0 8px 48px rgba(25,118,210,0.12); margin-bottom: 56px; position: relative; overflow: hidden;">
       <img src="logo.png" alt="どこでも駅メロ ロゴ" class="hero-logo" style="width:180px;height:180px;box-shadow:0 12px 48px rgba(25,118,210,0.16);margin-bottom:32px;z-index:2;position:relative;">
-      <h1 style="font-size:3.2em; color:#1976d2; font-weight:900; margin-bottom:20px; letter-spacing:2px;">どこでも駅メロ - 発車メロディーまとめ</h1>
+      <h1 style="font-size:3.2em; color:#1976d2; font-weight:900; margin-bottom:20px; letter-spacing:2px;">どこでも駅メロ | 発車メロディーサイト</h1>
       <p style="font-size:1.5em; color:#333; margin-bottom:32px;">発車メロディーを路線・駅ごとに探して聴けるサイトです。</p>
       <form id="search-form" style="margin:0 auto 24px auto;max-width:480px;display:flex;gap:12px;justify-content:center;">
         <input type="text" id="search-input" placeholder="駅名・メロディ名で検索" style="flex:1;font-size:1.2em;padding:12px 18px;border-radius:8px;border:1px solid #bcd;box-shadow:0 2px 12px #1976d220;">
@@ -102,19 +102,52 @@
   </div>
 </section>
 
+<section class="play-stats-section" style="margin: 60px auto; max-width: 900px; text-align: center;">
+<div class="stats-container" style="background: linear-gradient(135deg, #f0f7ff 0%, #e3f0ff 100%); border-radius: 24px; padding: 40px; box-shadow: 0 8px 32px rgba(25, 118, 210, 0.2); position: relative; overflow: hidden;">
+  <!-- Decorative elements... -->
+   <h2 style="font-size: 1.8em; color: #0d47a1; margin-bottom: 30px; font-weight: 700; position: relative;">
+    <img src="https://cdn-icons-png.flaticon.com/512/3634/3634036.png" alt="Music icon" style="width: 36px; height: 36px; vertical-align: middle; margin-right: 12px;">
+    駅メロ統計データ
+  </h2>
+   <div class="stats-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; margin-bottom: 30px;">
+    <div class="stat-box" style="background: white; border-radius: 16px; padding: 20px; box-shadow: 0 4px 16px rgba(25, 118, 210, 0.1);">
+      <div style="font-size: 1em; color: #555; margin-bottom: 8px;">総再生回数</div>
+      <div id="playCountNumber" style="font-size: 2.2em; font-weight: 800; color: #1976d2; background: linear-gradient(90deg, #1976d2, #42a5f5); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">読み込み中...</div>
+    </div>
+  
+    <div class="stat-box" style="background: white; border-radius: 16px; padding: 20px; box-shadow: 0 4px 16px rgba(25, 118, 210, 0.1);">
+      <div style="font-size: 1em; color: #555; margin-bottom: 8px;">登録駅数</div>
+      <div id="stationCount" style="font-size: 2.2em; font-weight: 800; color: #1976d2;">読み込み中...</div>
+    </div>
+  
+    <div class="stat-box" style="background: white; border-radius: 16px; padding: 20px; box-shadow: 0 4px 16px rgba(25, 118, 210, 0.1);">
+      <div style="font-size: 1em; color: #555; margin-bottom: 8px;">メロディ数</div>
+      <div id="melodyCount" style="font-size: 2.2em; font-weight: 800; color: #1976d2;">読み込み中...</div>
+    </div>
+  </div>
+   <div style="font-size: 1.1em; color: #555; max-width: 800px; margin: 0 auto; line-height: 1.6; position: relative;">
+    総再生回数、登録駅数、メロディ数を表示しています！
+  </div>
+</div>
+</section>
 
-        <section class="news" style="margin-bottom:56px;background:#fff;border-radius:24px;box-shadow:0 4px 24px #1976d2a0;padding:32px;max-width:700px;margin-left:auto;margin-right:auto;">
-      <h2 style="font-size:1.5em; color:#1976d2; margin-bottom:16px;">大事なお知らせ (8月26日 19:10更新)</h2>
-      <ul style="font-size:1.15em; color:#444;line-height:2;">
-        <p> <strong>多数の誤りを本日修正させていただきました。なお、当サイトは個人の趣味のプロジェクトのため、まだまだ不具合や誤りが複数あると思います。より正確な情報・メロディーは、「どこでもステーションベル」様のサイトをおすすめします。</strong></p>
-    </section>
 
-s
 
 
     <section class="news" style="margin-bottom:56px;background:#fff;border-radius:24px;box-shadow:0 4px 24px #1976d2a0;padding:32px;max-width:700px;margin-left:auto;margin-right:auto;">
-      <h2 style="font-size:1.5em; color:#1976d2; margin-bottom:16px;">お知らせ (当サイトは建設中です)</h2>
+      <h2 style="font-size:1.5em; color:#1976d2; margin-bottom:16px;">お知らせ (*当サイトは建設中です*)</h2>
       <ul style="font-size:1.15em; color:#444; line-height:2;">
+      <li>
+    <span style="font-weight:bold;">2025/08/27</span>
+    <span style="display:block; margin-left:1em;">
+    駅メロ統計データダッシュボードを再公開いたしました。
+  </li>
+    <li>
+    <span style="font-weight:bold;">2025/08/26</span>
+    <span style="display:block; margin-left:1em;">
+    多数の誤りを本日修正させていただきました。なお、当サイトは個人の趣味のプロジェクトのため、まだまだ不具合や誤りが複数あると思います。より正確な情報・メロディーは、「どこでもステーションベル」様のサイトをおすすめします。
+    </span>
+  </li>
     <li>
     <span style="font-weight:bold;">2025/08/26</span>
     <span style="display:block; margin-left:1em;">
@@ -132,12 +165,6 @@ s
     <span style="font-weight:bold;">2025/08/19</span>
     <span style="display:block; margin-left:1em;">
       多路線追加・UIアップデート
-    </span>
-  </li>
-  <li>
-    <span style="font-weight:bold;">2025/08/16</span>
-    <span style="display:block; margin-left:1em;">
-      ループ機能追加
     </span>
   </li>
 </ul>

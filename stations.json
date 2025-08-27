@@ -585,7 +585,7 @@
     "line": "埼京線",
     "station": "十条",
     "melody": "せせらぎ",
-    "file": "audio/.mp3"
+    "file": "audio/せせらぎ.mp3"
   },
   {
     "company": "JR東日本",
@@ -606,28 +606,28 @@
     "line": "埼京線",
     "station": "北赤羽",
     "melody": "高原",
-    "file": "audio/.mp3"
+    "file": "audio/高原.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "北赤羽",
-    "melody": "せせらぎ",
-    "file": "audio/.mp3"
+    "melody": "せせらぎ(高音)",
+    "file": "audio/せせらぎ(高音).mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "浮間舟渡",
     "melody": "高原",
-    "file": "audio/.mp3"
+    "file": "audio/高原.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "浮間舟渡",
-    "melody": "せせらぎ",
-    "file": "audio/.mp3"
+    "melody": "せせらぎ(高音)",
+    "file": "audio/せせらぎ(高音).mp3"
   },
   {
     "company": "JR東日本",
@@ -1209,13 +1209,6 @@
     "station": "熱海",
     "melody": "首都圏3-1番",
     "file": "audio/首都圏3-1番.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "東海道線",
-    "station": "静岡",
-    "melody": "ベル",
-    "file": "audio/ベル.mp3"
   },
   {
     "company": "JR東日本",
@@ -2538,14 +2531,14 @@
     "line": "中央線快速",
     "station": "阿佐ケ谷",
     "melody": "たなばたさま Ver.D",
-    "file": "audio/.mp3"
+    "file": "audio/たなばたさまVerD.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "阿佐ケ谷",
     "melody": "たなばたさま Ver.C",
-    "file": "audio/.mp3"
+    "file": "audio/たなばたさまVerC.mp3"
   },
   {
     "company": "JR東日本",
@@ -2636,14 +2629,14 @@
     "line": "中央線快速",
     "station": "武蔵小金井",
     "melody": "さくらさくらA",
-    "file": "audio/.mp3"
+    "file": "audio/さくらさくらA武蔵小金井.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "武蔵小金井",
     "melody": "さくらさくらB",
-    "file": "audio/.mp3"
+    "file": "audio/さくらさくらB武蔵小金井.mp3"
   },
   {
     "company": "JR東日本",
@@ -3021,7 +3014,7 @@
     "line": "京葉線",
     "station": "蘇我",
     "melody": "Over コーラスVer",
-    "file": "audio/.mp3"
+    "file": "audio/Over コーラスVer.mp3"
   },
   {
     "company": "JR東日本",
@@ -4582,14 +4575,14 @@
     "line": "中央・総武線各駅停車",
     "station": "阿佐ケ谷",
     "melody": "たなばたさまA",
-    "file": "audio/.mp3"
+    "file": "audio/たなばたさまVerA.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "阿佐ケ谷",
     "melody": "たなばたさまB",
-    "file": "audio/.mp3"
+    "file": "audio/たなばたさまVerB.mp3"
   },
   {
     "company": "JR東日本",
@@ -6414,44 +6407,9 @@
   {
     "company": "JR東日本",
     "line": "中央本線",
-    "station": "上諏訪",
-    "melody": "ベル",
-    "file": "audio/ベル.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "中央本線",
     "station": "下諏訪",
     "melody": "長野1番",
     "file": "audio/長野1番.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "中央本線",
-    "station": "岡谷",
-    "melody": "ベル",
-    "file": "audio/ベル.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "中央本線",
-    "station": "塩尻",
-    "melody": "遊園地ベル(東邦製)",
-    "file": "audio/遊園地ベル(東邦製).mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "総武本線",
-    "station": "東千葉",
-    "melody": "ベル(極小)",
-    "file": "audio/ベル(極小).mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "総武本線",
-    "station": "東千葉",
-    "melody": "ベル(極小)",
-    "file": "audio/ベル(極小).mp3"
   },
   {
     "company": "JR東日本",
@@ -6519,20 +6477,6 @@
   {
     "company": "JR東日本",
     "line": "総武本線",
-    "station": "南酒々井",
-    "melody": "電子ベル",
-    "file": "audio/電子ベル.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "総武本線",
-    "station": "榎戸",
-    "melody": "電子ベル",
-    "file": "audio/電子ベル.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "総武本線",
     "station": "八街",
     "melody": "スプリングボックス",
     "file": "audio/スプリングボックス.mp3"
@@ -6550,20 +6494,6 @@
     "station": "八街",
     "melody": "すすきの高原V1",
     "file": "audio/すすきの高原V1.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "総武本線",
-    "station": "日向",
-    "melody": "電子ベル",
-    "file": "audio/電子ベル.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "総武本線",
-    "station": "日向",
-    "melody": "電子ベル",
-    "file": "audio/電子ベル.mp3"
   },
   {
     "company": "JR東日本",
@@ -6911,13 +6841,6 @@
   {
     "company": "JR東日本",
     "line": "成田線",
-    "station": "下総松崎",
-    "melody": "電子ベル",
-    "file": "audio/電子ベル.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "成田線",
     "station": "成田",
     "melody": "フラワーショップ",
     "file": "audio/フラワーショップ.mp3"
@@ -7083,20 +7006,6 @@
     "melody": "幸せチャイム",
     "file": "audio/幸せチャイム.mp3"
   },
-   {
-    "company": "JR東日本",
-    "line": "内房線",
-    "station": "本千葉",
-    "melody": "電子ベル(低音)",
-    "file": "audio/電子ベル(低音).mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "内房線",
-    "station": "本千葉",
-    "melody": "電子ベル(高音)",
-    "file": "audio/電子ベル(高音).mp3"
-  },
   {
     "company": "JR東日本",
     "line": "内房線",
@@ -7152,20 +7061,6 @@
     "station": "姉ケ崎",
     "melody": "Water Crown(半音低い)",
     "file": "audio/Water Crown(半音低い).mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "内房線",
-    "station": "長浦",
-    "melody": "電子ベル(低音)",
-    "file": "audio/電子ベル(低音).mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "内房線",
-    "station": "長浦",
-    "melody": "電子ベル(高音)",
-    "file": "audio/電子ベル(高音).mp3"
   },
   {
     "company": "JR東日本",
@@ -7250,20 +7145,6 @@
     "station": "安房鴨川",
     "melody": "Gota del Vient(エンドレス)",
     "file": "audio/Gota del Vient(エンドレス).mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "東金線",
-    "station": "大網",
-    "melody": "電子ベル",
-    "file": "audio/電子ベル.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "東金線",
-    "station": "大網",
-    "melody": "電子ベル",
-    "file": "audio/電子ベル.mp3"
   },
   {
     "company": "JR東日本",
@@ -7586,13 +7467,6 @@
     "station": "上野",
     "melody": "首都圏3-2番",
     "file": "audio/首都圏3-2番.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "宇都宮線",
-    "station": "上野",
-    "melody": "電子ベル",
-    "file": "audio/電子ベル.mp3"
   },
   {
     "company": "JR東日本",
@@ -8107,20 +7981,6 @@
   },
   {
     "company": "JR東日本",
-    "line": "吾妻線",
-    "station": "長野原草津口",
-    "melody": "超高音ベル",
-    "file": "audio/超高音ベル.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "吾妻線",
-    "station": "万座・鹿沢口",
-    "melody": "超高音ベル",
-    "file": "audio/超高音ベル.mp3"
-  },
-  {
-    "company": "JR東日本",
     "line": "両毛線",
     "station": "新前橋",
     "melody": "首都圏26-1番",
@@ -8271,6 +8131,6 @@
     "line": "両毛線",
     "station": "小山",
     "melody": "Water Crown(エンドレス)",
-    "file": "audio/.mp3"
+    "file": "audio/Water Crown(エンドレス).mp3"
   }
 ]
