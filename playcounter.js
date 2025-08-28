@@ -40,14 +40,24 @@ document.addEventListener('DOMContentLoaded', function() {
           lastDayCount: 1
         };
       }
+      // 10-second cooldown
+      if (now - (userData.lastUpdate || 0) < 10000) return;
+
+
+      // Hourly limit
+      let hourStart = userData.lastHourStart || now;
+      let hourCount = userData.lastHourCount || 0;
+      if (now - hourStart > 3600_000) { hourStart = now; hourCount = 0; }
+      if (hourCount >= 250) return;
 
       // Daily limit
       let dayStart = userData.lastDayStart || now;
       let dayCount = userData.lastDayCount || 0;
       if (now - dayStart > 24 * 3600_000) { dayStart = now; dayCount = 0; }
-      if (dayCount >= 400) return;
+      if (dayCount >= 500) return;
 
       return {
+
         lastUpdate: now,
         lastHourStart: hourStart,
         lastHourCount: hourCount + 1,
