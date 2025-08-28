@@ -1,4 +1,3 @@
-.mp3
 Cielo Estrellado.mp3
 Cielo Estrellado(半音低い).mp3
 Gota del Vient 四街道Ver.mp3
@@ -10,10 +9,19 @@ HANDS〜大きな手から、小さな手へ〜 Ver.B.mp3
 HANDS〜大きな手から、小さな手へ〜 Ver.C.mp3
 JR-SH2-1.mp3
 JR-SH5-1.mp3
+Over コーラスVer.mp3
 SF10-68.mp3
 Verde Rayo(遅い).mp3
+Water Crown(エンドレス).mp3
 Water Crown(半音低い).mp3
 Water Crown(微低).mp3
+さくらさくらA武蔵小金井.mp3
+さくらさくらB武蔵小金井.mp3
+せせらぎ(高音).mp3
+たなばたさまVerA.mp3
+たなばたさまVerB.mp3
+たなばたさまVerC.mp3
+たなばたさまVerD.mp3
 ふる里「みなかみ」ver.A.mp3
 ふる里「みなかみ」ver.B.mp3
 大都会の雑踏の中で聞こえるチャイム.mp3
