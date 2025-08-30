@@ -1891,4 +1891,50 @@ footer a:hover {
     word-wrap: break-word;
   }
 }
+/* Credits page mobile fixes */
+@media screen and (max-width: 768px) {
+  .contributor-item > div {
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+  }
+  
+  .contributor-item .contributor-box {
+    flex-direction: column !important;
+    text-align: center !important;
+    gap: 8px !important;
+    padding: 12px !important;
+  }
+  
+  .contributor-item .contributor-box img {
+    margin: 0 auto !important;
+  }
+}
+/* History page mobile fixes */
+@media screen and (max-width: 768px) {
+  .timeline-container {
+    padding: 0 16px !important;
+  }
+  
+  .timeline-year > div {
+    font-size: 1.2em !important;
+    padding: 12px 24px !important;
+  }
+  
+  .timeline-month > div {
+    font-size: 1em !important;
+    padding: 6px 16px !important;
+  }
+  
+  .update-card {
+    padding: 20px !important;
+  }
+  
+  .update-card h3 {
+    font-size: 1.1em !important;
+  }
+  
+  .update-card p {
+    font-size: 0.95em !important;
+  }
+}
 }
