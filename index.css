@@ -1567,4 +1567,328 @@ footer a:hover {
     font-size: 0.85em;
     margin: 10px auto;
   }
+  /* =========================
+   MOBILE OPTIMIZATIONS
+========================= */
+@media screen and (max-width: 768px) {
+  /* Base mobile adjustments */
+  html {
+    font-size: 14px;
+  }
+  
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  
+  /* Header mobile improvements */
+  header {
+    height: 56px;
+    padding: 0 16px;
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+  
+  .header1 {
+    font-size: 1.2em;
+  }
+  
+  /* Hide desktop navigation on mobile */
+  nav {
+    display: none !important;
+  }
+  
+  /* Mobile menu toggle button */
+  .mobile-menu-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
+  }
+  
+  .mobile-menu-toggle span {
+    width: 30px;
+    height: 3px;
+    background: var(--primary);
+    border-radius: 5px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+  }
+  
+  /* Mobile menu container */
+  .mobile-menu-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.98);
+    z-index: 1000;
+    padding: 70px 20px 20px 20px;
+    overflow-y: auto;
+  }
+  
+  .mobile-menu-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--primary);
+  }
+  
+  .mobile-search-container {
+    margin-bottom: 30px;
+  }
+  
+  .mobile-search-input {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-light);
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .mobile-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .mobile-nav-link {
+    padding: 16px 20px;
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    border-radius: var(--radius);
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  /* Hero section mobile adjustments */
+  .hero {
+    padding: 24px 16px 20px 16px !important;
+    margin-bottom: 32px !important;
+  }
+  
+  .hero-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 16px;
+  }
+  
+  .hero h1 {
+    font-size: 1.8em !important;
+    margin-bottom: 12px !important;
+    letter-spacing: 0.5px !important;
+    line-height: 1.2;
+  }
+  
+  .hero p {
+    font-size: 1.1em !important;
+    margin-bottom: 20px !important;
+    line-height: 1.4;
+  }
+  
+  /* Search form mobile adjustments */
+  #search-form {
+    flex-direction: column;
+    max-width: 100%;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #search-form input,
+  #search-form button {
+    width: 100%;
+    font-size: 1em;
+    padding: 12px 14px;
+  }
+  
+  /* Quick links mobile adjustments */
+  .quick-links {
+    margin-bottom: 32px !important;
+  }
+  
+  .quick-links h2 {
+    font-size: 1.2em !important;
+    margin-bottom: 12px !important;
+  }
+  
+  .quick-btns {
+    flex-direction: column !important;
+    gap: 12px !important;
+    align-items: center;
+  }
+  
+  .quick-btns .company-btn {
+    min-width: auto !important;
+    width: 100% !important;
+    max-width: 280px;
+    font-size: 1em !important;
+    padding: 12px 20px !important;
+  }
+  
+  .quick-btns .company-btn img {
+    height: 24px !important;
+  }
+  
+  /* Stats section mobile adjustments */
+  .play-stats-section {
+    margin: 32px 12px;
+  }
+  
+  .stats-container {
+    padding: 20px;
+    border-radius: var(--radius-lg);
+  }
+  
+  .stats-container h2 {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+  }
+  
+  .stats-grid {
+    grid-template-columns: 1fr !important;
+    gap: 12px;
+  }
+  
+  .stat-box {
+    padding: 12px;
+  }
+  
+  .stat-box div:first-child {
+    font-size: 0.9em;
+    margin-bottom: 6px;
+  }
+  
+  #playCountNumber,
+  #stationCount,
+  #melodyCount {
+    font-size: 1.6em;
+  }
+  
+  /* Recent changes mobile adjustments */
+  .recent-changes-section {
+    margin: 32px 12px;
+  }
+  
+  .changes-container {
+    padding: 20px;
+    border-radius: var(--radius-lg);
+  }
+  
+  .changes-container h2 {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+  }
+  
+  .recent-changes-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px;
+  }
+  
+  .change-item {
+    padding: 16px;
+  }
+  
+  .change-item h3 {
+    font-size: 1em;
+  }
+  
+  .change-item p {
+    font-size: 0.9em;
+  }
+  
+  /* Timeline adjustments for mobile */
+  .timeline-container > div:first-child {
+    left: 20px !important;
+    transform: none !important;
+  }
+  
+  .timeline-entry {
+    flex-direction: column !important;
+    text-align: left !important;
+  }
+  
+  .timeline-entry > div:first-child,
+  .timeline-entry > div:last-child {
+    padding: 0 !important;
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  
+  /* Contributor grid adjustments */
+  .contributor-item > div {
+    grid-template-columns: 1fr !important;
+  }
+  
+  /* Footer mobile adjustments */
+  footer {
+    padding: 16px 12px;
+    margin-top: 40px;
+  }
+  
+  .footer-links {
+    flex-direction: column;
+    gap: 6px;
+    margin: 12px 0;
+  }
+  
+  .footer-links a {
+    display: block;
+    text-align: center;
+    padding: 6px 10px;
+    font-size: 0.9em;
+  }
+  
+  footer > div:last-child {
+    font-size: 0.85em;
+    margin: 10px auto;
+  }
+}
+
+/* Additional optimizations for very small screens */
+@media screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.6em !important;
+  }
+  
+  .hero p {
+    font-size: 1em !important;
+  }
+  
+  /* Timeline dots positioning */
+  .timeline-entry > div:nth-child(2) {
+    align-self: flex-start;
+    margin: 10px 0;
+  }
+  
+  /* Ensure all containers have proper width */
+  main, section, div[style*="max-width"] {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+  
+  /* Fix overflow issues */
+  .contributor-item,
+  .update-card,
+  .change-item {
+    overflow: hidden;
+    word-wrap: break-word;
+  }
+}
 }

@@ -20,7 +20,7 @@
   <meta name="author" content="ekimero">
   <meta charset="utf-8" />
   <meta name="robots" content="index, follow">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <meta name="description" content="音声提供 | どこでも駅メロに音源を提供してくださった皆様への感謝を込めて。発車メロディーの収録・提供者の一覧です。">
   <meta name="keywords" content="発車メロディ,発車メロディー,駅メロ,音声提供,クレジット,感謝,録音,収録">
   <meta property="og:image" content="logo.png">
@@ -173,24 +173,6 @@
               </div>
            </div>
           </div>
-        </section>
-
-               <section style="margin-bottom:40px;">
-        <h2 style="color:#1976d2; margin-bottom:20px; text-align:center; font-size:1.8em;">発車メロディー利用状況</h2>
-        
-        <div style="border:1px solid #ddd; border-radius:16px; background:#fafafa; padding:24px; margin-bottom:20px;">
-          <!-- YouTube Channels -->
-                    <div class="contributor-item" style="margin-bottom:24px; padding:20px; border-radius:12px; background:#fff; box-shadow:0 2px 8px rgba(0,0,0,0.06);">
-            <h3 style="color:#1976d2; margin-bottom:16px; font-size:1.3em;">発車メロディーwiki | AtWiki (アットウィキ)</h3>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px;">
-              <div style="background:#f8f9ff; padding:16px; border-radius:8px; border-left:4px solid #1976d2; display:flex; align-items:center; gap:12px;">
-                <div style="flex:1;">
-                  <div style="font-weight:600; color:#1976d2; margin-bottom:2px;">発車メロディーwiki </div>
-                  <div style="font-size:0.85em; color:#666; margin-bottom:6px;">日本全国の音鉄コミュニティーにより、発車メロディーについての情報が書かれています。是非ご覧ください。</div>
-                  <a href="https://w.atwiki.jp/trainmelody/" target="_blank" style="font-size:0.8em; color:#1976d2; text-decoration:none;">サイトを見る →</a>
-                </div>
-                <img src="https://img.atwiki.jp/trainmelody/icon/3d7623670783e8abfbb9f422c19f7150" alt="発車メロディーwiki" style="width:48px; height:48px; border-radius:50%; flex-shrink:0;">
-              </div>
         </section>
 
       <!-- Guidelines Section -->
@@ -384,7 +366,31 @@ document.addEventListener('DOMContentLoaded', function() {
   <!-- Play Counter Tracking -->
   <script src="/playcounter.js"></script>
 
-  <footer>
+  <button id="backToTop" style="display: none; position: fixed; bottom: 30px; right: 30px; z-index: 99; border: none; outline: none; background-color: #1976d2; color: white; cursor: pointer; width: 50px; height: 50px; border-radius: 50%; font-size: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#1565c0'; this.style.transform='scale(1.1)'" onmouseout="this.style.backgroundColor='#1976d2'; this.style.transform='scale(1)'">
+  ↑
+</button>
+
+  <script>
+    // 上に戻るボタンの表示/非表示を制御
+    window.onscroll = function() {
+      const backToTopButton = document.getElementById("backToTop");
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        backToTopButton.style.display = "block";
+      } else {
+        backToTopButton.style.display = "none";
+      }
+    };
+
+    // 上に戻るボタンの機能
+    document.getElementById("backToTop").addEventListener("click", function() {
+      // スムーズスクロール
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  </script>
+<footer>
     <!-- Logo -->
     <a href="/index.html" class="footer-logo-link">
       <img src="/logo.png" alt="Site Icon" class="footer-icon">

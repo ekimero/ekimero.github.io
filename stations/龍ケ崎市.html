@@ -20,7 +20,7 @@
   <meta name="author" content="ekimero">
   <meta charset="utf-8" />
   <meta name="robots" content="index, follow">
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <meta name="description" content="龍ケ崎市駅 | 駅メロを探して簡単に再生できるサイトです。さまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。">
   <meta name="keywords" content="発車メロディ,発車メロディー,駅メロ,駅ベル,発車ベル,どこでも駅メロ,どこでも発車ベル,どこでも発車メロディー, 龍ケ崎市駅発車メロディー">
   <meta property="og:image" content="logo.png">
@@ -379,6 +379,30 @@ document.addEventListener('DOMContentLoaded', function() {
   <!-- Play Counter Tracking -->
   <script src="/playcounter.js"></script>
 
+<button id="backToTop" style="display: none; position: fixed; bottom: 30px; right: 30px; z-index: 99; border: none; outline: none; background-color: #1976d2; color: white; cursor: pointer; width: 50px; height: 50px; border-radius: 50%; font-size: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#1565c0'; this.style.transform='scale(1.1)'" onmouseout="this.style.backgroundColor='#1976d2'; this.style.transform='scale(1)'">
+  ↑
+</button>
+
+  <script>
+    // 上に戻るボタンの表示/非表示を制御
+    window.onscroll = function() {
+      const backToTopButton = document.getElementById("backToTop");
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        backToTopButton.style.display = "block";
+      } else {
+        backToTopButton.style.display = "none";
+      }
+    };
+
+    // 上に戻るボタンの機能
+    document.getElementById("backToTop").addEventListener("click", function() {
+      // スムーズスクロール
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  </script>
 <footer>
   <!-- Logo -->
   <a href="/index.html" class="footer-logo-link">
