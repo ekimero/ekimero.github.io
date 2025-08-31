@@ -18,6 +18,14 @@
   </script>
 <link rel="manifest" href="/manifest.json?v=3">
 
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(() => console.log('Service Worker registered'))
+      .catch((err) => console.error('SW registration failed:', err));
+  }
+</script>
+
 
   <meta name="title" content="どこでも駅メロ・発車メロディー検索">
   <meta name="author" content="ekimero">
@@ -85,48 +93,7 @@
     </nav>
     
   </header>
-      <div id="addToHomeBanner" style="display:none; background:#1976d2; color:white; text-align:center; padding:12px 16px; font-size:1em; font-weight:600; border-radius:0 0 16px 16px; position:relative;">
-  📱 ホーム画面に追加してアプリを快適に使用！
-  <button id="closeBanner" style="position:absolute; right:12px; top:50%; transform:translateY(-50%); background:none; border:none; color:white; font-size:1.2em; cursor:pointer;">×</button>
-</div>
-  <main>
-
-
-<script>
-let deferredPrompt;
-const banner = document.getElementById('addToHomeBanner');
-const closeBtn = document.getElementById('closeBanner');
-
-// Listen for beforeinstallprompt event
-window.addEventListener('beforeinstallprompt', (e) => {
-  e.preventDefault(); // Prevent automatic prompt
-  deferredPrompt = e;
-  banner.style.display = 'block'; // Show the banner
-});
-
-// Handle banner click to trigger install
-banner.addEventListener('click', async () => {
-  if (deferredPrompt) {
-    deferredPrompt.prompt();
-    const { outcome } = await deferredPrompt.userChoice;
-    if (outcome === 'accepted') {
-      console.log('User added to home screen');
-    } else {
-      console.log('User dismissed the prompt');
-    }
-    deferredPrompt = null;
-    banner.style.display = 'none';
-  }
-});
-
-// Handle close button
-closeBtn.addEventListener('click', (e) => {
-  e.stopPropagation(); // Prevent triggering the install
-  banner.style.display = 'none';
-});
-</script>
-
-
+<main>
     <section class="hero" style="padding: 64px 0 48px 0; text-align: center; background: linear-gradient(120deg, #e3f0ff 0%, #f5f5f5 100%); border-radius: 32px; box-shadow: 0 8px 48px rgba(25,118,210,0.12); margin-bottom: 56px; position: relative; overflow: hidden;">
       <img src="logo.png" alt="どこでも駅メロ ロゴ" class="hero-logo" style="width:180px;height:180px;box-shadow:0 12px 48px rgba(25,118,210,0.16);margin-bottom:32px;z-index:2;position:relative;">
       <h1 style="font-size:3.2em; color:#1976d2; font-weight:900; margin-bottom:20px; letter-spacing:2px;">どこでも駅メロ | 発車メロディーサイト</h1>
@@ -154,6 +121,68 @@ closeBtn.addEventListener('click', (e) => {
     </a>
   </div>
 </section>
+<!-- Mobile App Promo Section -->
+<div class="mobile-app-promo" style="display:none; margin-top:40px; text-align:center; padding:24px; border-radius:24px; background: linear-gradient(135deg, #ffffff, #a0c6e6); color:#000000; box-shadow:0 8px 32px rgba(25,118,210,0.25);">
+  <h3 style="font-size:1.5em; font-weight:800; margin-bottom:16px;">📱 アプリをインストール！
+  </h3>
+  <p style="font-size:1em; margin-bottom:24px;">どこでも駅メロを快適に使おう！</p>
+  <button id="addToHomeBtn" 
+          style="display:inline-block; font-size:1.1em; font-weight:700; padding:12px 28px; border-radius:12px; background:#fff; color:#1976d2; border:none; cursor:pointer; box-shadow:0 4px 16px rgba(0,0,0,0.2); transition:all 0.3s ease;"
+          onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 6px 20px rgba(0,0,0,0.3)'" 
+          onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 4px 16px rgba(0,0,0,0.2)'">
+    ホーム画面に追加
+  </button>
+</div>
+
+<script>
+  let deferredPrompt;
+
+  // Show mobile app promo only on small screens
+  function checkMobileAppPromo() {
+    const promo = document.querySelector('.mobile-app-promo');
+    if (window.innerWidth <= 768) { // Mobile
+      promo.style.display = 'block';
+    } else {
+      promo.style.display = 'none';
+    }
+  }
+
+  window.addEventListener('resize', checkMobileAppPromo);
+  document.addEventListener('DOMContentLoaded', checkMobileAppPromo);
+
+  // PWA install handling for Android
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    deferredPrompt = e;
+    document.getElementById('addToHomeBtn').style.display = 'inline-block';
+  });
+
+  document.getElementById('addToHomeBtn').addEventListener('click', async () => {
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      const { outcome } = await deferredPrompt.userChoice;
+      deferredPrompt = null;
+      // Optionally hide button after installation
+      if (outcome === 'accepted') document.querySelector('.mobile-app-promo').style.display = 'none';
+    } else {
+      alert("iOSではSafariの共有メニューから『ホーム画面に追加』を選んでください。");
+    }
+  });
+
+  // iOS detection
+  const isIos = /iphone|ipad|ipod/.test(window.navigator.userAgent.toLowerCase());
+  const isInStandaloneMode = ('standalone' in window.navigator) && window.navigator.standalone;
+
+  if (isIos && !isInStandaloneMode) {
+    document.getElementById('addToHomeBtn').style.display = 'inline-block';
+    document.getElementById('addToHomeBtn').addEventListener('click', () => {
+      alert("Safariの共有メニューから『ホーム画面に追加』を選んでください。");
+    });
+  }
+</script>
+
+
+
 
 <section class="play-stats-section" style="margin: 60px auto; max-width: 900px; text-align: center;">
 <div class="stats-container" style="background: linear-gradient(135deg, #f0f7ff 0%, #e3f0ff 100%); border-radius: 32px; padding: 48px; box-shadow: 0 12px 48px rgba(25, 118, 210, 0.25); position: relative; overflow: hidden; border: 1px solid rgba(25, 118, 210, 0.1);">
