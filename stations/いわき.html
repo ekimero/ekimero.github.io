@@ -190,15 +190,19 @@
 </main>
 
 <script>
-// Set background image using a random line from the first two lines of the station
+// Set random line background for the station header
 document.addEventListener('DOMContentLoaded', () => {
   const stationHeader = document.querySelector('.station-header');
   if (stationHeader) {
+    // Get all line logos in the station
     const lineLogos = document.querySelectorAll('#station-line-logos img');
     if (lineLogos.length > 0) {
-      // Random index: 0 if only one line, otherwise 0 or 1
-      const randomIndex = lineLogos.length === 1 ? 0 : Math.floor(Math.random() * 2);
-      const lineName = lineLogos[randomIndex].alt.replace('ロゴ', '').trim();
+      // Pick a random line logo from the station
+      const randomIndex = Math.floor(Math.random() * lineLogos.length);
+      const randomLineLogo = lineLogos[randomIndex];
+      const lineName = randomLineLogo.alt.replace('ロゴ', '').trim();
+      
+      // Set the background image
       stationHeader.style.setProperty('--station-bg-image', `url("/images/${lineName}.jpg")`);
     }
   }
