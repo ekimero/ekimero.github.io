@@ -57,10 +57,93 @@
     "inLanguage": "ja"
   }
   </script>
-
-
-  
 </head>
+<style>
+.station-header {
+  position: relative !important;
+  width: 100% !important;
+  min-height: 260px !important; /* Match line-header exactly with !important */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  margin-bottom: 32px !important; /* Match line-header exactly with !important */
+  overflow: hidden !important;
+  border-radius: 12px !important; /* Match line-header exactly with !important */
+  background: var(--station-bg-image) center/cover no-repeat !important;
+  color: white !important;
+  padding: 0 !important; /* Override any padding from main>div:first-child */
+}
+.station-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(4, 12, 20, 0.6); /* Same as line-header */
+  z-index: 1;
+}
+.station-header-content {
+  position: relative;
+  z-index: 2;
+  padding: 24px !important; /* Match line-header exactly with !important */
+}
+.station-header h1 {
+  color: #fff !important;
+  margin-bottom: 16px !important; /* Match line-header exactly with !important */
+}
+.station-header h2 {
+  color: #f0f0f0 !important;
+  font-weight: 500 !important;
+  margin-bottom: 47px !important; /* Match line-header exactly with !important */
+}
+#station-line-logos {
+  margin-top: 47px !important; /* Match line-header with !important */
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 12px !important;
+  justify-content: center !important;
+  margin-bottom: 24px;
+}
+/* Ensure mobile overrides don't affect the station header */
+@media screen and (max-width: 768px) {
+  .station-header {
+    min-height: 260px !important;
+    margin-bottom: 32px !important;
+    border-radius: 12px !important;
+    padding: 0 !important;
+  }
+ 
+  .station-header-content {
+    padding: 24px !important;
+  }
+}
+#station-line-logos img {
+  max-width: 48px !important;  /* 現在の24pxから大きくする */
+  height: auto !important;
+  width: auto !important;
+}
+
+/* モバイル表示用の調整 */
+@media screen and (max-width: 768px) {
+  #station-line-logos img {
+    max-width: 40px !important;
+  }
+}
+#station-line-logos img {
+  border-radius: 8px !important; /* 角丸の大きさを調整 */
+  /* 既存のスタイルはそのまま保持 */
+  max-width: 48px !important;
+  height: auto !important;
+  width: auto !important;
+}
+@media screen and (max-width: 768px) {
+  #station-line-logos img {
+    border-radius: 6px !important; /* モバイル用の角丸サイズ */
+    /* 他のモバイルスタイル */
+  }
+}
+</style>
 <body>
   <header>
     <a href="/index.html" class="title-link">
@@ -79,32 +162,48 @@
     </nav>
   </header>
 
-<main style="padding:24px;">
-  <!-- Hero Section -->
 <main style="padding:24px; text-align:center;">
-    <div id="station-line-logos">
-  <img src="/images/横須賀線.png" alt="横須賀線ロゴ" class="line-logo" style="max-height:48px; height:auto; margin-right:8px;">
-</div>
-  <h1 style="font-size:2.2em; color:#1976d2; font-weight:800; margin-bottom:16px;">
-      どこでも駅メロ | 東逗子駅の発車メロディー
-    </h1>
-    <p style="font-size:1.1em; color:#333; margin-bottom:24px;">
-      東逗子駅の発車メロディーの一覧。
-    </p>
 
+  <!-- Station header with background -->
+<div class="station-header">
+  <div class="station-header-overlay"></div>
+  <div class="station-header-content">
+    <div style="margin-bottom:16px;">
+
+      <div id="station-line-logos">
+        <img src="/images/横須賀線.png" alt="横須賀線ロゴ" class="line-logo" style="max-height:48px; height:auto; margin-right:8px;">
+      </div>
+    </div>
+    <h1>東逗子駅の発車メロディー一覧</h1>
+    <h2>どこでも駅メロ | 東逗子駅で使用されている発車メロディー</h2>
+  </div>
+</div>
     <div style="margin-bottom:32px; width:100%;">
-  <input id="line-filter" type="text" placeholder="駅名・路線名で絞り込み" 
+  <input id="line-filter" type="text" placeholder="駅名・路線名で絞り込み"
          style="width:100%; max-width:300px; padding:8px; border-radius:8px; border:1px solid #bcd;">
 </div>
   <div id="stations-container" style="text-align:left;"></div>
-</main>
-  </section>
 
+  </section>
   <!-- Company Sections -->
   <div id="company-sections"></div>
 </main>
 
-
+<script>
+// Set background image using a random line from the first two lines of the station
+document.addEventListener('DOMContentLoaded', () => {
+  const stationHeader = document.querySelector('.station-header');
+  if (stationHeader) {
+    const lineLogos = document.querySelectorAll('#station-line-logos img');
+    if (lineLogos.length > 0) {
+      // Random index: 0 if only one line, otherwise 0 or 1
+      const randomIndex = lineLogos.length === 1 ? 0 : Math.floor(Math.random() * 2);
+      const lineName = lineLogos[randomIndex].alt.replace('ロゴ', '').trim();
+      stationHeader.style.setProperty('--station-bg-image', `url("/images/${lineName}.jpg")`);
+    }
+  }
+});
+</script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const stationName = decodeURIComponent(window.location.pathname.split('/').pop().replace('.html',''));
@@ -415,7 +514,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <a href="/jr-east.html">JR東日本</a>
     <a href="/archive.html">全アーカイブ</a>
     <a href="/jr-east-archive.html">JR東日本アーカイブ</a>
-    <a href="/credits.html" target="_blank">音声提供</a>
+    <a href="/credits.html" target="_blank">音声・画像提供</a>
     <a href="/jr-east/東海道線.html" target="_blank">東海道線</a>
   <a href="/jr-east/山手線.html" target="_blank">山手線</a>
   </div>
