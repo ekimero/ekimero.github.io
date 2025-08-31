@@ -7,6 +7,7 @@ A Python script to automatically add new updates to both history.html and index.
 Usage:
     python update_manager.py add "Title" "Description" --type feature --stations "駅1,駅2,駅3"
     python update_manager.py add "Bug fixes" "Fixed multiple issues" --type bugfix
+    python update_manager.py add "準備中の機能" "近日公開予定" --type preparation
     python update_manager.py list
     python update_manager.py preview "Title" "Description" --type content
 
@@ -51,6 +52,13 @@ class EkimeroUpdateManager:
                 'bg_color': '#e3f2fd',
                 'text_color': '#1976d2',
                 'icon': '🔄'
+            },
+            'preparation': {
+                'name': '準備中',
+                'color': '#9e9e9e',
+                'bg_color': '#f5f5f5',
+                'text_color': '#616161',
+                'icon': '⏳'
             }
         }
         
@@ -330,7 +338,7 @@ def main():
     add_parser = subparsers.add_parser('add', help='Add a new update')
     add_parser.add_argument('title', help='Update title')
     add_parser.add_argument('description', help='Update description')
-    add_parser.add_argument('--type', choices=['content', 'feature', 'bugfix', 'system'], 
+    add_parser.add_argument('--type', choices=['content', 'feature', 'bugfix', 'system', 'preparation'], 
                            default='content', help='Update type (default: content)')
     add_parser.add_argument('--stations', help='Comma-separated list of station names')
     add_parser.add_argument('--tags', help='Comma-separated list of tags')
@@ -343,7 +351,7 @@ def main():
     preview_parser = subparsers.add_parser('preview', help='Preview an update without adding it')
     preview_parser.add_argument('title', help='Update title')
     preview_parser.add_argument('description', help='Update description')
-    preview_parser.add_argument('--type', choices=['content', 'feature', 'bugfix', 'system'], 
+    preview_parser.add_argument('--type', choices=['content', 'feature', 'bugfix', 'system', 'preparation'], 
                                default='content', help='Update type (default: content)')
     preview_parser.add_argument('--stations', help='Comma-separated list of station names')
     preview_parser.add_argument('--tags', help='Comma-separated list of tags')
