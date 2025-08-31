@@ -50,6 +50,58 @@
 
  
 </head>
+<style>
+.line-header {
+  position: relative;
+  width: 100%;
+  min-height: 260px; /* adjust height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 32px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: url("/images/総武本線.jpg") center/cover no-repeat;
+  color: white; /* fallback for text */
+}
+
+.line-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(4, 12, 20, 0.45); /* blue tint */
+  z-index: 1;
+}
+
+.line-header-content {
+  position: relative;
+  z-index: 2;
+  padding: 24px;
+}
+
+.line-header h1 {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.line-header h2 {
+  color: #f0f0f0;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+#line-logos-container {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+</style>
 <body>
 <header>
     <a href="/index.html" class="title-link">
@@ -69,20 +121,23 @@
   </header>
 
 <main style="padding:24px; text-align:center;">
-  <div style="margin-bottom:16px;">
-    <img src="/images/総武本線.png" alt="総武本線ロゴ" style="max-width:120px; height:auto;">
+<!-- Line header with background -->
+<div class="line-header">
+  <div class="line-header-overlay"></div>
+  <div class="line-header-content">
+    <div style="margin-bottom:16px;">
+<img src="/images/総武本線.png" alt="総武本線ロゴ" 
+     style="max-width:120px; height:auto; border-radius:16px;">
+    </div>
+    <h1>総武本線の発車メロディー一覧</h1>
+    <h2>どこでも駅メロ | 総武本線の駅ごとに発車メロディーを再生できます</h2>
+    <!-- Container for all line logos -->
+    <div id="line-logos-container"></div>
   </div>
-  <h1 style="color:#1976d2; margin-bottom:16px;">総武本線の発車メロディー一覧</h1>
-  <h2 style="color:#555; font-weight:500; margin-bottom:24px;">
-  どこでも駅メロ | 総武本線の駅ごとに発車メロディーを再生できます
-</h2>
-
-<!-- Container for all line logos -->
-<div id="line-logos-container" style="margin-bottom:32px; display:flex; flex-wrap:wrap; gap:12px; justify-content:center;"></div>
+</div>
 
 <div style="margin-bottom:32px; width:100%;">
-  <input id="line-filter" type="text" placeholder="駅名・メロディ名で絞り込み" 
-         style="width:100%; max-width:300px; padding:8px; border-radius:8px; border:1px solid #bcd;">
+  <input id="line-filter" type="text" placeholder="駅名・メロディ名で絞り込み">
 </div>
 
   <div id="stations-container" style="text-align:left;"></div>

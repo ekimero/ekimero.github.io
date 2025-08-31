@@ -58,6 +58,58 @@
     }
   </script>
 </head>
+<style>
+/* JR東日本 line header with background */
+.line-header {
+  position: relative;
+  width: 100%;
+  min-height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 32px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: url("/images/JR_East.jpg") center/cover no-repeat;
+  color: white;
+}
+
+.line-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.65); 
+  z-index: 1;
+}
+
+.line-header-content {
+  position: relative;
+  z-index: 2;
+  padding: 24px;
+}
+
+.line-header h1 {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.line-header h2 {
+  color: #f0f0f0;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+#line-logos-container {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+</style>
 <body>
   <header>
     <a href="index.html" class="title-link">
@@ -81,11 +133,18 @@
 <body>
 
 <main style="padding:24px; text-align:center;">
-  <div style="margin-bottom:16px;">
-    <img src="/images/jr-east.png" alt="上越線ロゴ" style="max-width:120px; height:auto;">
+  <!-- JR東日本 line header -->
+  <div class="line-header">
+    <div class="line-header-overlay"></div>
+    <div class="line-header-content">
+      <div style="margin-bottom:16px;">
+        <img src="/images/jr-east.png" alt="JR東日本ロゴ" style="max-width:120px; height:auto; border-radius:16px;">
+      </div>
+      <h1>JR東日本の駅メロ・発車メロディー一覧</h1>
+      <h2>どこでも駅メロ | JR東日本の路線ごとに発車メロディーを再生できます</h2>
+      <div id="line-logos-container"></div>
+    </div>
   </div>
-  <h1 style="color:#1976d2; margin-bottom:16px;">JR東日本の駅メロ・発車メロディー</h1>
-  <h2 style="color:#555; font-weight:500; margin-bottom:24px;">どこでも駅メロ | JR東日本の発車メロディー路線別ページ</h2>
 
   <div id="stations-container" style="text-align:left;"></div>
 </main>
