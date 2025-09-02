@@ -145,21 +145,25 @@
 }
 </style>
 <body>
-  <header>
+    <header>
     <a href="/index.html" class="title-link">
       <img src="/logo.png" alt="どこでも駅メロのロゴ - 発車メロディ検索サイト" class="logo">
       <b class="header1">どこでも駅メロ</b>
     </a>
     <nav>
-      <a href="/index.html" class="company-btn">ホーム</a>
       <a href="/jr-east.html" class="company-btn">JR東日本</a>
-
-      <a href="/archive.html" class="company-btn">全アーカイブ</a>
+      <a href="/tokyo-metro.html" class="company-btn">東京メトロ</a>
+      <a href="/other.html" class="company-btn">その他</a>
       <div style="position:relative;display:inline-block;min-width:220px;vertical-align:middle;">
-        <input id="header-search" type="text" placeholder="駅名・メロディ名で検索" style="font-size:1em;padding:8px 14px;border-radius:8px;border:1px solid #bcd;box-shadow:0 2px 12px #1976d220;width:300px;">
+        <input id="header-search" type="text" placeholder="駅名・メロディ名で検索" 
+  style="font-size:1em;padding:8px 14px;border-radius:8px;
+  border:1px solid #bcd;box-shadow:0 2px 12px #1976d220;width:300px;">
+
+
         <div id="header-search-results" style="position:absolute;top:110%;left:0;width:100%;background:#fff;box-shadow:0 2px 12px #1976d220;border-radius:8px;z-index:100;display:none;"></div>
       </div>
     </nav>
+    
   </header>
 
 <main style="padding:24px; text-align:center;">
@@ -171,7 +175,7 @@
     <div style="margin-bottom:16px;">
 
       <div id="station-line-logos">
-        <img src="/images/中央線快速.png" alt="中央線快速ロゴ" class="line-logo" style="max-height:48px; height:auto; margin-right:8px;"><img src="/images/中央・総武線各駅停車.png" alt="中央・総武線各駅停車ロゴ" class="line-logo" style="max-height:48px; height:auto; margin-right:8px;">
+        <img src="/images/中央線快速.png" alt="中央線快速ロゴ" class="line-logo" style="max-height:48px; height:auto; margin-right:8px;"><img src="/images/中央・総武線各駅停車.png" alt="中央・総武線各駅停車ロゴ" class="line-logo" style="max-height:48px; height:auto; margin-right:8px;"><img src="/images/丸ノ内線.png" alt="丸ノ内線ロゴ" class="line-logo" style="max-height:48px; height:auto; margin-right:8px;"><img src="/images/南北線.png" alt="南北線ロゴ" class="line-logo" style="max-height:48px; height:auto; margin-right:8px;">
       </div>
     </div>
     <h1>四ツ谷駅の発車メロディー一覧</h1>
@@ -256,7 +260,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (!filteredMelodies.length && !line.toLowerCase().includes(filter.toLowerCase())) return '';
 
                 const logoSrc = `/images/${line}.png`;
-                const lineUrl = `/jr-east/${encodeURIComponent(line)}.html`;
+                let basePath = '';
+if (company.id === 'jr') basePath = '/jr-east';
+else if (company.id === 'metro') basePath = '/tokyo-metro';
+else if (company.id === 'toei') basePath = '/toei';
+else basePath = '/archive';
+
+const lineUrl = `${basePath}/${encodeURIComponent(line)}.html`;
+
                 return `
                   <div style="border:1px solid #ddd; border-radius:16px; background:#fafafa; padding:20px; margin-bottom:28px;">
                     <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
@@ -513,19 +524,18 @@ document.addEventListener('DOMContentLoaded', function() {
   </a>
 
   <!-- Site navigation links -->
- <div class="footer-links" style="margin: 12px 0; display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
+  <div class="footer-links" style="margin: 12px 0; display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
     <a href="/index.html">ホーム</a>
     <a href="/jr-east.html">JR東日本</a>
-    <a href="/archive.html">全アーカイブ</a>
-    <a href="/jr-east-archive.html">JR東日本アーカイブ</a>
-    <a href="/credits.html" target="_blank">音声・画像提供</a>
-    <a href="/jr-east/東海道線.html" target="_blank">東海道線</a>
-  <a href="/jr-east/山手線.html" target="_blank">山手線</a>
+    <a href="/tokyo-metro.html">東京メトロ</a>
+    <a href="/other.html">その他</a>
+    <a href="/history.html">更新履歴</a>
+    <a href="/credits.html">音声・画像提供</a>
   </div>
 
   <!-- Clear and open footer description -->
   <div style="color: #bbb; font-size: 0.95em; max-width: 800px; margin: 12px auto; line-height: 1.5;">
-    いつもご利用ありがとうございます。
+    いつもご利用ありがとうございます。<br>
     鉄道モバイル: <a href="https://www.te2do.jp" target="_blank">https://www.te2do.jp</a>
   </div>
 </footer>

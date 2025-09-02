@@ -103,21 +103,25 @@
 
 </style>
 <body>
-<header>
+  <header>
     <a href="/index.html" class="title-link">
       <img src="/logo.png" alt="どこでも駅メロのロゴ - 発車メロディ検索サイト" class="logo">
       <b class="header1">どこでも駅メロ</b>
     </a>
     <nav>
-      <a href="/index.html" class="company-btn">ホーム</a>
       <a href="/jr-east.html" class="company-btn">JR東日本</a>
-
-      <a href="/archive.html" class="company-btn">全アーカイブ</a>
+      <a href="/tokyo-metro.html" class="company-btn">東京メトロ</a>
+      <a href="/other.html" class="company-btn">その他</a>
       <div style="position:relative;display:inline-block;min-width:220px;vertical-align:middle;">
-        <input id="header-search" type="text" placeholder="駅名・メロディ名で検索" style="font-size:1em;padding:8px 14px;border-radius:8px;border:1px solid #bcd;box-shadow:0 2px 12px #1976d220;width:300px;">
+        <input id="header-search" type="text" placeholder="駅名・メロディ名で検索" 
+  style="font-size:1em;padding:8px 14px;border-radius:8px;
+  border:1px solid #bcd;box-shadow:0 2px 12px #1976d220;width:300px;">
+
+
         <div id="header-search-results" style="position:absolute;top:110%;left:0;width:100%;background:#fff;box-shadow:0 2px 12px #1976d220;border-radius:8px;z-index:100;display:none;"></div>
       </div>
     </nav>
+    
   </header>
 
 <main style="padding:24px; text-align:center;">
@@ -152,10 +156,22 @@ document.addEventListener('DOMContentLoaded', () => {
   const container = document.getElementById('stations-container');
   const filterInput = document.getElementById('line-filter');
 
+  // Detect operator based on URL path
+  let companyFilter = null;
+  if (window.location.pathname.includes('/jr-east/')) {
+    companyFilter = 'JR東日本';
+  } else if (window.location.pathname.includes('/tokyo-metro/')) {
+    companyFilter = '東京メトロ';
+  } 
+  // (you can add more companies here as needed)
+
   fetch('/stations.json')
     .then(res => res.json())
     .then(data => {
-      const lineStations = data.filter(s => s.company === 'JR東日本' && s.line === lineName);
+      const lineStations = data.filter(s =>
+        s.line === lineName && (!companyFilter || s.company === companyFilter)
+      );
+
       if (!lineStations.length) {
         container.innerHTML = '<p style="text-align:center;color:#888;">この路線の駅メロは見つかりませんでした</p>';
         return;
@@ -210,31 +226,69 @@ document.addEventListener('DOMContentLoaded', () => {
       filterInput.addEventListener('input', renderStations);
     });
 });
-
-// Header search
+</script>
+<script>
+// Header search bar instant search
 let headerStationsData = [];
-fetch('/stations.json').then(r => r.json()).then(data => headerStationsData = data);
-document.addEventListener('DOMContentLoaded', () => {
-  const input = document.getElementById('header-search');
-  const results = document.getElementById('header-search-results');
+fetch('/stations.json')
+  .then(res => res.json())
+  .then(data => headerStationsData = data);
 
-  input.addEventListener('input', () => {
-    const q = input.value.toLowerCase().trim();
-    if (!q) { results.style.display='none'; return; }
-    const matches = headerStationsData.filter(st => st.station.toLowerCase().includes(q) || st.melody.toLowerCase().includes(q)).slice(0,8);
-    results.innerHTML = matches.length ? matches.map(st => `
-      <div style="padding:12px;border-bottom:1px solid #eee;">
-        <a href="/stations/${encodeURIComponent(st.station)}.html" style="font-weight:700;color:#1976d2;">${st.station}</a>
-        <div>${st.melody}</div>
-        ${st.file ? `<audio controls controlsList="nodownload" src="/${st.file}" style="width:100%;" loop></audio>` : ''}
-      </div>
-    `).join('') : '<div style="padding:12px;color:#888;">該当なし</div>';
-    results.style.display = 'block';
-  });
+document.addEventListener('DOMContentLoaded', function() {
+  const headerInput = document.getElementById('header-search');
+  const headerResults = document.getElementById('header-search-results');
+  if (headerInput) {
+    headerInput.addEventListener('input', function() {
+      const q = headerInput.value.trim().toLowerCase();
+      if (!q) {
+        headerResults.style.display = 'none';
+        headerResults.innerHTML = '';
+        return;
+      }
+      const matches = headerStationsData.filter(st =>
+        st.station.toLowerCase().includes(q) ||
+        st.melody.toLowerCase().includes(q)
+      ).slice(0, 8);
 
-  document.addEventListener('click', e => { if (!results.contains(e.target) && e.target !== input) results.style.display='none'; });
+      if (matches.length === 0) {
+        headerResults.innerHTML = '<div style="padding:12px;color:#888;font-size:1em;">該当なし</div>';
+        headerResults.style.display = 'block';
+        return;
+      }
+
+      headerResults.innerHTML = matches.map(st => {
+        const audioSrc = st.file ? (st.file.match(/^https?:\/\//) ? st.file : `/${st.file}`) : '';
+        const stationUrl = `/stations/${encodeURIComponent(st.station)}.html`;
+
+        return `
+          <div class="header-station" style="padding:12px 14px; border-bottom:1px solid #eee;">
+            <div class="header-station-text" style="margin-bottom:6px;">
+              <a href="${stationUrl}" style="font-weight:700;color:#1976d2;text-decoration:underline;display:block;">${st.station}</a>
+              <span style="font-size:0.95em;color:#333;display:block;">${st.melody}</span>
+            </div>
+            ${audioSrc ? `
+            <div class="header-station-audio" style="margin-top:4px;">
+              <audio controls controlsList="nodownload" src="${audioSrc}" style="width:100%;" loop></audio>
+              <label style="font-size:0.85em; display:block; margin-top:4px; cursor:pointer;">
+                <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+                ループ
+              </label>
+            </div>
+            ` : ''}
+          </div>
+        `;
+      }).join('');
+
+      headerResults.style.display = 'block';
+    });
+
+    document.addEventListener('click', function(e) {
+      if (!headerResults.contains(e.target) && e.target !== headerInput) {
+        headerResults.style.display = 'none';
+      }
+    });
+  }
 });
-
 </script>
 
 <!-- Firebase & play counter -->
@@ -372,19 +426,19 @@ document.addEventListener('DOMContentLoaded', function() {
     <img src="/logo.png" alt="Site Icon" class="footer-icon">
   </a>
 
- <div class="footer-links" style="margin: 12px 0; display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
+  <!-- Site navigation links -->
+  <div class="footer-links" style="margin: 12px 0; display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
     <a href="/index.html">ホーム</a>
     <a href="/jr-east.html">JR東日本</a>
-    <a href="/archive.html">全アーカイブ</a>
-    <a href="/jr-east-archive.html">JR東日本アーカイブ</a>
-    <a href="/credits.html" target="_blank">音声・画像提供</a>
-    <a href="/jr-east/東海道線.html" target="_blank">東海道線</a>
-  <a href="/jr-east/山手線.html" target="_blank">山手線</a>
+    <a href="/tokyo-metro.html">東京メトロ</a>
+    <a href="/other.html">その他</a>
+    <a href="/history.html">更新履歴</a>
+    <a href="/credits.html">音声・画像提供</a>
   </div>
 
   <!-- Clear and open footer description -->
   <div style="color: #bbb; font-size: 0.95em; max-width: 800px; margin: 12px auto; line-height: 1.5;">
-    いつもご利用ありがとうございます。
+    いつもご利用ありがとうございます。<br>
     鉄道モバイル: <a href="https://www.te2do.jp" target="_blank">https://www.te2do.jp</a>
   </div>
 </footer>

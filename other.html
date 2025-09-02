@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E7R52K1NYL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E7R52K1NYL');
+  </script>
+
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "spvu3f92us");
+  </script>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="title" content="準備中 | どこでも駅メロ・発車メロディー検索">
+  <meta name="description" content="このページは現在準備中です。">
+  <meta name="robots" content="noindex, follow">
+
+  <title>準備中 | どこでも駅メロ</title>
+  <link rel="stylesheet" href="/index.css">
+
+  <link rel="icon" href="/images/new-logo.png" type="image/png">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <a href="index.html" class="title-link">
+      <img src="logo.png" alt="どこでも駅メロのロゴ" class="logo">
+      <b class="header1">どこでも駅メロ</b>
+    </a>
+    <nav>
+      <a href="jr-east.html" class="company-btn">JR東日本</a>
+      <a href="tokyo-metro.html" class="company-btn">東京メトロ</a>
+      <a href="other.html" class="company-btn">その他</a>
+      <div style="position:relative;display:inline-block;min-width:220px;vertical-align:middle;">
+        <input id="header-search" type="text" placeholder="駅名・メロディ名で検索" 
+          style="font-size:1em;padding:8px 14px;border-radius:8px;
+          border:1px solid #bcd;box-shadow:0 2px 12px #1976d220;width:300px;">
+        <div id="header-search-results" 
+          style="position:absolute;top:110%;left:0;width:100%;background:#fff;
+          box-shadow:0 2px 12px #1976d220;border-radius:8px;z-index:100;display:none;">
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main style="padding: 60px 0; text-align: center;">
+    <h1 style="font-size: 2.5em; color: #333;">準備中</h1>
+    <p style="color:#666; margin-top:16px;">このページは現在準備中です。</p>
+  </main>
+
+  <!-- Back to top button -->
+  <button id="backToTop" style="display:none; position:fixed; bottom:30px; right:30px;
+    z-index:99; border:none; outline:none; background-color:#1976d2; color:white; 
+    cursor:pointer; width:50px; height:50px; border-radius:50%; font-size:20px; 
+    box-shadow:0 4px 12px rgba(0,0,0,0.3); transition:all 0.3s ease;">
+    ↑
+  </button>
+
+  <!-- Footer -->
+  <footer>
+    <a href="/index.html" class="footer-logo-link">
+      <img src="/logo.png" alt="Site Icon" class="footer-icon">
+    </a>
+    <div class="footer-links" style="margin:12px 0; display:flex; flex-wrap:wrap; gap:12px; justify-content:center;">
+      <a href="/index.html">ホーム</a>
+      <a href="/jr-east.html">JR東日本</a>
+      <a href="/tokyo-metro.html">東京メトロ</a>
+      <a href="/other.html">その他</a>
+      <a href="/history.html">更新履歴</a>
+      <a href="/credits.html">音声・画像提供</a>
+    </div>
+    <div style="color:#bbb; font-size:0.95em; max-width:800px; margin:12px auto; line-height:1.5;">
+      いつもご利用ありがとうございます。<br>
+      鉄道モバイル: <a href="https://www.te2do.jp" target="_blank">https://www.te2do.jp</a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    let headerStationsData = [];
+    fetch('stations.json')
+      .then(res => res.json())
+      .then(data => headerStationsData = data);
+
+    document.addEventListener('DOMContentLoaded', function() {
+      const headerInput = document.getElementById('header-search');
+      const headerResults = document.getElementById('header-search-results');
+
+      if (headerInput) {
+        headerInput.addEventListener('input', function() {
+          const q = headerInput.value.trim().toLowerCase();
+          if (!q) {
+            headerResults.style.display = 'none';
+            headerResults.innerHTML = '';
+            return;
+          }
+          const matches = headerStationsData.filter(st =>
+            st.station.toLowerCase().includes(q) ||
+            st.melody.toLowerCase().includes(q)
+          ).slice(0, 8);
+
+          if (matches.length === 0) {
+            headerResults.innerHTML = '<div style="padding:12px;color:#888;font-size:1em;">該当なし</div>';
+            headerResults.style.display = 'block';
+            return;
+          }
+
+          headerResults.innerHTML = matches.map(st => {
+            const stationUrl = `/stations/${encodeURIComponent(st.station)}.html`;
+            return `
+              <div style="padding:10px 14px;border-bottom:1px solid #eee;">
+                <div style="font-weight:700;color:#1976d2;">
+                  <a href="${stationUrl}" style="color:#1976d2;text-decoration:underline;">${st.station}</a>
+                </div>
+                <div style="font-size:0.95em;color:#333;">${st.melody}</div>
+              </div>
+            `;
+          }).join('');
+          headerResults.style.display = 'block';
+        });
+
+        document.addEventListener('click', function(e) {
+          if (!headerResults.contains(e.target) && e.target !== headerInput) {
+            headerResults.style.display = 'none';
+          }
+        });
+      }
+    });
+
+    // back-to-top
+    window.onscroll = function() {
+      const btn = document.getElementById("backToTop");
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        btn.style.display = "block";
+      } else {
+        btn.style.display = "none";
+      }
+    };
+    document.getElementById("backToTop").addEventListener("click", function() {
+      window.scrollTo({ top:0, behavior:"smooth" });
+    });
+  </script>
+</body>
+</html>

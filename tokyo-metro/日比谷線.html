@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Analytics & Clarity -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E7R52K1NYL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E7R52K1NYL');
+  </script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "spvu3f92us");
+  </script>
+
+  <meta charset="utf-8" />
+  <meta name="title" content="日比谷線 | どこでも駅メロ・発車メロディー検索">
+  <meta name="author" content="ekimero">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="日比谷線 | 駅メロを探して簡単に再生できるサイトです。さまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。">
+  <meta name="keywords" content="発車メロディ,発車メロディー,駅メロ,駅ベル,発車ベル,どこでも駅メロ,どこでも発車ベル,どこでも発車メロディー,日比谷線発車メロディー">
+  <meta property="og:image" content="/logo.png">
+  <meta property="og:description" content="日比谷線 | 駅メロを探して簡単に再生できるサイトです。さまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。">
+  <meta property="og:title" content="日比谷線 | どこでも駅メロ・発車メロディー検索">
+  <meta property="og:url" content="https://ekimero.github.io/jr-east/日比谷線.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>日比谷線 | どこでも駅メロ・発車メロディー検索</title>
+  <link rel="canonical" href="https://ekimero.github.io/jr-east/日比谷線.html" />
+   <link rel="stylesheet" href="/index.css">
+
+<link rel="icon" href="/images/new-logo.png" type="image/png">
+ <link rel="icon" href="/images/new-favicon-32x32.png" type="image/png" sizes="32x32">
+   <link rel="icon" href="/images/new-favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="/images/new-favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/new-android-chrome-192x192.png" type="image/png" sizes="192x192">
+  <link rel="icon" href="/images/new-android-chrome-512x512.png" type="image/png" sizes="512x512">
+  <link rel="shortcut icon" href="/images/new-favicon-16x16.png" type="/image/png" sizes="16x16">
+  <link rel="shortcut icon" href="/images/new-favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="shortcut icon" href="/images/new-favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/images/new-android-chrome-192x192.png" type="image/png" sizes="192x192">
+  <link rel="shortcut icon" href="/images/new-android-chrome-512x512.png" type="image/png" sizes="512x512">
+  <link rel="apple-touch-icon" href="/images/new-apple-touch-icon.png">
+  <meta name="msapplication-TileImage" content="/images/favicon-32x32.png">
+  <meta name="msapplication-TileColor" content="#000000">
+
+ 
+</head>
+<style>
+.line-header {
+  position: relative;
+  width: 100%;
+  min-height: 260px; /* adjust height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 32px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: url("/images/日比谷線.jpg") center/cover no-repeat;
+  color: white; /* fallback for text */
+}
+
+.line-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(4, 12, 20, 0.6); /* blue tint */
+  z-index: 1;
+}
+
+.line-header-content {
+  position: relative;
+  z-index: 2;
+  padding: 24px;
+}
+
+.line-header h1 {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.line-header h2 {
+  color: #f0f0f0;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+#line-logos-container {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+</style>
+<body>
+  <header>
+    <a href="/index.html" class="title-link">
+      <img src="/logo.png" alt="どこでも駅メロのロゴ - 発車メロディ検索サイト" class="logo">
+      <b class="header1">どこでも駅メロ</b>
+    </a>
+    <nav>
+      <a href="/jr-east.html" class="company-btn">JR東日本</a>
+      <a href="/tokyo-metro.html" class="company-btn">東京メトロ</a>
+      <a href="/other.html" class="company-btn">その他</a>
+      <div style="position:relative;display:inline-block;min-width:220px;vertical-align:middle;">
+        <input id="header-search" type="text" placeholder="駅名・メロディ名で検索" 
+  style="font-size:1em;padding:8px 14px;border-radius:8px;
+  border:1px solid #bcd;box-shadow:0 2px 12px #1976d220;width:300px;">
+
+
+        <div id="header-search-results" style="position:absolute;top:110%;left:0;width:100%;background:#fff;box-shadow:0 2px 12px #1976d220;border-radius:8px;z-index:100;display:none;"></div>
+      </div>
+    </nav>
+    
+  </header>
+
+<main style="padding:24px; text-align:center;">
+<!-- Line header with background -->
+<div class="line-header">
+  <div class="line-header-overlay"></div>
+  <div class="line-header-content">
+    <div style="margin-bottom:16px;">
+<img src="/images/日比谷線.png" alt="日比谷線ロゴ" 
+     style="max-width:120px; height:auto; border-radius:16px;">
+    </div>
+    <h1>日比谷線の発車メロディー一覧</h1>
+    <h2>どこでも駅メロ | 日比谷線の駅ごとに発車メロディーを再生できます</h2>
+    <!-- Container for all line logos -->
+    <div id="line-logos-container"></div>
+  </div>
+</div>
+
+<div style="margin-bottom:32px; width:100%;">
+  <input id="line-filter" type="text" placeholder="駅名・メロディ名で絞り込み">
+</div>
+
+  <div id="stations-container" style="text-align:left;"></div>
+</main>
+
+
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const lineName = decodeURIComponent(window.location.pathname.split('/').pop().replace('.html',''));
+  const container = document.getElementById('stations-container');
+  const filterInput = document.getElementById('line-filter');
+
+  // Detect operator based on URL path
+  let companyFilter = null;
+  if (window.location.pathname.includes('/jr-east/')) {
+    companyFilter = 'JR東日本';
+  } else if (window.location.pathname.includes('/tokyo-metro/')) {
+    companyFilter = '東京メトロ';
+  } 
+  // (you can add more companies here as needed)
+
+  fetch('/stations.json')
+    .then(res => res.json())
+    .then(data => {
+      const lineStations = data.filter(s =>
+        s.line === lineName && (!companyFilter || s.company === companyFilter)
+      );
+
+      if (!lineStations.length) {
+        container.innerHTML = '<p style="text-align:center;color:#888;">この路線の駅メロは見つかりませんでした</p>';
+        return;
+      }
+
+      // Group by station
+      const stationsMap = {};
+      lineStations.forEach(s => {
+        if (!stationsMap[s.station]) stationsMap[s.station] = [];
+        stationsMap[s.station].push(s);
+      });
+
+      function renderStations() {
+        const query = filterInput.value.toLowerCase().trim();
+        container.innerHTML = Object.entries(stationsMap).map(([station, melodies]) => {
+          const matchStation = station.toLowerCase().includes(query);
+          const filteredMelodies = melodies.filter(m => m.melody.toLowerCase().includes(query));
+          if (!matchStation && !filteredMelodies.length) return '';
+          return `
+            <div class="station-card">
+              <div class="station-title">
+                <a href="/stations/${encodeURIComponent(station)}.html" style="color:#1976d2; text-decoration:underline;">
+                  ${station}駅
+                </a>
+              </div>
+              ${melodies.map(m => `
+                <div class="melody-item">
+                  <div class="melody-name">${m.melody || '名称不明'}</div>
+                  <div class="melody-line">${m.line}</div>
+                  ${m.file ? `
+                    <div style="display:flex; align-items:center; gap:8px; margin-top:8px;">
+                      <audio class="melody-audio" controls controlsList="nodownload" src="/${m.file}" loop></audio>
+                      <label style="font-size:0.85em; display:flex; align-items:center; gap:4px; cursor:pointer;">
+                        <input type="checkbox" class="loop-checkbox" checked> ループ
+                      </label>
+                    </div>` : '<span style="color:#888;">音源なし</span>'}
+                </div>
+              `).join('')}
+            </div>
+          `;
+        }).join('');
+
+        // Attach loop checkbox functionality
+        document.querySelectorAll('.loop-checkbox').forEach(cb => {
+          const audio = cb.closest('div').querySelector('audio');
+          if (audio) audio.loop = cb.checked;
+          cb.addEventListener('change', () => { if (audio) audio.loop = cb.checked; });
+        });
+      }
+
+      renderStations();
+      filterInput.addEventListener('input', renderStations);
+    });
+});
+</script>
+<script>
+// Header search bar instant search
+let headerStationsData = [];
+fetch('/stations.json')
+  .then(res => res.json())
+  .then(data => headerStationsData = data);
+
+document.addEventListener('DOMContentLoaded', function() {
+  const headerInput = document.getElementById('header-search');
+  const headerResults = document.getElementById('header-search-results');
+  if (headerInput) {
+    headerInput.addEventListener('input', function() {
+      const q = headerInput.value.trim().toLowerCase();
+      if (!q) {
+        headerResults.style.display = 'none';
+        headerResults.innerHTML = '';
+        return;
+      }
+      const matches = headerStationsData.filter(st =>
+        st.station.toLowerCase().includes(q) ||
+        st.melody.toLowerCase().includes(q)
+      ).slice(0, 8);
+
+      if (matches.length === 0) {
+        headerResults.innerHTML = '<div style="padding:12px;color:#888;font-size:1em;">該当なし</div>';
+        headerResults.style.display = 'block';
+        return;
+      }
+
+      headerResults.innerHTML = matches.map(st => {
+        const audioSrc = st.file ? (st.file.match(/^https?:\/\//) ? st.file : `/${st.file}`) : '';
+        const stationUrl = `/stations/${encodeURIComponent(st.station)}.html`;
+
+        return `
+          <div class="header-station" style="padding:12px 14px; border-bottom:1px solid #eee;">
+            <div class="header-station-text" style="margin-bottom:6px;">
+              <a href="${stationUrl}" style="font-weight:700;color:#1976d2;text-decoration:underline;display:block;">${st.station}</a>
+              <span style="font-size:0.95em;color:#333;display:block;">${st.melody}</span>
+            </div>
+            ${audioSrc ? `
+            <div class="header-station-audio" style="margin-top:4px;">
+              <audio controls controlsList="nodownload" src="${audioSrc}" style="width:100%;" loop></audio>
+              <label style="font-size:0.85em; display:block; margin-top:4px; cursor:pointer;">
+                <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+                ループ
+              </label>
+            </div>
+            ` : ''}
+          </div>
+        `;
+      }).join('');
+
+      headerResults.style.display = 'block';
+    });
+
+    document.addEventListener('click', function(e) {
+      if (!headerResults.contains(e.target) && e.target !== headerInput) {
+        headerResults.style.display = 'none';
+      }
+    });
+  }
+});
+</script>
+
+<!-- Firebase & play counter -->
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Firebase config
+  const firebaseConfig = {
+    apiKey: "AIzaSyBrgf00OFxksjZuFOQxgB1qUjZmLSG7yqk",
+    authDomain: "dokodemo-ekimero.firebaseapp.com",
+    databaseURL: "https://dokodemo-ekimero-default-rtdb.firebaseio.com",
+    projectId: "dokodemo-ekimero",
+    storageBucket: "dokodemo-ekimero.firebasestorage.app",
+    messagingSenderId: "189766315545",
+    appId: "1:189766315545:web:e88fb50dc039f7d2f28488",
+    measurementId: "G-EPCBNCPN4F"
+  };
+
+  // Initialize Firebase if not already
+  if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
+  const db = firebase.database();
+  const auth = firebase.auth();
+
+  // Sign in anonymously
+  auth.signInAnonymously().catch(console.error);
+
+  // Increment function with limits
+  function incrementPlay() {
+    const user = auth.currentUser;
+    if (!user) return;
+
+    const userRef = db.ref(`users/${user.uid}`);
+    const counterRef = db.ref("totalPlays");
+
+    userRef.transaction(userData => {
+      const now = Date.now();
+
+      if (!userData) {
+        // First-time user
+        return {
+          lastUpdate: now,
+          lastHourStart: now,
+          lastHourCount: 1,
+          lastDayStart: now,
+          lastDayCount: 1
+        };
+      }
+
+
+
+      // Hourly limit
+      let hourStart = userData.lastHourStart || now;
+      let hourCount = userData.lastHourCount || 0;
+      if (now - hourStart > 3600_000) { hourStart = now; hourCount = 0; }
+      if (hourCount >= 250) return;
+
+      // Daily limit
+      let dayStart = userData.lastDayStart || now;
+      let dayCount = userData.lastDayCount || 0;
+      if (now - dayStart > 24 * 3600_000) { dayStart = now; dayCount = 0; }
+      if (dayCount >= 500) return;
+
+      return {
+
+        lastUpdate: now,
+        lastHourStart: hourStart,
+        lastHourCount: hourCount + 1,
+        lastDayStart: dayStart,
+        lastDayCount: dayCount + 1
+      };
+    }, (error, committed) => {
+      if (!committed || error) return;
+      // Increment global counter
+      counterRef.transaction(current => (current || 0) + 1);
+    });
+  }
+
+  // Add listeners to audio elements
+  function setupAudioListeners() {
+    document.querySelectorAll('audio').forEach(audio => {
+      if (!audio.dataset.playListenerAdded) {
+        audio.addEventListener('play', incrementPlay);
+        audio.dataset.playListenerAdded = 'true';
+      }
+    });
+  }
+
+  setupAudioListeners();
+
+  // Observe dynamically added audio elements
+  new MutationObserver(() => setupAudioListeners()).observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+
+  // Real-time totalPlays display
+  db.ref("totalPlays").on("value", snapshot => {
+    const count = snapshot.val() || 0;
+    const el = document.getElementById("playCountNumber");
+    if (el) el.textContent = count.toLocaleString();
+  });
+});
+</script>
+<script src="/playcounter.js"></script>
+<button id="backToTop" style="display: none; position: fixed; bottom: 30px; right: 30px; z-index: 99; border: none; outline: none; background-color: #1976d2; color: white; cursor: pointer; width: 50px; height: 50px; border-radius: 50%; font-size: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#1565c0'; this.style.transform='scale(1.1)'" onmouseout="this.style.backgroundColor='#1976d2'; this.style.transform='scale(1)'">
+  ↑
+</button>
+
+  <script>
+    // 上に戻るボタンの表示/非表示を制御
+    window.onscroll = function() {
+      const backToTopButton = document.getElementById("backToTop");
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        backToTopButton.style.display = "block";
+      } else {
+        backToTopButton.style.display = "none";
+      }
+    };
+
+    // 上に戻るボタンの機能
+    document.getElementById("backToTop").addEventListener("click", function() {
+      // スムーズスクロール
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  </script>
+<footer>
+  <!-- Logo -->
+  <a href="/index.html" class="footer-logo-link">
+    <img src="/logo.png" alt="Site Icon" class="footer-icon">
+  </a>
+
+  <!-- Site navigation links -->
+  <div class="footer-links" style="margin: 12px 0; display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
+    <a href="/index.html">ホーム</a>
+    <a href="/jr-east.html">JR東日本</a>
+    <a href="/tokyo-metro.html">東京メトロ</a>
+    <a href="/other.html">その他</a>
+    <a href="/history.html">更新履歴</a>
+    <a href="/credits.html">音声・画像提供</a>
+  </div>
+
+  <!-- Clear and open footer description -->
+  <div style="color: #bbb; font-size: 0.95em; max-width: 800px; margin: 12px auto; line-height: 1.5;">
+    いつもご利用ありがとうございます。<br>
+    鉄道モバイル: <a href="https://www.te2do.jp" target="_blank">https://www.te2do.jp</a>
+  </div>
+</footer>
+</body>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+  const filterInput = document.getElementById('line-filter');
+  const stationsContainer = document.getElementById('stations-container');
+
+  filterInput.addEventListener('input', () => {
+    const query = filterInput.value.toLowerCase().trim();
+
+    // Show/hide station cards based on filter
+    document.querySelectorAll('.station-card').forEach(card => {
+      const stationName = card.querySelector('.station-title').textContent.toLowerCase();
+      const melodies = Array.from(card.querySelectorAll('.melody-item')).map(m => m.querySelector('.melody-name').textContent.toLowerCase());
+
+      const matchStation = stationName.includes(query);
+      const matchMelody = melodies.some(name => name.includes(query));
+
+      card.style.display = (matchStation || matchMelody) ? 'block' : 'none';
+    });
+  });
+});
+
+</script>
+</html>
