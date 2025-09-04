@@ -647,7 +647,7 @@ footer {
 }
 
 footer > div:last-child {
-  color: #bbb;
+  color: #5d5d5d;
   font-size: 0.95em;
   max-width: 800px;
   margin: 12px auto;
