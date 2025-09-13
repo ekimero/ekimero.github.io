@@ -7815,15 +7815,15 @@
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "雀宮",
-    "melody": "シンコペーション",
-    "file": "audio/シンコペーション.mp3"
+    "melody": "首都圏3-1番",
+    "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "雀宮",
-    "melody": "See you again",
-    "file": "audio/See you again.mp3"
+    "melody": "首都圏3番",
+    "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
