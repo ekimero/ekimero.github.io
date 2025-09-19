@@ -287,7 +287,7 @@ const lineUrl = `${basePath}/${encodeURIComponent(line)}.html`;
                             <div style="display:flex; flex-direction:column; gap:6px; width:100%;">
                               <audio controls controlsList="nodownload" src="${audioSrc}" loop style="width:100%;"></audio>
                               <label style="font-size:0.9em; cursor:pointer; display:flex; align-items:center; gap:4px;">
-                                <input type="checkbox" class="loop-checkbox" checked> ループ
+                                <input type="checkbox" class="loop-checkbox"> ループ
                               </label>
                             </div>
                           ` : '<span style="color:#888;">音源なし</span>'}
@@ -311,8 +311,8 @@ const lineUrl = `${basePath}/${encodeURIComponent(line)}.html`;
 
       renderCompanyMelodies();
 
-      // Search input
-      searchInput.addEventListener('input', e => {
+      // Fix: Use line-filter input for filtering
+      filterInput.addEventListener('input', e => {
         renderCompanyMelodies(e.target.value);
       });
     });
@@ -362,7 +362,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="header-station-audio" style="margin-top:4px;">
               <audio controls controlsList="nodownload" src="${audioSrc}" style="width:100%;" loop></audio>
               <label style="font-size:0.85em; display:block; margin-top:4px; cursor:pointer;">
-                <input type="checkbox" checked onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+                <input type="checkbox" onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
                 ループ
               </label>
             </div>

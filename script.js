@@ -111,7 +111,7 @@ function render(data) {
       ${audioSrc ? `
         <div style="display:flex; flex-direction:column; gap:4px; margin-top:4px;">
           <label style="font-size:0.85em; display:flex; align-items:center; gap:4px; cursor:pointer;">
-            <input type="checkbox" class="loop-checkbox" checked>
+            <input type="checkbox" class="loop-checkbox">
             ループ
           </label>
           <audio controls controlsList="nodownload" src="${audioSrc}" class="station-audio"></audio>

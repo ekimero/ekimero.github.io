@@ -3643,15 +3643,15 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "藤代",
-    "melody": "Water Crown",
-    "file": "audio/Water Crown.mp3"
+    "melody": "首都圏12番",
+    "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "藤代",
-    "melody": "Gota del Vient",
-    "file": "audio/Gota del Vient.mp3"
+    "melody": "首都圏12-1番",
+    "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
@@ -3692,15 +3692,15 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "ひたち野うしく",
-    "melody": "Water Crown",
-    "file": "audio/Water Crown.mp3"
+    "melody": "首都圏12番",
+    "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "ひたち野うしく",
-    "melody": "Gota del Vient",
-    "file": "audio/Gota del Vient.mp3"
+    "melody": "首都圏12-1番",
+    "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
@@ -3748,15 +3748,15 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "高浜",
-    "melody": "Water Crown",
-    "file": "audio/Water Crown.mp3"
+    "melody": "首都圏12番",
+    "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "高浜",
-    "melody": "Gota del Vient",
-    "file": "audio/Gota del Vient.mp3"
+    "melody": "首都圏12-1番",
+    "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
@@ -3783,15 +3783,29 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "羽鳥",
-    "melody": "Gota del Vient",
-    "file": "audio/Gota del Vient.mp3"
+    "melody": "首都圏12番",
+    "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "羽鳥",
-    "melody": "Water Crown",
-    "file": "audio/Water Crown.mp3"
+    "melody": "首都圏12-1番",
+    "file": "audio/首都圏12-1番.mp3"
+  },
+    {
+    "company": "JR東日本",
+    "line": "常磐線",
+    "station": "羽鳥",
+    "melody": "首都圏12-2番",
+    "file": "audio/首都圏12-2番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "常磐線",
+    "station": "羽鳥",
+    "melody": "首都圏12-3番",
+    "file": "audio/首都圏12-3番.mp3"
   },
   {
     "company": "JR東日本",
@@ -3832,15 +3846,15 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "内原",
-    "melody": "Gota del Vient",
-    "file": "audio/Gota del Vient.mp3"
+    "melody": "首都圏12番",
+    "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "内原",
-    "melody": "Water Crown",
-    "file": "audio/Water Crown.mp3"
+    "melody": "首都圏12-1番",
+    "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
@@ -3881,43 +3895,50 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "勝田",
-    "melody": "Water Crown",
-    "file": "audio/Water Crown.mp3"
+    "melody": "首都圏12番",
+    "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "勝田",
-    "melody": "Gota del Vient",
-    "file": "audio/Gota del Vient.mp3"
+    "melody": "首都圏12-1番",
+    "file": "audio/首都圏12-1番.mp3"
+  },
+    {
+    "company": "JR東日本",
+    "line": "常磐線",
+    "station": "勝田",
+    "melody": "首都圏12-2番",
+    "file": "audio/首都圏12-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "佐和",
-    "melody": "Water Crown",
-    "file": "audio/Water Crown.mp3"
+    "melody": "首都圏12番",
+    "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "佐和",
-    "melody": "Gota del Vient",
-    "file": "audio/Gota del Vient.mp3"
+    "melody": "首都圏12-1番",
+    "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "東海",
-    "melody": "Gota del Vient",
-    "file": "audio/Gota del Vient.mp3"
+    "melody": "首都圏12番",
+    "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "東海",
-    "melody": "Water Crown",
-    "file": "audio/Water Crown.mp3"
+    "melody": "首都圏12-1番",
+    "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
@@ -7619,15 +7640,15 @@
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "久喜",
-    "melody": "牧場の朝旧赤羽Ver",
-    "file": "audio/牧場の朝旧赤羽Ver.mp3"
+    "melody": "首都圏3-1番",
+    "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "久喜",
-    "melody": "アマリリス",
-    "file": "audio/アマリリス.mp3"
+    "melody": "首都圏3番",
+    "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
@@ -11731,7 +11752,7 @@
     "company": "JR東日本",
     "line": "未使用",
     "station": "未使用",
-    "melody": "すみれの花咲く頃箱(東北7-4番)",
+    "melody": "すみれの花咲く頃(東北7-4番)",
     "file": "audio/すみれの花咲く頃(東北7-4番).mp3"
   },
           {
@@ -11740,6 +11761,20 @@
     "station": "未使用",
     "melody": "JR-SH9-1",
     "file": "audio/JR-SH9-1.mp3"
+  },
+          {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "牧場の朝旧赤羽Ver",
+    "file": "audio/牧場の朝旧赤羽Ver.mp3"
+  },
+          {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "アマリリス旧赤羽Ver",
+    "file": "audio/アマリリス旧赤羽Ver.mp3"
   }
   
   

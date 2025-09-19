@@ -81,7 +81,7 @@ function render(data) {
       <strong>${stationLink}</strong><br>
       <em>${entry.melody}</em><br>
       <label style="font-size:0.85em; display:block; margin-bottom:4px; cursor:pointer;">
-        <input type="checkbox" checked onchange="this.parentElement.nextElementSibling.loop = this.checked;">
+        <input type="checkbox" onchange="this.parentElement.nextElementSibling.loop = this.checked;">
         ループ
       </label>
       <audio controls controlsList="nodownload" src="${entry.file}"></audio>
