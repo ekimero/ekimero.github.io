@@ -145,7 +145,7 @@
               <div style="font-size:0.95em;color:#333;">${st.melody}</div>
               ${audioSrc ? `
                 <div style="display:flex;align-items:center;gap:6px;margin-top:4px;">
-                  <audio controls controlsList="nodownload" src="${audioSrc}" style="width:180px;min-width:120px;" loop></audio>
+                  <audio controls controlsList="nodownload" src="${audioSrc}" style="width:180px;min-width:120px;"></audio>
                   <label style="font-size:0.85em; display:flex; align-items:center; gap:4px; cursor:pointer;">
                     <input type="checkbox" onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
                     ループ

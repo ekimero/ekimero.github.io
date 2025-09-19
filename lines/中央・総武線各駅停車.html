@@ -545,7 +545,7 @@ headerInput.addEventListener('input', function() {
       <div style="padding:12px; border-bottom:1px solid #eee;">
         <a href="${stationUrl}" style="font-weight:700;color:#1976d2;text-decoration:underline;">${st.station}</a>
         <div>${st.melody || ''}</div>
-        ${audioSrc ? `<audio controls controlsList="nodownload" src="${audioSrc}" style="width:100%;" loop></audio>` : ''}
+        ${audioSrc ? `<audio controls controlsList="nodownload" src="${audioSrc}" style="width:100%;"></audio>` : ''}
       </div>`;
   }).join('');
   headerResults.style.display='block';

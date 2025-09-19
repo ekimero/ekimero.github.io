@@ -1,3 +1,4 @@
+.mp3
 A Day in the Metro.mp3
 Beyond the Metropolis.mp3
 Cielo Estrellado.mp3
@@ -63,7 +64,7 @@ sunnyislands.mp3
 ふる里「みなかみ」ver.A.mp3
 ふる里「みなかみ」ver.B.mp3
 ぼくドラえもん.mp3
-アマリリス.mp3
+アマリリス旧赤羽Ver.mp3
 カリフォルニアシャワーVer.A.mp3
 カリフォルニアシャワーVer.B.mp3
 サムライ電車.mp3
@@ -141,6 +142,8 @@ sunnyislands.mp3
 電車ごっこB.mp3
 電車ごっこC.mp3
 青空と線路.mp3
+首都圏12-2番.mp3
+首都圏12-3番.mp3
 首都圏25-1番.mp3
 首都圏5-1番(高音).mp3
 首都圏5番(高音).mp3
