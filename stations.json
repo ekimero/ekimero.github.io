@@ -137,7 +137,7 @@
     "line": "山手線",
     "station": "巣鴨",
     "melody": "春 標準",
-    "file": "audio/春.mp3"
+    "file": "audio/春標準.mp3"
   },
   {
     "company": "JR東日本",
@@ -151,7 +151,7 @@
     "line": "山手線",
     "station": "大塚",
     "melody": "春 標準",
-    "file": "audio/春.mp3"
+    "file": "audio/春標準.mp3"
   },
   {
     "company": "JR東日本",
@@ -193,7 +193,7 @@
     "line": "山手線",
     "station": "目白",
     "melody": "春 標準",
-    "file": "audio/春.mp3"
+    "file": "audio/春標準"
   },
   {
     "company": "JR東日本",
@@ -11754,13 +11754,6 @@
     "station": "未使用",
     "melody": "すみれの花咲く頃(東北7-4番)",
     "file": "audio/すみれの花咲く頃(東北7-4番).mp3"
-  },
-          {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "JR-SH9-1",
-    "file": "audio/JR-SH9-1.mp3"
   },
           {
     "company": "JR東日本",
