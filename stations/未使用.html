@@ -288,18 +288,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 ${pagedMelodies.map(m => {
                   const audioSrc = m.file ? (m.file.startsWith('audio/') ? `/${m.file}` : `/audio/${m.file}`) : '';
                   return `
-                    <div class="melody-item" style="background:linear-gradient(135deg,#f8fbff 60%,#e3eafc 100%); box-shadow:0 4px 16px rgba(25,118,210,0.08),0 1.5px 6px rgba(0,0,0,0.04); border-radius:18px; padding:28px 24px; margin-bottom:20px; display:flex; flex-direction:column; gap:18px; align-items:flex-start; border:1px solid #e3eafc; transition:box-shadow 0.2s;">
-                      <div style="display:flex; align-items:center; gap:12px; width:100%; justify-content:space-between;">
-                        <div class="melody-name" style="font-weight:700; font-size:1.18em; color:#1976d2; letter-spacing:0.02em;">${m.melody || '名称不明'}${m.direction ? ` <span style='font-size:0.95em; color:#555;'>(${m.direction}方面)</span>` : ''}</div>
+                    <div class="melody-item" style="margin-bottom:16px; padding:24px; border-radius:16px; background:#fff; box-shadow:0 3px 12px rgba(0,0,0,0.08); display:flex; flex-direction:column; gap:12px; align-items:flex-start;">
+                      <div class="melody-name" style="font-weight:600; font-size:1.15em; text-align:left;">
+                        ${m.melody || '名称不明'} ${m.direction ? `(${m.direction}方面)` : ''}
                       </div>
                       ${audioSrc ? `
-                        <div style="display:flex; flex-direction:row; gap:18px; align-items:center; width:100%;">
-                          <audio controls controlsList="nodownload" src="${audioSrc}" loop style="flex:1; min-width:180px; max-width:340px; border-radius:8px; background:#fff; box-shadow:0 2px 8px #1976d220;"></audio>
-                          <label style="font-size:1em; color:#1976d2; background:#e3eafc; border-radius:8px; padding:6px 14px; cursor:pointer; display:flex; align-items:center; gap:7px; box-shadow:0 1px 4px #1976d220; border:1px solid #bcd;">
-                            <input type="checkbox" class="loop-checkbox" style="accent-color:#1976d2; width:18px; height:18px;"> ループ
+                        <div style="display:flex; flex-direction:column; gap:6px; width:100%;">
+                          <audio controls controlsList="nodownload" src="${audioSrc}" loop style="width:100%;"></audio>
+                          <label style="font-size:0.9em; cursor:pointer; display:flex; align-items:center; gap:4px;">
+                            <input type="checkbox" class="loop-checkbox"> ループ
                           </label>
                         </div>
-                      ` : '<span style="color:#888; font-size:1em;">音源なし</span>'}
+                      ` : '<span style="color:#888;">音源なし</span>'}
                     </div>
                   `;
                 }).join('')}
