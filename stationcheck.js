@@ -24,7 +24,7 @@ stationsData.forEach(entry => {
   }
 });
 
-// Write the new data to station.json
+// Write the new datsa to station.json
 fs.writeFileSync('station.json', JSON.stringify(newStationsData, null, 2), 'utf8');
 
 console.log('Created station.json with duplicated single-melody entries');
