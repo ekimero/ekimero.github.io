@@ -1032,8 +1032,29 @@
     "company": "JR東日本",
     "line": "東海道線",
     "station": "平塚",
-    "melody": "たなばたさま",
-    "file": "audio/たなばたさま.mp3"
+    "melody": "たなばたさまV1",
+    "file": "audio/たなばたさまV1.mp3"
+  },
+    {
+    "company": "JR東日本",
+    "line": "東海道線",
+    "station": "平塚",
+    "melody": "たなばたさまV2",
+    "file": "audio/たなばたさまV2.mp3"
+  },
+    {
+    "company": "JR東日本",
+    "line": "東海道線",
+    "station": "平塚",
+    "melody": "たなばたさまV3",
+    "file": "audio/たなばたさまV3.mp3"
+  },
+    {
+    "company": "JR東日本",
+    "line": "東海道線",
+    "station": "平塚",
+    "melody": "たなばたさまV4",
+    "file": "audio/たなばたさまV4.mp3"
   },
   {
     "company": "JR東日本",
@@ -3860,36 +3881,71 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "赤塚",
-    "melody": "Water Crown",
-    "file": "audio/Water Crown.mp3"
+    "melody": "首都圏12番",
+    "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "赤塚",
-    "melody": "Gota del Vient",
-    "file": "audio/Gota del Vient.mp3"
+    "melody": "首都圏12-1番",
+    "file": "audio/首都圏12-1番.mp3"
+  },
+    {
+    "company": "JR東日本",
+    "line": "常磐線",
+    "station": "赤塚",
+    "melody": "首都圏12-2番",
+    "file": "audio/首都圏12-2番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "水郡線",
+    "station": "水戸",
+    "melody": "首都圏32番",
+    "file": "audio/首都圏32番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "水郡線",
+    "station": "水戸",
+    "melody": "首都圏32-1番",
+    "file": "audio/首都圏32-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "水戸",
-    "melody": "大都会の雑踏の中で聞こえるチャイム",
-    "file": "audio/大都会の雑踏の中で聞こえるチャイム.mp3"
+    "melody": "首都圏12番",
+    "file": "audio/首都圏12番.mp3"
   },
-  {
+    {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "水戸",
-    "melody": "日本庭園の水と草木",
-    "file": "audio/日本庭園の水と草木.mp3"
+    "melody": "首都圏12番",
+    "file": "audio/首都圏12-4番.mp3"
   },
-  {
+    {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "水戸",
-    "melody": "太平洋の海岸での生命の誕生",
-    "file": "audio/太平洋の海岸での生命の誕生.mp3"
+    "melody": "首都圏12番",
+    "file": "audio/首都圏12-1番.mp3"
+  },
+    {
+    "company": "JR東日本",
+    "line": "常磐線",
+    "station": "水戸",
+    "melody": "首都圏12番",
+    "file": "audio/首都圏12-2番.mp3"
+  },
+    {
+    "company": "JR東日本",
+    "line": "常磐線",
+    "station": "水戸",
+    "melody": "首都圏12番",
+    "file": "audio/首都圏12-3番.mp3"
   },
   {
     "company": "JR東日本",
@@ -6562,8 +6618,8 @@
     "company": "JR東日本",
     "line": "成田線",
     "station": "四街道",
-    "melody": "Gota del Vient(新四街道)",
-    "file": "audio/Gota del Vient(新四街道).mp3"
+    "melody": "Gota del Vient 四街道Ver",
+    "file": "audio/Gota del Vient 四街道Ver.mp3"
   },
   {
     "company": "JR東日本",
@@ -7143,8 +7199,8 @@
     "company": "JR東日本",
     "line": "内房線",
     "station": "千倉",
-    "melody": "Gota del Vient(新四街道)",
-    "file": "audio/Gota del Vient(新四街道).mp3"
+    "melody": "Gota del Vient 四街道Ver",
+    "file": "audio/Gota del Vient 四街道Ver.mp3"
   },
   {
     "company": "JR東日本",
@@ -10975,13 +11031,6 @@
     "company": "JR東日本",
     "line": "未使用",
     "station": "未使用",
-    "melody": "チャイム3B6",
-    "file": "audio/チャイム3B6.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
     "melody": "JR-SH5-1",
     "file": "audio/JR-SH5-1.mp3"
   },
@@ -11040,132 +11089,6 @@
     "station": "未使用",
     "melody": "JR-SH6-1",
     "file": "audio/JR-SH6-1.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "ホリデイV2",
-    "file": "audio/.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "ホリデイV1",
-    "file": "audio/.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "あざみ野V1",
-    "file": "audio/.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "くるみあそび",
-    "file": "audio/.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "sunrise鐘強調",
-    "file": "audio/.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "メロディーV1",
-    "file": "audio/.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "シンコペーション",
-    "file": "audio/.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "sunny islands",
-    "file": "audio/sunnyislands.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "dance on",
-    "file": "audio/.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "雪解け間近V1",
-    "file": "audio/.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "花のほころびV2",
-    "file": "audio/.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "瞬く街並みV1",
-    "file": "audio/.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "星空の下",
-    "file": "audio/.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "公園の楓",
-    "file": "audio/公園の楓.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "公園通り",
-    "file": "audio/.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "九月の風V1",
-    "file": "audio/.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "ドリームタイム",
-    "file": "audio/.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "緑の車窓",
-    "file": "audio/.mp3"
   },
   {
     "company": "JR東日本",
@@ -11752,8 +11675,8 @@
     "company": "JR東日本",
     "line": "未使用",
     "station": "未使用",
-    "melody": "すみれの花咲く頃(東北7-4番)",
-    "file": "audio/すみれの花咲く頃(東北7-4番).mp3"
+    "melody": "すみれの花咲く頃(箱根ヶ崎Ver)",
+    "file": "audio/すみれの花咲く頃(箱根ヶ崎Ver).mp3"
   },
           {
     "company": "JR東日本",
@@ -11768,6 +11691,160 @@
     "station": "未使用",
     "melody": "アマリリス旧赤羽Ver",
     "file": "audio/アマリリス旧赤羽Ver.mp3"
+  },
+            {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "初夏の雪解けの小川のせせらぎ",
+    "file": "audio/初夏の雪解けの小川のせせらぎ.mp3"
+  },
+            {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "日本庭園の水と草木",
+    "file": "audio/日本庭園の水と草木.mp3"
+  },
+            {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "大都会の雑踏の中で聞こえるチャイム",
+    "file": "audio/大都会の雑踏の中で聞こえるチャイム.mp3"
+  },
+             {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "太平洋の海岸での生命の誕生",
+    "file": "audio/太平洋の海岸での生命の誕生.mp3"
+  },
+    {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "ホリデイV2",
+    "file": "audio/.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "ホリデイV1",
+    "file": "audio/.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "あざみ野V1",
+    "file": "audio/.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "くるみあそび",
+    "file": "audio/.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "sunrise鐘強調",
+    "file": "audio/.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "メロディーV1",
+    "file": "audio/.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "シンコペーション",
+    "file": "audio/.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "sunny islands",
+    "file": "audio/sunny islands.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "dance on",
+    "file": "audio/dance on.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "雪解け間近V1",
+    "file": "audio/.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "花のほころびV2",
+    "file": "audio/.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "瞬く街並みV1",
+    "file": "audio/.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "星空の下",
+    "file": "audio/.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "公園の楓",
+    "file": "audio/公園の楓.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "公園通り",
+    "file": "audio/.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "九月の風V1",
+    "file": "audio/.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "ドリームタイム",
+    "file": "audio/.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "緑の車窓",
+    "file": "audio/.mp3"
   }
   
   
