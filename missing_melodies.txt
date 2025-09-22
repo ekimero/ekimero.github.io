@@ -2,149 +2,58 @@
 A Day in the Metro.mp3
 Beyond the Metropolis.mp3
 Cielo Estrellado.mp3
-Cielo Estrellado(半音低い).mp3
 Gota del Vient 四街道Ver.mp3
-Gota del Vient(やや低い.mp3
 Gota del Vient(やや低い).mp3
-Gota del Vient(新四街道).mp3
 HANDS〜大きな手から、小さな手へ〜 Ver.A.mp3
 HANDS〜大きな手から、小さな手へ〜 Ver.B.mp3
 HANDS〜大きな手から、小さな手へ〜 Ver.C.mp3
-JR-SH1-1.mp3
-JR-SH1-3.mp3
-JR-SH2-1.mp3
-JR-SH2-3.mp3
-JR-SH3-1.mp3
-JR-SH3-3.mp3
-JR-SH4-1.mp3
-JR-SH5-1.mp3
-JR-SH5-3.mp3
-JR-SH6-1.mp3
-JR-SH6-3.mp3
-JR-SH7-1.mp3
-JR-SH8-1.mp3
 JR-SH8-3.mp3
-JR-SH9-1.mp3
-JR-SH9-3.mp3
-JupiterVer.A.mp3
-JupiterVer.B.mp3
-JupiterVer.C.mp3
-LetItGo〜ありのままで〜.mp3
-ML-24.mp3
 OK!.mp3
-Over コーラスVer.mp3
-SF10-38.mp3
-SF10-43.mp3
-SF10-68.mp3
 Verde Rayo(低音強調).mp3
 Verde Rayo(遅い).mp3
-Water Crown(エンドレス).mp3
-Water Crown(半音低い).mp3
-Water Crown(微低).mp3
-sunnyislands.mp3
-おはよう.mp3
+dance on.mp3
+sunny islands.mp3
 お江戸日本橋.mp3
-きてよパーマン.mp3
 ぐルぐル.mp3
 さくら(独唱) AメロVer..mp3
 さくら(独唱) サビVer..mp3
 さくらさくらA武蔵小金井.mp3
 さくらさくらB武蔵小金井.mp3
-すいみん不足.mp3
-すみれの花咲く頃(東北7-4番).mp3
-すみれの花咲く頃(矢板Ver.).mp3
 せせらぎ(高音).mp3
-たなばたさま.mp3
 たなばたさまVerA.mp3
 たなばたさまVerB.mp3
 たなばたさまVerC.mp3
 たなばたさまVerD.mp3
-どんぐりころころVer.A.mp3
-どんぐりころころVer.B.mp3
 ふる里「みなかみ」ver.A.mp3
-ふる里「みなかみ」ver.B.mp3
-ぼくドラえもん.mp3
 アマリリス旧赤羽Ver.mp3
-カリフォルニアシャワーVer.A.mp3
-カリフォルニアシャワーVer.B.mp3
 サムライ電車.mp3
-ジュピターVer.B.mp3
-ジュピターVer.E.mp3
-ジュピターVer.G.mp3
 スキップ電車.mp3
-チャイム3B1.mp3
-チャイム3B5.mp3
-チャイム3B6.mp3
-チャイム3B7.mp3
-チュニジア.mp3
-トレイントレイン.mp3
-ドラえもんのうた.mp3
-ドリームパーク.mp3
-ナンバーワン野郎！Ver.A.mp3
-ナンバーワン野郎！Ver.B.mp3
-ハッピーガール.mp3
-ムーンリバー北小金Ver.mp3
-丘を越えてVer.A.mp3
-丘を越えてVer.B.mp3
 公園の楓.mp3
 原宿a.mp3
 原宿b.mp3
 君の名は希望 イントロVer..mp3
 君の名は希望 サビVer..mp3
-四季〜春第一楽章〜.mp3
-四季〜秋第三楽章〜.mp3
-夢のワルツ.mp3
-夢をかなえてドラえもん.mp3
 大きな玉ねぎの下で 〜はるかなる想い.mp3
-大都会の雑踏の中で聞こえるチャイム.mp3
-川崎市歌Ver.A.mp3
-川崎市歌Ver.B.mp3
-希望のまち09.mp3
-幸せなら手をたたこうV2.mp3
-幸福の銀レール.mp3
 旅の予感.mp3
-春だより.mp3
+春標準.mp3
 春風V1.mp3
-春風V2.mp3
-朝つゆ.mp3
 朝のドヴィッシー.mp3
-武田節 サビVer.mp3
-武田節 歌い出しVer.mp3
-浜千鳥(矢板Ver.).mp3
-浜千鳥(高速Ver.).mp3
 海岸通り.mp3
-海辺の散歩.mp3
-淡い恋心.mp3
-牧場の朝北小金Ver.mp3
 牧場の朝旧赤羽Ver.mp3
-牧場の朝箱根ヶ崎Ver.mp3
-田園浪漫.mp3
-稲城繁盛節Ver.A.mp3
-稲城繁盛節Ver.B.mp3
-突き進め柏.mp3
 第三の男E.mp3
-線路は続くよどこまでもVer.A.mp3
-線路は続くよどこまでもVer.B.mp3
-線路は続くよどこまでもVer.C.mp3
 花 サビVer..mp3
 花 歌い出しVer..mp3
 草原.mp3
-蝶.mp3
-輝く未来.mp3
 近郊地域17番.mp3
 通勤ステップ.mp3
-鉄道唱歌Ver.B.mp3
-鉄道唱歌Ver.C.mp3
 銀座カンカン娘 AメロVer..mp3
 銀座カンカン娘 サビVer..mp3
 陽だまりV1.mp3
 陽だまりV4.mp3
-電車ごっこB.mp3
-電車ごっこC.mp3
-青空と線路.mp3
 首都圏12-2番.mp3
 首都圏12-3番.mp3
-首都圏25-1番.mp3
+首都圏12-4番.mp3
+首都圏32-1番.mp3
+首都圏32番.mp3
 首都圏5-1番(高音).mp3
 首都圏5番(高音).mp3
-高原のつぶやき.mp3
