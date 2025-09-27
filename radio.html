@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E7R52K1NYL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-E7R52K1NYL');
+  </script>
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "spvu3f92us");
+  </script>
+<link rel="manifest" href="/manifest.json?v=3">
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/sw.js')
+      .then(() => console.log('Service Worker registered'))
+      .catch((err) => console.error('SW registration failed:', err));
+  }
+</script>
+
+
+  <meta name="title" content="発車メロディーラジオ | どこでも駅メロ・発車メロディー検索">
+  <meta name="author" content="ekimero">
+  <meta charset="utf-8" />
+  <meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="description" content="発車メロディーラジオ | 駅メロを探して簡単に再生できるサイトです。さまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。">
+  <meta name="keywords" content="発車メロディーラジオ, 発車メロディ,発車メロディー,駅メロ,駅ベル,発車ベル,どこでも駅メロ,どこでも発車ベル,どこでも発車メロディー">
+
+  <meta property="og:image" content="logo.png">
+  <meta property="og:description" content="発車メロディーラジオ | 駅メロを探して簡単に再生できるサイトです。さまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。">
+  <meta property="og:title" content="発車メロディーラジオ | どこでも駅メロ・発車メロディー検索">
+  <meta property="og:url" content="https://ekimero.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:site_name" content="発車メロディーラジオ | どこでも駅メロ・発車メロディー検索">
+  <title>発車メロディーラジオ | どこでも駅メロ・発車メロディー検索</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="canonical" href="https://ekimero.github.io/" />
+
+<link rel="icon" href="/images/new-logo.png" type="image/png">
+ <link rel="icon" href="/images/new-favicon-32x32.png" type="image/png" sizes="32x32">
+   <link rel="icon" href="/images/new-favicon-16x16.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="/images/new-favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/images/new-android-chrome-192x192.png" type="image/png" sizes="192x192">
+  <link rel="icon" href="/images/new-android-chrome-512x512.png" type="image/png" sizes="512x512">
+  <link rel="shortcut icon" href="/images/new-favicon-16x16.png" type="/image/png" sizes="16x16">
+  <link rel="shortcut icon" href="/images/new-favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="shortcut icon" href="/images/new-favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="/images/new-android-chrome-192x192.png" type="image/png" sizes="192x192">
+  <link rel="shortcut icon" href="/images/new-android-chrome-512x512.png" type="image/png" sizes="512x512">
+  <link rel="apple-touch-icon" href="/images/new-apple-touch-icon.png">
+  <meta name="msapplication-TileImage" content="/images/favicon-32x32.png">
+  <meta name="msapplication-TileColor" content="#000000">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "発車メロディーラジオ | どこでも駅メロ・発車メロディー検索",
+      "url": "https://ekimero.github.io/",
+      "description": "発車メロディーラジオ | 駅メロを探して簡単に再生できるサイトです。さまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。",
+      "inLanguage": "ja"
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <a href="index.html" class="title-link">
+      <img src="logo.png" alt="どこでも駅メロのロゴ - 発車メロディ検索サイト" class="logo">
+      <b class="header1">どこでも駅メロ</b>
+    </a>
+    <nav>
+      <a href="jr-east.html" class="company-btn">JR東日本</a>
+      <a href="tokyo-metro.html" class="company-btn">東京メトロ</a>
+      <a href="/stations/未使用.html" class="company-btn">未使用のメロディー</a>
+      <div style="position:relative;display:inline-block;min-width:220px;vertical-align:middle;">
+        <input id="header-search" type="text" placeholder="駅名・メロディ名で検索" 
+  style="font-size:1em;padding:8px 14px;border-radius:8px;
+  border:1px solid #bcd;box-shadow:0 2px 12px #1976d220;width:300px;">
+
+
+        <div id="header-search-results" style="position:absolute;top:110%;left:0;width:100%;background:#fff;box-shadow:0 2px 12px #1976d220;border-radius:8px;z-index:100;display:none;"></div>
+      </div>
+    </nav>
+    
+  </header>
+<main>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+
+
+        .random-melody-section {
+            margin: 60px auto;
+            max-width: 900px;
+            text-align: center;
+        }
+
+        .random-melody-container {
+            background: linear-gradient(135deg, #e3f0ff 0%, #f5f5f5 100%);
+            border-radius: 32px;
+            padding: 48px 24px;
+            box-shadow: 
+                0 12px 48px rgba(25, 118, 210, 0.18),
+                0 4px 16px rgba(25, 118, 210, 0.12);
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(25, 118, 210, 0.08);
+        }
+
+        .random-melody-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="white" opacity="0.1"/><circle cx="80" cy="40" r="1.5" fill="white" opacity="0.1"/><circle cx="40" cy="80" r="1" fill="white" opacity="0.1"/></svg>');
+            pointer-events: none;
+        }
+
+        .floating-icon {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 3em;
+            opacity: 0.13;
+            pointer-events: none;
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .random-melody-title {
+            font-size: 2.2em;
+            color: #1976d2;
+            margin-bottom: 30px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            text-shadow: 0 2px 4px rgba(25, 118, 210, 0.10);
+            position: relative;
+            z-index: 1;
+        }
+
+        .controls-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .control-select {
+            font-size: 1em;
+            padding: 12px 16px;
+            border-radius: 12px;
+            border: 1px solid #bcd;
+            background: #fff;
+            box-shadow: 0 4px 12px #1976d220;
+            color: #333;
+            font-weight: 500;
+        }
+
+        .control-select:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+            background: white;
+        }
+
+        .control-select:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+        }
+
+        .toggle-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-bottom: 25px;
+            flex-wrap: wrap;
+        }
+
+        .toggle-btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .toggle-btn.active {
+            background: rgba(255, 255, 255, 0.95);
+            color: #667eea;
+            border-color: rgba(255, 255, 255, 0.8);
+            transform: scale(1.05);
+        }
+
+        .toggle-btn:hover:not(.active) {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .melody-display {
+            margin: 25px auto;
+            padding: 25px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            min-height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .melody-display::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+            transition: left 0.8s ease;
+        }
+
+        .melody-display.loading::before {
+            left: 100%;
+        }
+
+        .station-info {
+            text-align: center;
+            width: 100%;
+        }
+
+        .station-name {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .station-details {
+            color: #666;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .melody-title {
+            color: #667eea;
+            font-style: italic;
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+
+        .audio-container {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .custom-audio {
+            width: 100%;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        .audio-controls {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+            justify-content: center;
+        }
+
+        .loop-toggle {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.9em;
+            color: #666;
+            cursor: pointer;
+        }
+
+        .navigation-controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .nav-btn {
+            padding: 12px 16px;
+            border: none;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            font-size: 1.2em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .nav-btn:hover {
+            transform: translateY(-2px) scale(1.1);
+            background: rgba(255, 255, 255, 0.3);
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .main-btn {
+            padding: 14px 32px;
+            border: none;
+            border-radius: 25px;
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            font-size: 1.1em;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 6px 16px rgba(238, 90, 36, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .main-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(238, 90, 36, 0.4);
+            background: linear-gradient(135deg, #ff5252, #d63031);
+        }
+
+        .main-btn:active {
+            transform: translateY(-1px);
+        }
+
+        .help-text {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.95em;
+            margin-top: 15px;
+            line-height: 1.5;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .empty-state {
+            color: #666;
+            font-size: 1.1em;
+            padding: 40px 20px;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .random-melody-section {
+                margin: 20px auto;
+            }
+            
+            .random-melody-container {
+                padding: 30px 15px;
+                border-radius: 16px;
+            }
+            
+            .random-melody-title {
+                font-size: 1.6em;
+                margin-bottom: 20px;
+            }
+            
+            .controls-grid {
+                grid-template-columns: 1fr;
+                gap: 10px;
+            }
+            
+            .toggle-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .toggle-btn {
+                min-width: 150px;
+            }
+            
+            .navigation-controls {
+                gap: 15px;
+            }
+            
+            .floating-icon {
+                font-size: 2em;
+                top: 15px;
+                right: 20px;
+            }
+        }
+
+
+
+        .loading {
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+    </style>
+</head>
+<section class="random-melody-section" style="margin: 60px auto; max-width: 900px; text-align: center;">
+  <div class="random-melody-container" style="background: linear-gradient(135deg, #f0f7ff 0%, #e3f0ff 100%); border-radius: 32px; padding: 48px 24px; box-shadow: 0 12px 48px rgba(25, 118, 210, 0.18); position: relative; overflow: hidden; border: 1px solid rgba(25, 118, 210, 0.12);">
+    
+    <!-- Floating Icon -->
+    <div class="floating-icon" style="position: absolute; top: 20px; right: 30px; font-size: 3em; opacity: 0.15; pointer-events: none; animation: float 6s ease-in-out infinite;">🎵</div>
+
+    <!-- Title -->
+    <h2 class="random-melody-title" style="font-size: 2.2em; color: #1976d2; margin-bottom: 30px; font-weight: 800; letter-spacing: 1px; text-shadow: 0 2px 6px rgba(25, 118, 210, 0.2); position: relative; z-index: 1;">
+      🎲 発車メロディーラジオ
+    </h2>
+
+    <!-- Select Filters -->
+    <div class="controls-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 25px; max-width: 600px; margin-left: auto; margin-right: auto;">
+      <select id="companySelect" class="control-select" style="font-size: 1em; padding: 12px 16px; border-radius: 12px; border: 1px solid #c8d8f0; background: #fff; box-shadow: 0 4px 12px rgba(25,118,210,0.12); color: #333; font-weight: 500;">
+        <option value="">すべての会社</option>
+      </select>
+      <select id="lineSelect" class="control-select" style="font-size: 1em; padding: 12px 16px; border-radius: 12px; border: 1px solid #c8d8f0; background: #fff; box-shadow: 0 4px 12px rgba(25,118,210,0.12); color: #333; font-weight: 500;">
+        <option value="">すべての路線</option>
+      </select>
+    </div>
+
+    <!-- Mode Toggle Checkboxes -->
+    <div class="toggle-checkboxes" style="display: flex; gap: 18px; justify-content: center; margin-bottom: 25px; flex-wrap: wrap;">
+      <label style="display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 1.1em; background: #e0e7ff; border-radius: 16px; padding: 8px 18px; box-shadow: 0 2px 8px rgba(25,118,210,0.10); cursor: pointer;">
+        <input type="checkbox" id="shuffleCheckbox" style="width: 15px; height: 15px; accent-color: #1976d2;" checked>
+        <span>🔀</span>
+      </label>
+      <label style="display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 1.1em; background: #e0e7ff; border-radius: 16px; padding: 8px 18px; box-shadow: 0 2px 8px rgba(25,118,210,0.10); cursor: pointer;">
+        <input type="checkbox" id="sequentialCheckbox" style="width: 15px; height: 15px; accent-color: #1976d2;">
+        <span>➡️</span>
+      </label>
+      <label style="display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 1.1em; background: #e0e7ff; border-radius: 16px; padding: 8px 18px; box-shadow: 0 2px 8px rgba(25,118,210,0.10); cursor: pointer;">
+        <input type="checkbox" id="loopCheckbox" style="width: 15px; height: 15px; accent-color: #1976d2;">
+        <span>⏭️</span>
+      </label>
+    </div>
+
+    <!-- Melody Display -->
+    <div id="melodyDisplay" class="melody-display" style="margin: 25px auto; padding: 25px; background: white; border-radius: 16px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); min-height: 120px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;">
+      <div class="empty-state" style="color: #555; font-size: 1.1em; padding: 40px 20px;">「表示」ボタンを押してメロディーを開始してください</div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="navigation-controls" style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-bottom: 20px;">
+      <button id="prevBtn" class="nav-btn" style="padding: 12px; border: none; border-radius: 50%; background: #e0e7ff; color: #1976d2; font-size: 1.2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center;">←</button>
+      <button id="playBtn" class="main-btn" style="padding: 14px 32px; border: none; border-radius: 25px; background: linear-gradient(135deg, #ff6b6b, #ee5a24); color: white; font-size: 1.1em; font-weight: 700; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 6px 16px rgba(238, 90, 36, 0.3); text-transform: uppercase; letter-spacing: 0.5px;">▶ 表示</button>
+      <button id="nextBtn" class="nav-btn" style="padding: 12px; border: none; border-radius: 50%; background: #e0e7ff; color: #1976d2; font-size: 1.2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center;">→</button>
+    </div>
+  </div>
+</section>
+
+
+    <script>
+        // State management
+        const state = {
+            stations: [],
+            companies: new Set(),
+            linesByCompany: {},
+            filteredMelodies: [],
+            currentIndex: -1,
+            isShuffleMode: true,
+            isContinuousPlay: false,
+            missingMelodies: new Set()
+        };
+
+        // DOM elements
+        const elements = {
+            companySelect: document.getElementById('companySelect'),
+            lineSelect: document.getElementById('lineSelect'),
+            shuffleCheckbox: document.getElementById('shuffleCheckbox'),
+            sequentialCheckbox: document.getElementById('sequentialCheckbox'),
+            loopCheckbox: document.getElementById('loopCheckbox'),
+            melodyDisplay: document.getElementById('melodyDisplay'),
+            playBtn: document.getElementById('playBtn'),
+            prevBtn: document.getElementById('prevBtn'),
+            nextBtn: document.getElementById('nextBtn')
+        };
+
+        // Initialize the application
+        async function init() {
+            try {
+                // Load missing melodies first (this is crucial)
+                try {
+                    const response = await fetch('missing_melodies.txt');
+                    if (response.ok) {
+                        const text = await response.text();
+                        const missingFiles = text.split('\n')
+                            .map(line => line.trim())
+                            .filter(line => line && line !== '');
+                        
+                        state.missingMelodies = new Set(missingFiles);
+                        console.log(`Loaded ${missingFiles.length} missing melody files`);
+                    } else {
+                        console.warn('Could not load missing_melodies.txt - assuming no missing files');
+                    }
+                } catch (error) {
+                    console.warn('Could not load missing melodies list:', error);
+                }
+
+                // Load stations data
+                const response = await fetch('stations.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load stations data');
+                }
+                
+                state.stations = await response.json();
+                console.log(`Loaded ${state.stations.length} total stations`);
+                
+                // Process data and filter out invalid stations immediately
+                state.stations.forEach(station => {
+                    state.companies.add(station.company);
+                    if (!state.linesByCompany[station.company]) {
+                        state.linesByCompany[station.company] = new Set();
+                    }
+                    state.linesByCompany[station.company].add(station.line);
+                });
+
+                // Count valid stations for debugging
+                const validStations = state.stations.filter(hasValidAudio);
+                console.log(`Found ${validStations.length} stations with valid audio files`);
+
+                populateDropdowns();
+                setupEventListeners();
+                
+            } catch (error) {
+                console.error('Initialization failed:', error);
+                showError('データの読み込みに失敗しました。');
+            }
+        }
+
+        // Populate dropdown menus
+        function populateDropdowns() {
+            // Populate companies
+            elements.companySelect.innerHTML = '<option value="">すべての会社</option>';
+            Array.from(state.companies).sort().forEach(company => {
+                const option = document.createElement('option');
+                option.value = company;
+                option.textContent = company;
+                elements.companySelect.appendChild(option);
+            });
+
+            updateLineDropdown();
+        }
+
+        // Update line dropdown based on selected company
+        function updateLineDropdown() {
+            const selectedCompany = elements.companySelect.value;
+            elements.lineSelect.innerHTML = '<option value="">すべての路線</option>';
+
+            let lines = new Set();
+            if (selectedCompany === '') {
+                // All lines from all companies
+                Object.values(state.linesByCompany).forEach(lineSet => {
+                    lineSet.forEach(line => lines.add(line));
+                });
+            } else {
+                lines = state.linesByCompany[selectedCompany] || new Set();
+            }
+
+            Array.from(lines).sort().forEach(line => {
+                const option = document.createElement('option');
+                option.value = line;
+                option.textContent = line;
+                elements.lineSelect.appendChild(option);
+            });
+        }
+
+        // Get filtered melodies based on current selections
+        function getFilteredMelodies() {
+            const company = elements.companySelect.value;
+            const line = elements.lineSelect.value;
+
+            return state.stations.filter(station => {
+                const companyMatch = company === '' || station.company === company;
+                const lineMatch = line === '' || station.line === line;
+                
+                // Only include stations with valid audio files
+                return companyMatch && lineMatch && hasValidAudio(station);
+            });
+        }
+
+        // Check if a station has a valid audio file
+        function hasValidAudio(station) {
+            // Must have a file property that's not empty
+            if (!station.file || !station.file.trim() || station.file.trim() === '') {
+                return false;
+            }
+            
+            const fileName = station.file.trim();
+            
+            // Check if file is in missing melodies list
+            if (state.missingMelodies.has(fileName)) {
+                return false;
+            }
+            
+            // Check for common invalid file patterns
+            if (fileName === '.mp3' || fileName === 'undefined' || fileName === 'null') {
+                return false;
+            }
+            
+            return true;
+        }
+
+        // Show loading state
+        function showLoading() {
+            elements.melodyDisplay.classList.add('loading');
+            elements.melodyDisplay.innerHTML = '<div class="empty-state loading">読み込み中...</div>';
+        }
+
+        // Show error message
+        function showError(message) {
+            elements.melodyDisplay.classList.remove('loading');
+            elements.melodyDisplay.innerHTML = `<div class="empty-state">❌ ${message}</div>`;
+        }
+
+        // Display a melody
+        function displayMelody(index) {
+            if (state.filteredMelodies.length === 0 || index < 0 || index >= state.filteredMelodies.length) {
+                elements.melodyDisplay.innerHTML = '<div class="empty-state">該当するメロディーがありません。</div>';
+                return;
+            }
+
+            const station = state.filteredMelodies[index];
+            
+            // This should never happen now since we pre-filter, but double-check
+            if (!hasValidAudio(station)) {
+                console.warn(`Invalid audio detected for ${station.station}: ${station.file}`);
+                findAndPlayNextValidMelody(index);
+                return;
+            }
+
+            const stationUrl = `/stations/${encodeURIComponent(station.station)}.html`;
+            
+            elements.melodyDisplay.classList.remove('loading');
+            elements.melodyDisplay.innerHTML = `
+                <div class="station-info">
+                    <div class="station-name">
+                        <a href="${stationUrl}" style="color: #333; text-decoration: none;">${station.station}</a>
+                    </div>
+                    <div class="station-details">${station.line} • ${station.company}</div>
+                    <div class="melody-title">${station.melody}</div>
+                    <div class="audio-container">
+                        <audio class="custom-audio" controls controlsList="nodownload" src="${station.file}" crossorigin="anonymous" 
+                               onerror="console.error('Audio failed to load:', '${station.file}')">
+                            お使いのブラウザは音声再生に対応していません。
+                        </audio>
+                        <div class="audio-controls">
+                            <label class="loop-toggle">
+                                <input type="checkbox" onchange="toggleLoop(this)">
+                                ループ再生
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // Add audio error handling
+            const audio = elements.melodyDisplay.querySelector('audio');
+            if (audio) {
+                audio.addEventListener('error', (e) => {
+                    console.error(`Audio error for ${station.station}:`, e);
+                    // Mark this file as missing and skip to next
+                    state.missingMelodies.add(station.file.trim());
+                    if (state.isContinuousPlay) {
+                        findAndPlayNextValidMelody(index);
+                    }
+                });
+            }
+
+            // Setup continuous play if enabled
+            if (state.isContinuousPlay) {
+                setupContinuousPlay(index);
+            }
+        }
+
+        // Find and play the next valid melody with audio
+        function findAndPlayNextValidMelody(currentIndex) {
+            if (state.filteredMelodies.length === 0) {
+                showError('音声ファイル付きのメロディーがありません。');
+                return;
+            }
+
+            let attempts = 0;
+            let nextIndex = currentIndex;
+            
+            // Try to find a valid melody, limiting attempts to prevent infinite loop
+            do {
+                if (state.isShuffleMode) {
+                    nextIndex = Math.floor(Math.random() * state.filteredMelodies.length);
+                    if (state.filteredMelodies.length > 1 && nextIndex === currentIndex) {
+                        nextIndex = (nextIndex + 1) % state.filteredMelodies.length;
+                    }
+                } else {
+                    nextIndex = (nextIndex + 1) % state.filteredMelodies.length;
+                }
+                attempts++;
+            } while (attempts < state.filteredMelodies.length && !hasValidAudio(state.filteredMelodies[nextIndex]));
+
+            if (attempts >= state.filteredMelodies.length) {
+                showError('音声ファイル付きのメロディーがありません。');
+                return;
+            }
+
+            state.currentIndex = nextIndex;
+            displayMelody(nextIndex);
+        }
+
+        // Toggle loop for audio element
+        window.toggleLoop = function(checkbox) {
+            const audio = checkbox.closest('.audio-container').querySelector('audio');
+            if (audio) {
+                audio.loop = checkbox.checked;
+            }
+        };
+
+        // Setup continuous play functionality
+        function setupContinuousPlay(currentIndex) {
+            const audio = elements.melodyDisplay.querySelector('audio');
+            if (!audio) {
+                // No audio, skip to next valid melody
+                setTimeout(() => findAndPlayNextValidMelody(currentIndex), 1000);
+                return;
+            }
+
+            audio.onended = () => {
+                if (!audio.loop && state.isContinuousPlay) {
+                    findAndPlayNextValidMelody(currentIndex);
+                    // Try to autoplay the next melody after DOM updates
+                    setTimeout(() => {
+                        const nextAudio = elements.melodyDisplay.querySelector('audio');
+                        if (nextAudio) {
+                            nextAudio.play().catch(e => console.log('Autoplay prevented:', e));
+                        }
+                    }, 150);
+                }
+            };
+        }
+
+        // Play next melody (updated to ensure valid audio)
+        function playNext(currentIndex) {
+            findAndPlayNextValidMelody(currentIndex);
+            
+            // Auto-play the next track
+            setTimeout(() => {
+                const audio = elements.melodyDisplay.querySelector('audio');
+                if (audio) {
+                    audio.play().catch(e => console.log('Autoplay prevented:', e));
+                }
+            }, 100);
+        }
+
+        // Setup event listeners
+        function setupEventListeners() {
+            // Company selection change
+            elements.companySelect.addEventListener('change', updateLineDropdown);
+
+            // Checkbox listeners
+            elements.shuffleCheckbox.addEventListener('change', () => {
+                if (elements.shuffleCheckbox.checked) {
+                    state.isShuffleMode = true;
+                    elements.sequentialCheckbox.checked = false;
+                } else if (!elements.sequentialCheckbox.checked) {
+                    // At least one mode must be selected
+                    elements.shuffleCheckbox.checked = true;
+                }
+            });
+            elements.sequentialCheckbox.addEventListener('change', () => {
+                if (elements.sequentialCheckbox.checked) {
+                    state.isShuffleMode = false;
+                    elements.shuffleCheckbox.checked = false;
+                } else if (!elements.shuffleCheckbox.checked) {
+                    // At least one mode must be selected
+                    elements.sequentialCheckbox.checked = true;
+                }
+            });
+            elements.loopCheckbox.addEventListener('change', () => {
+                state.isContinuousPlay = elements.loopCheckbox.checked;
+                // Re-setup continuous play for current melody
+                if (state.currentIndex >= 0) {
+                    if (state.isContinuousPlay) {
+                        setupContinuousPlay(state.currentIndex);
+                    } else {
+                        const audio = elements.melodyDisplay.querySelector('audio');
+                        if (audio) audio.onended = null;
+                    }
+                }
+            });
+
+            // Main play button
+            elements.playBtn.addEventListener('click', () => {
+                showLoading();
+                setTimeout(() => {
+                    state.filteredMelodies = getFilteredMelodies();
+                    
+                    console.log(`Filtered melodies: ${state.filteredMelodies.length} found`);
+                    
+                    if (state.filteredMelodies.length === 0) {
+                        showError('音声ファイル付きのメロディーがありません。フィルターを変更してください。');
+                        return;
+                    }
+
+                    let startIndex;
+                    if (state.isShuffleMode) {
+                        startIndex = Math.floor(Math.random() * state.filteredMelodies.length);
+                    } else {
+                        startIndex = 0;
+                    }
+
+                    // Ensure we start with a valid melody
+                    let attempts = 0;
+                    while (attempts < state.filteredMelodies.length && !hasValidAudio(state.filteredMelodies[startIndex])) {
+                        startIndex = (startIndex + 1) % state.filteredMelodies.length;
+                        attempts++;
+                    }
+
+                    if (attempts >= state.filteredMelodies.length) {
+                        showError('有効な音声ファイルが見つかりませんでした。');
+                        return;
+                    }
+
+                    state.currentIndex = startIndex;
+                    displayMelody(state.currentIndex);
+                }, 300);
+            });
+
+            // Navigation buttons
+            elements.prevBtn.addEventListener('click', () => {
+                if (state.filteredMelodies.length === 0) return;
+                
+                let prevIndex = state.currentIndex > 0 
+                    ? state.currentIndex - 1 
+                    : state.filteredMelodies.length - 1;
+                
+                // Find previous valid melody with audio
+                let attempts = 0;
+                while (attempts < state.filteredMelodies.length && !hasValidAudio(state.filteredMelodies[prevIndex])) {
+                    prevIndex = prevIndex > 0 ? prevIndex - 1 : state.filteredMelodies.length - 1;
+                    attempts++;
+                }
+                
+                if (attempts >= state.filteredMelodies.length) {
+                    showError('音声ファイル付きのメロディーがありません。');
+                    return;
+                }
+                
+                state.currentIndex = prevIndex;
+                displayMelody(state.currentIndex);
+            });
+
+            elements.nextBtn.addEventListener('click', () => {
+                if (state.filteredMelodies.length === 0) return;
+                
+                findAndPlayNextValidMelody(state.currentIndex);
+            });
+        }
+
+        // Update toggle button appearances
+        function updateToggleButtons() {
+            // Shuffle/Sequential buttons
+            elements.shuffleBtn.classList.toggle('active', state.isShuffleMode);
+            elements.sequentialBtn.classList.toggle('active', !state.isShuffleMode);
+            
+            // Continuous play button
+            elements.loopBtn.classList.toggle('active', state.isContinuousPlay);
+        }
+
+        // Start the application
+        init();
+    </script>
+  </main>
+
+<!-- Firebase and other scripts -->
+<!-- Firebase SDKs -->
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Firebase config
+  const firebaseConfig = {
+    apiKey: "AIzaSyBrgf00OFxksjZuFOQxgB1qUjZmLSG7yqk",
+    authDomain: "dokodemo-ekimero.firebaseapp.com",
+    databaseURL: "https://dokodemo-ekimero-default-rtdb.firebaseio.com",
+    projectId: "dokodemo-ekimero",
+    storageBucket: "dokodemo-ekimero.firebasestorage.app",
+    messagingSenderId: "189766315545",
+    appId: "1:189766315545:web:e88fb50dc039f7d2f28488",
+    measurementId: "G-EPCBNCPN4F"
+  };
+
+  // Initialize Firebase if not already
+  if (!firebase.apps.length) firebase.initializeApp(firebaseConfig);
+  const db = firebase.database();
+  const auth = firebase.auth();
+
+  // Sign in anonymously
+  auth.signInAnonymously().catch(console.error);
+
+  // Increment function with limits
+  function incrementPlay() {
+    const user = auth.currentUser;
+    if (!user) return;
+
+    const userRef = db.ref(`users/${user.uid}`);
+    const counterRef = db.ref("totalPlays");
+
+    userRef.transaction(userData => {
+      const now = Date.now();
+
+      if (!userData) {
+        // First-time user
+        return {
+          lastUpdate: now,
+          lastHourStart: now,
+          lastHourCount: 1,
+          lastDayStart: now,
+          lastDayCount: 1
+        };
+      }
+
+
+
+      // Hourly limit
+      let hourStart = userData.lastHourStart || now;
+      let hourCount = userData.lastHourCount || 0;
+      if (now - hourStart > 3600_000) { hourStart = now; hourCount = 0; }
+      if (hourCount >= 250) return;
+
+      // Daily limit
+      let dayStart = userData.lastDayStart || now;
+      let dayCount = userData.lastDayCount || 0;
+      if (now - dayStart > 24 * 3600_000) { dayStart = now; dayCount = 0; }
+      if (dayCount >= 500) return;
+
+      return {
+
+        lastUpdate: now,
+        lastHourStart: hourStart,
+        lastHourCount: hourCount + 1,
+        lastDayStart: dayStart,
+        lastDayCount: dayCount + 1
+      };
+    }, (error, committed) => {
+      if (!committed || error) return;
+      // Increment global counter
+      counterRef.transaction(current => (current || 0) + 1);
+    });
+  }
+
+  // Add listeners to audio elements
+  function setupAudioListeners() {
+    document.querySelectorAll('audio').forEach(audio => {
+      if (!audio.dataset.playListenerAdded) {
+        audio.addEventListener('play', incrementPlay);
+        audio.dataset.playListenerAdded = 'true';
+      }
+    });
+  }
+
+  setupAudioListeners();
+
+  // Observe dynamically added audio elements
+  new MutationObserver(() => setupAudioListeners()).observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+
+
+ // Daily display counter
+ async function showDailyCount() {
+   const today = new Date().toISOString().slice(0, 10);
+   const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+
+   let snapshot = await db.ref(`dailyDisplayCount/${today}`).once("value");
+   let count = snapshot.val();
+
+   // Fallback to yesterday if today's count is not yet set
+   if (count === null) {
+     snapshot = await db.ref(`dailyDisplayCount/${yesterday}`).once("value");
+     count = snapshot.val() || 0;
+   }
+
+   const el = document.getElementById("playCountNumber");
+   if (el) el.textContent = count.toLocaleString();
+ }
+
+
+
+  showDailyCount();
+});
+</script>
+
+
+
+  
+  <!-- Play counter tracking -->
+  <script src="playcounter.js"></script>
+  
+  <!-- Play counter tracking -->
+  <script src="playcounter.js"></script>
+  
+  <!-- Existing scripts -->
+  <script>
+// Header search bar instant search
+let headerStationsData = [];
+fetch('stations.json')
+  .then(res => res.json())
+  .then(data => headerStationsData = data);
+
+document.addEventListener('DOMContentLoaded', function() {
+  const headerInput = document.getElementById('header-search');
+  const headerResults = document.getElementById('header-search-results');
+  if (headerInput) {
+    headerInput.addEventListener('input', function() {
+      const q = headerInput.value.trim().toLowerCase();
+      if (!q) {
+        headerResults.style.display = 'none';
+        headerResults.innerHTML = '';
+        return;
+      }
+      const matches = headerStationsData.filter(st =>
+        st.station.toLowerCase().includes(q) ||
+        st.melody.toLowerCase().includes(q)
+      ).slice(0, 8);
+
+      if (matches.length === 0) {
+        headerResults.innerHTML = '<div style="padding:12px;color:#888;font-size:1em;">該当なし</div>';
+        headerResults.style.display = 'block';
+        return;
+      }
+
+      headerResults.innerHTML = matches.map(st => {
+        const audioSrc = st.file ? (st.file.match(/^https?:\/\//) ? st.file : st.file) : '';
+        const stationUrl = `/stations/${encodeURIComponent(st.station)}.html`;
+
+        return `
+          <div class="header-station" style="padding:12px 14px; border-bottom:1px solid #eee;">
+            <div class="header-station-text" style="margin-bottom:6px;">
+              <a href="${stationUrl}" style="font-weight:700;color:#1976d2;text-decoration:underline;display:block;">${st.station}</a>
+              <span style="font-size:0.95em;color:#333;display:block;">${st.melody}</span>
+            </div>
+            ${audioSrc ? `
+            <div class="header-station-audio" style="margin-top:4px;">
+              <audio controls controlsList="nodownload" src="${audioSrc}" style="width:100%;"></audio>
+              <label style="font-size:0.85em; display:block; margin-top:4px; cursor:pointer;">
+                <input type="checkbox" onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+                ループ
+              </label>
+            </div>
+            ` : ''}
+          </div>
+        `;
+      }).join('');
+
+      headerResults.style.display = 'block';
+    });
+
+    document.addEventListener('click', function(e) {
+      if (!headerResults.contains(e.target) && e.target !== headerInput) {
+        headerResults.style.display = 'none';
+      }
+    });
+  }
+});
+
+
+// Main search feature
+let stationsData = [];
+fetch('stations.json')
+  .then(res => res.json())
+  .then(data => stationsData = data);
+
+document.addEventListener('DOMContentLoaded', function() {
+  const form = document.getElementById('search-form');
+  const input = document.getElementById('search-input');
+  const results = document.getElementById('search-results');
+  if (form) {
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const q = input.value.trim();
+      if (!q) {
+        results.innerHTML = '';
+        return;
+      }
+      const lowerQ = q.toLowerCase();
+      const matches = stationsData.filter(st =>
+        st.station.toLowerCase().includes(lowerQ) ||
+        st.melody.toLowerCase().includes(lowerQ)
+      );
+
+      if (matches.length === 0) {
+        results.innerHTML = '<div style="padding:24px;color:#888;font-size:1.2em;">該当する駅やメロディは見つかりませんでした。</div>';
+        return;
+      }
+
+      results.innerHTML = matches.map(st => {
+        const audioSrc = st.file ? (st.file.match(/^https?:\/\//) ? st.file : st.file) : '';
+        const stationUrl = `/stations/${encodeURIComponent(st.station)}.html`;
+        return `
+          <div class="station" style="margin-bottom:18px;">
+            <div class="station-text">
+              <strong><a href="${stationUrl}" style="color:#1976d2;text-decoration:underline;">${st.station}</a> (${st.line}・${st.company})</strong>
+              <em>${st.melody}</em>
+            </div>
+            ${audioSrc ? `
+            <div class="header-station-audio" style="align-items:center;margin-top:6px; display:flex; flex-direction:column; align-items:flex-start; gap:4px; min-width:260px; max-width:700px; width:100%;">
+  <label style="font-size:0.85em; cursor:pointer;">
+    <input type="checkbox" onchange="this.parentElement.parentElement.querySelector('audio').loop = this.checked;">
+    ループ
+  </label>
+  <audio controls controlsList="nodownload" src="${audioSrc}" style="width:100%;max-width:680px;"></audio>
+</div>
+
+            ` : ''}
+          </div>
+        `;
+      }).join('');
+    });
+  }
+});
+</script>
+
+
+<button id="backToTop" style="display: none; position: fixed; bottom: 30px; right: 30px; z-index: 99; border: none; outline: none; background-color: #1976d2; color: white; cursor: pointer; width: 50px; height: 50px; border-radius: 50%; font-size: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#1565c0'; this.style.transform='scale(1.1)'" onmouseout="this.style.backgroundColor='#1976d2'; this.style.transform='scale(1)'">
+  ↑
+</button>
+
+  <script>
+    // 上に戻るボタンの表示/非表示を制御
+    window.onscroll = function() {
+      const backToTopButton = document.getElementById("backToTop");
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        backToTopButton.style.display = "block";
+      } else {
+        backToTopButton.style.display = "none";
+      }
+    };
+
+    // 上に戻るボタンの機能
+    document.getElementById("backToTop").addEventListener("click", function() {
+      // スムーズスクロール
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  </script>
+<footer>
+  <!-- Logo -->
+  <a href="/index.html" class="footer-logo-link">
+    <img src="/logo.png" alt="Site Icon" class="footer-icon">
+  </a>
+
+  <!-- Site navigation links -->
+  <div class="footer-links" style="margin: 12px 0; display: flex; flex-wrap: wrap; gap: 12px; justify-content: center;">
+    <a href="/index.html">ホーム</a>
+    <a href="/jr-east.html">JR東日本</a>
+    <a href="/tokyo-metro.html">東京メトロ</a>
+    <a href="/other.html">その他</a>
+    <a href="/history.html">更新履歴</a>
+    <a href="/credits.html">素材提供・利用規約</a>
+  </div>
+
+  <!-- Clear and open footer description -->
+  <div style="color: #5d5d5d; font-size: 0.95em; max-width: 800px; margin: 12px auto; line-height: 1.5;">
+    当サイトは非営利目的で運営されております。収益化は行っておりません。<br>
+    鉄道モバイル: <a href="https://www.te2do.jp" target="_blank">https://www.te2do.jp</a>
+  </div>
+</footer>
+
+
+
+    <script>
+// Function to calculate accurate statistics from stations.json
+async function calculateStatistics() {
+  try {
+    const response = await fetch('stations.json');
+    const stations = await response.json();
+    
+    // Calculate truly unique stations (physical locations)
+    const uniqueStations = new Set(stations.map(item => item.station)).size;
+    
+    // Calculate unique melodies (distinct audio files)
+    const uniqueMelodies = new Set(stations.map(item => {
+      // Use the file path as the unique identifier for melodies
+      return item.file.toLowerCase().trim();
+    })).size;
+    
+    // Update the DOM
+    document.getElementById('stationCount').textContent = uniqueStations;
+    document.getElementById('melodyCount').textContent = uniqueMelodies;
+    
+    console.log(`Statistics calculated: ${uniqueStations} stations, ${uniqueMelodies} unique melodies`);
+    
+  } catch (error) {
+    console.error('Error loading statistics:', error);
+    document.getElementById('stationCount').textContent = 'エラー';
+    document.getElementById('melodyCount').textContent = 'エラー';
+  }
+}
+
+// Call the function when the page loads
+document.addEventListener('DOMContentLoaded', calculateStatistics);
+  </script>
+
+
+</body>
+</html>
