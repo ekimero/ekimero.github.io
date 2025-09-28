@@ -4161,15 +4161,15 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "いわき",
-    "melody": "楽興の時",
-    "file": "audio/楽興の時.mp3"
+    "melody": "首都圏12番",
+    "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "いわき",
-    "melody": "春の歌",
-    "file": "audio/春の歌.mp3"
+    "melody": "12-4番",
+    "file": "audio/12-4番.mp3"
   },
   {
     "company": "JR東日本",
@@ -11845,6 +11845,20 @@
     "station": "未使用",
     "melody": "緑の車窓",
     "file": "audio/.mp3"
+  },
+    {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "楽興の時",
+    "file": "audio/楽興の時.mp3"
+  },
+    {
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "春の歌",
+    "file": "audio/春の歌.mp3"
   }
   
   
