@@ -428,7 +428,7 @@
     </style>
 </head>
 <section class="random-melody-section" style="margin: 60px auto; max-width: 900px; text-align: center;">
-  <div class="random-melody-container" style="background: linear-gradient(135deg, #f0f7ff 0%, #e3f0ff 100%); border-radius: 32px; padding: 48px 24px; box-shadow: 0 12px 48px rgba(25, 118, 210, 0.18); position: relative; overflow: hidden; border: 1px solid rgba(25, 118, 210, 0.12);">
+  <div class="random-melody-container" style="background: linear-gradient(135deg, #fdfeff 0%, #e3f0ff 100%); border-radius: 32px; padding: 48px 24px; box-shadow: 0 12px 48px rgba(25, 118, 210, 0.18); position: relative; overflow: hidden; border: 1px solid rgba(25, 118, 210, 0.12);">
     
     <!-- Floating Icon -->
     <div class="floating-icon" style="position: absolute; top: 20px; right: 30px; font-size: 3em; opacity: 0.15; pointer-events: none; animation: float 6s ease-in-out infinite;">🎵</div>
@@ -438,30 +438,36 @@
       🎲 発車メロディーラジオ
     </h2>
 
-    <!-- Select Filters -->
-    <div class="controls-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 25px; max-width: 600px; margin-left: auto; margin-right: auto;">
-      <select id="companySelect" class="control-select" style="font-size: 1em; padding: 12px 16px; border-radius: 12px; border: 1px solid #c8d8f0; background: #fff; box-shadow: 0 4px 12px rgba(25,118,210,0.12); color: #333; font-weight: 500;">
-        <option value="">すべての会社</option>
-      </select>
-      <select id="lineSelect" class="control-select" style="font-size: 1em; padding: 12px 16px; border-radius: 12px; border: 1px solid #c8d8f0; background: #fff; box-shadow: 0 4px 12px rgba(25,118,210,0.12); color: #333; font-weight: 500;">
-        <option value="">すべての路線</option>
-      </select>
-    </div>
-
-    <!-- Mode Toggle Checkboxes -->
-    <div class="toggle-checkboxes" style="display: flex; gap: 18px; justify-content: center; margin-bottom: 25px; flex-wrap: wrap;">
-      <label style="display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 1.1em; background: #e0e7ff; border-radius: 16px; padding: 8px 18px; box-shadow: 0 2px 8px rgba(25,118,210,0.10); cursor: pointer;">
-        <input type="checkbox" id="shuffleCheckbox" style="width: 15px; height: 15px; accent-color: #1976d2;" checked>
-        <span>🔀</span>
-      </label>
-      <label style="display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 1.1em; background: #e0e7ff; border-radius: 16px; padding: 8px 18px; box-shadow: 0 2px 8px rgba(25,118,210,0.10); cursor: pointer;">
-        <input type="checkbox" id="sequentialCheckbox" style="width: 15px; height: 15px; accent-color: #1976d2;">
-        <span>➡️</span>
-      </label>
-      <label style="display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 1.1em; background: #e0e7ff; border-radius: 16px; padding: 8px 18px; box-shadow: 0 2px 8px rgba(25,118,210,0.10); cursor: pointer;">
-        <input type="checkbox" id="loopCheckbox" style="width: 15px; height: 15px; accent-color: #1976d2;">
-        <span>⏭️</span>
-      </label>
+    <!-- Filter Menu Toggle Button -->
+    <button id="filterMenuToggle" style="margin-bottom: 18px; padding: 10px 24px; border-radius: 16px; background: #fdfeff; color: #1976d2; font-weight: 700; font-size: 1.1em; border: none; box-shadow: 0 2px 8px rgba(25,118,210,0.10); cursor: pointer;">フィルター条件 ↓</button>
+    <!-- Filter Menu -->
+    <div id="filterMenu" style="display: none; margin-bottom: 25px;">
+      <div class="controls-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 25px; max-width: 600px; margin-left: auto; margin-right: auto;">
+        <select id="companySelect" class="control-select" style="font-size: 1em; padding: 12px 16px; border-radius: 12px; border: 1px solid #c8d8f0; background: #fff; box-shadow: 0 4px 12px rgba(25,118,210,0.12); color: #333; font-weight: 500;">
+          <option value="">すべての会社</option>
+        </select>
+        <select id="lineSelect" class="control-select" style="font-size: 1em; padding: 12px 16px; border-radius: 12px; border: 1px solid #c8d8f0; background: #fff; box-shadow: 0 4px 12px rgba(25,118,210,0.12); color: #333; font-weight: 500;">
+          <option value="">すべての路線</option>
+        </select>
+      </div>
+      <div class="toggle-checkboxes" style="display: flex; gap: 18px; justify-content: center; margin-bottom: 25px; flex-wrap: wrap;">
+        <label style="display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 1.1em; background: #fdfeff; border-radius: 16px; padding: 8px 18px; box-shadow: 0 2px 8px rgba(25,118,210,0.10); cursor: pointer;">
+          <input type="checkbox" id="shuffleCheckbox" style="width: 15px; height: 15px; accent-color: #1976d2;" checked>
+          <span>シャッフル</span>
+        </label>
+        <label style="display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 1.1em; background: #fdfeff; border-radius: 16px; padding: 8px 18px; box-shadow: 0 2px 8px rgba(25,118,210,0.10); cursor: pointer;">
+          <input type="checkbox" id="sequentialCheckbox" style="width: 15px; height: 15px; accent-color: #1976d2;">
+          <span>順番</span>
+        </label>
+        <label style="display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 1.1em; background: #fdfeff; border-radius: 16px; padding: 8px 18px; box-shadow: 0 2px 8px rgba(25,118,210,0.10); cursor: pointer;">
+          <input type="checkbox" id="loopCheckbox" style="width: 15px; height: 15px; accent-color: #1976d2;" checked>
+          <span>連続再生</span>
+        </label>
+        <label style="display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 1.1em; background: #fdfeff; border-radius: 16px; padding: 8px 18px; box-shadow: 0 2px 8px rgba(25,118,210,0.10); cursor: pointer;">
+          <input type="checkbox" id="skipShutokenCheckbox" style="width: 15px; height: 15px; accent-color: #1976d2;">
+          <span>IKSTを除く</span>
+        </label>
+      </div>
     </div>
 
     <!-- Melody Display -->
@@ -471,9 +477,9 @@
 
     <!-- Navigation -->
     <div class="navigation-controls" style="display: flex; justify-content: center; align-items: center; gap: 20px; margin-bottom: 20px;">
-      <button id="prevBtn" class="nav-btn" style="padding: 12px; border: none; border-radius: 50%; background: #e0e7ff; color: #1976d2; font-size: 1.2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center;">←</button>
+      <button id="prevBtn" class="nav-btn" style="padding: 12px; border: none; border-radius: 50%; background: #fdfeff; color: #1976d2; font-size: 1.2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center;">←</button>
       <button id="playBtn" class="main-btn" style="padding: 14px 32px; border: none; border-radius: 25px; background: linear-gradient(135deg, #ff6b6b, #ee5a24); color: white; font-size: 1.1em; font-weight: 700; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 6px 16px rgba(238, 90, 36, 0.3); text-transform: uppercase; letter-spacing: 0.5px;">▶ 表示</button>
-      <button id="nextBtn" class="nav-btn" style="padding: 12px; border: none; border-radius: 50%; background: #e0e7ff; color: #1976d2; font-size: 1.2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center;">→</button>
+      <button id="nextBtn" class="nav-btn" style="padding: 12px; border: none; border-radius: 50%; background: #fdfeff; color: #1976d2; font-size: 1.2em; font-weight: bold; cursor: pointer; transition: all 0.3s ease; width: 48px; height: 48px; display: flex; align-items: center; justify-content: center;">→</button>
     </div>
   </div>
 </section>
@@ -499,11 +505,20 @@
             shuffleCheckbox: document.getElementById('shuffleCheckbox'),
             sequentialCheckbox: document.getElementById('sequentialCheckbox'),
             loopCheckbox: document.getElementById('loopCheckbox'),
+            skipShutokenCheckbox: document.getElementById('skipShutokenCheckbox'),
             melodyDisplay: document.getElementById('melodyDisplay'),
             playBtn: document.getElementById('playBtn'),
             prevBtn: document.getElementById('prevBtn'),
             nextBtn: document.getElementById('nextBtn')
         };
+
+        // Set default checkbox states and sync state
+        elements.shuffleCheckbox.checked = true;
+        elements.sequentialCheckbox.checked = false;
+        elements.loopCheckbox.checked = true;
+        elements.skipShutokenCheckbox.checked = false;
+        state.isShuffleMode = true;
+        state.isContinuousPlay = true;
 
         // Initialize the application
         async function init() {
@@ -592,19 +607,35 @@
                 option.textContent = line;
                 elements.lineSelect.appendChild(option);
             });
+
+            updateSkipShutokenVisibility();
+        }
+
+        // Hide/show skipShutokenCheckbox based on Tokyo Metro selection
+        function updateSkipShutokenVisibility() {
+            const company = elements.companySelect.value;
+            const line = elements.lineSelect.value;
+            const skipLabel = elements.skipShutokenCheckbox.closest('label');
+            // Hide if Tokyo Metro is selected in company or line
+            if (company === '東京メトロ' || (line && line.includes('東京メトロ'))) {
+                skipLabel.style.display = 'none';
+            } else {
+                skipLabel.style.display = '';
+            }
         }
 
         // Get filtered melodies based on current selections
         function getFilteredMelodies() {
             const company = elements.companySelect.value;
             const line = elements.lineSelect.value;
+            const skipShutoken = elements.skipShutokenCheckbox && elements.skipShutokenCheckbox.checked;
 
             return state.stations.filter(station => {
                 const companyMatch = company === '' || station.company === company;
                 const lineMatch = line === '' || station.line === line;
-                
+                const shutokenSkip = skipShutoken ? !(station.melody && station.melody.startsWith('首都圏')) : true;
                 // Only include stations with valid audio files
-                return companyMatch && lineMatch && hasValidAudio(station);
+                return companyMatch && lineMatch && shutokenSkip && hasValidAudio(station);
             });
         }
 
@@ -781,7 +812,11 @@
         // Setup event listeners
         function setupEventListeners() {
             // Company selection change
-            elements.companySelect.addEventListener('change', updateLineDropdown);
+            elements.companySelect.addEventListener('change', () => {
+                updateLineDropdown();
+                updateSkipShutokenVisibility();
+            });
+            elements.lineSelect.addEventListener('change', updateSkipShutokenVisibility);
 
             // Checkbox listeners
             elements.shuffleCheckbox.addEventListener('change', () => {
@@ -812,6 +847,19 @@
                         const audio = elements.melodyDisplay.querySelector('audio');
                         if (audio) audio.onended = null;
                     }
+                }
+            });
+            elements.skipShutokenCheckbox.addEventListener('change', () => {
+                // Re-filter melodies and update display if needed
+                state.filteredMelodies = getFilteredMelodies();
+                if (state.filteredMelodies.length === 0) {
+                    showError('音声ファイル付きのメロディーがありません。フィルターを変更してください。');
+                } else if (state.currentIndex >= 0) {
+                    // If current melody is filtered out, show first valid
+                    if (!state.filteredMelodies[state.currentIndex]) {
+                        state.currentIndex = 0;
+                    }
+                    displayMelody(state.currentIndex);
                 }
             });
 
@@ -892,6 +940,12 @@
             // Continuous play button
             elements.loopBtn.classList.toggle('active', state.isContinuousPlay);
         }
+
+        // Filter menu toggle logic
+        document.getElementById('filterMenuToggle').addEventListener('click', function() {
+          const menu = document.getElementById('filterMenu');
+          menu.style.display = (menu.style.display === 'none' || !menu.style.display) ? 'block' : 'none';
+        });
 
         // Start the application
         init();
