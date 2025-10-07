@@ -40,3 +40,4 @@ function generateLinePages(company, folderName) {
 // Generate pages for JR East and Tokyo Metro
 generateLinePages('JR東日本', 'jr-east');
 generateLinePages('東京メトロ', 'tokyo-metro');
+generateLinePages('都営地下鉄', 'toei');
