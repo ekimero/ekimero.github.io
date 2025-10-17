@@ -1,4 +1,3 @@
-.mp3
 A Day in the Metro.mp3
 Beyond the Metropolis.mp3
 Cielo Estrellado.mp3
@@ -11,8 +10,6 @@ JR-SH8-3.mp3
 OK!.mp3
 Verde Rayo(低音強調).mp3
 Verde Rayo(遅い).mp3
-dance on.mp3
-sunny islands.mp3
 お江戸日本橋.mp3
 ぐルぐル.mp3
 さくら(独唱) AメロVer..mp3
@@ -28,7 +25,6 @@ sunny islands.mp3
 アマリリス旧赤羽Ver.mp3
 サムライ電車.mp3
 スキップ電車.mp3
-公園の楓.mp3
 原宿a.mp3
 原宿b.mp3
 君の名は希望 イントロVer..mp3
@@ -50,10 +46,5 @@ sunny islands.mp3
 銀座カンカン娘 サビVer..mp3
 陽だまりV1.mp3
 陽だまりV4.mp3
-首都圏12-2番.mp3
-首都圏12-3番.mp3
-首都圏12-4番.mp3
-首都圏32-1番.mp3
-首都圏32番.mp3
 首都圏5-1番(高音).mp3
 首都圏5番(高音).mp3
