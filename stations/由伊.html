@@ -277,7 +277,7 @@
           return `
             <div class="melody-item">
               <div class="melody-info">
-                <div class="melody-name">${melody.melody || '名称不明'}</div>
+                <div class="melody-name">${melody.melody || '発車メロディーなし'}</div>
                 <div class="melody-line">${melody.line}${melody.direction ? ` (${melody.direction}方面)` : ''}</div>
               </div>
               ${audioSrc ? `<audio controls class="melody-audio" src="${audioSrc}"></audio>` : '<span style="color:#888;">音源なし</span>'}

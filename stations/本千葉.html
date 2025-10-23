@@ -57,10 +57,93 @@
     "inLanguage": "ja"
   }
   </script>
-
-
-  
 </head>
+<style>
+.station-header {
+  position: relative !important;
+  width: 100% !important;
+  min-height: 260px !important; /* Match line-header exactly with !important */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  margin-bottom: 32px !important; /* Match line-header exactly with !important */
+  overflow: hidden !important;
+  border-radius: 12px !important; /* Match line-header exactly with !important */
+  background: var(--station-bg-image) center/cover no-repeat !important;
+  color: white !important;
+  padding: 0 !important; /* Override any padding from main>div:first-child */
+}
+.station-header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(4, 12, 20, 0.6); /* Same as line-header */
+  z-index: 1;
+}
+.station-header-content {
+  position: relative;
+  z-index: 2;
+  padding: 24px !important; /* Match line-header exactly with !important */
+}
+.station-header h1 {
+  color: #fff !important;
+  margin-bottom: 16px !important; /* Match line-header exactly with !important */
+}
+.station-header h2 {
+  color: #f0f0f0 !important;
+  font-weight: 500 !important;
+  margin-bottom: 47px !important; /* Match line-header exactly with !important */
+}
+#station-line-logos {
+  margin-top: 47px !important; /* Match line-header with !important */
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 12px !important;
+  justify-content: center !important;
+  margin-bottom: 24px;
+}
+/* Ensure mobile overrides don't affect the station header */
+@media screen and (max-width: 768px) {
+  .station-header {
+    min-height: 260px !important;
+    margin-bottom: 32px !important;
+    border-radius: 12px !important;
+    padding: 0 !important;
+  }
+ 
+  .station-header-content {
+    padding: 24px !important;
+  }
+}
+#station-line-logos img {
+  max-width: 48px !important;  /* 現在の24pxから大きくする */
+  height: auto !important;
+  width: auto !important;
+}
+
+/* モバイル表示用の調整 */
+@media screen and (max-width: 768px) {
+  #station-line-logos img {
+    max-width: 40px !important;
+  }
+}
+#station-line-logos img {
+  border-radius: 8px !important; /* 角丸の大きさを調整 */
+  /* 既存のスタイルはそのまま保持 */
+  max-width: 48px !important;
+  height: auto !important;
+  width: auto !important;
+}
+@media screen and (max-width: 768px) {
+  #station-line-logos img {
+    border-radius: 6px !important; /* モバイル用の角丸サイズ */
+    /* 他のモバイルスタイル */
+  }
+}
+</style>
 <body>
     <header>
     <a href="/index.html" class="title-link">
@@ -83,37 +166,57 @@
     
   </header>
 
-<main style="padding:24px;">
-  <!-- Hero Section -->
 <main style="padding:24px; text-align:center;">
-    <div id="station-line-logos">
-  <img src="/images/内房線.png" alt="内房線ロゴ" class="line-logo" style="max-height:48px; height:auto; margin-right:8px;">
-</div>
-  <h1 style="font-size:2.2em; color:#1976d2; font-weight:800; margin-bottom:16px;">
-      どこでも駅メロ | 本千葉駅の発車メロディー
-    </h1>
-    <p style="font-size:1.1em; color:#333; margin-bottom:24px;">
-      本千葉駅の発車メロディーの一覧。
-    </p>
 
+  <!-- Station header with background -->
+<div class="station-header">
+  <div class="station-header-overlay"></div>
+  <div class="station-header-content">
+    <div style="margin-bottom:16px;">
+
+      <div id="station-line-logos">
+        <img src="/images/外房線.png" alt="外房線ロゴ" class="line-logo" style="max-height:48px; height:auto; margin-right:8px;"><img src="/images/内房線.png" alt="内房線ロゴ" class="line-logo" style="max-height:48px; height:auto; margin-right:8px;">
+      </div>
+    </div>
+    <h1>本千葉駅の発車メロディー一覧</h1>
+    <h2>どこでも駅メロ | 本千葉駅で使用されている発車メロディー</h2>
+  </div>
+</div>
     <div style="margin-bottom:32px; width:100%;">
-  <input id="line-filter" type="text" placeholder="駅名・路線名で絞り込み" 
+  <input id="line-filter" type="text" placeholder="駅名・路線名で絞り込み"
          style="width:100%; max-width:300px; padding:8px; border-radius:8px; border:1px solid #bcd;">
 </div>
   <div id="stations-container" style="text-align:left;"></div>
-</main>
-  </section>
 
+  </section>
   <!-- Company Sections -->
   <div id="company-sections"></div>
 </main>
 
-
+<script>
+// Set random line background for the station header
+document.addEventListener('DOMContentLoaded', () => {
+  const stationHeader = document.querySelector('.station-header');
+  if (stationHeader) {
+    // Get all line logos in the station
+    const lineLogos = document.querySelectorAll('#station-line-logos img');
+    if (lineLogos.length > 0) {
+      // Pick a random line logo from the station
+      const randomIndex = Math.floor(Math.random() * lineLogos.length);
+      const randomLineLogo = lineLogos[randomIndex];
+      const lineName = randomLineLogo.alt.replace('ロゴ', '').trim();
+      
+      // Set the background image
+      stationHeader.style.setProperty('--station-bg-image', `url("/images/${lineName}.jpg")`);
+    }
+  }
+});
+</script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
   const stationName = decodeURIComponent(window.location.pathname.split('/').pop().replace('.html',''));
   const companySectionsContainer = document.getElementById('company-sections');
-  const searchInput = document.getElementById('station-search');
+  const filterInput = document.getElementById('line-filter');
 
   fetch('/stations.json')
     .then(res => res.json())
@@ -136,28 +239,32 @@ document.addEventListener('DOMContentLoaded', () => {
           const companyMelodies = stationMelodies.filter(m => 
             m.company === company.name || (company.id==='archive' && (m.company==='過去のメロディ' || m.status==='過去'))
           );
-
           if (!companyMelodies.length) return '';
-
           // Group by line
           const linesMap = {};
           companyMelodies.forEach(m => {
             if (!linesMap[m.line]) linesMap[m.line] = [];
             linesMap[m.line].push(m);
           });
-
           return `
             <section style="margin-bottom:32px;">
               <h2 style="color:#1976d2; margin-bottom:16px;">${company.name}</h2>
               ${Object.entries(linesMap).map(([line, melodies]) => {
+                // Improved filter: match melody, direction, or line name
+                const filterLower = filter.toLowerCase();
                 const filteredMelodies = melodies.filter(m => 
-                  m.melody.toLowerCase().includes(filter.toLowerCase()) ||
-                  (m.direction && m.direction.toLowerCase().includes(filter.toLowerCase()))
+                  m.melody.toLowerCase().includes(filterLower) ||
+                  (m.direction && m.direction.toLowerCase().includes(filterLower)) ||
+                  line.toLowerCase().includes(filterLower)
                 );
-                if (!filteredMelodies.length && !line.toLowerCase().includes(filter.toLowerCase())) return '';
-
+                if (!filteredMelodies.length && !line.toLowerCase().includes(filterLower)) return '';
                 const logoSrc = `/images/${line}.png`;
-                const lineUrl = `/jr-east/${encodeURIComponent(line)}.html`;
+                let basePath = '';
+                if (company.id === 'jr') basePath = '/jr-east';
+                else if (company.id === 'metro') basePath = '/tokyo-metro';
+                else if (company.id === 'toei') basePath = '/toei';
+                else basePath = '/archive';
+                const lineUrl = `${basePath}/${encodeURIComponent(line)}.html`;
                 return `
                   <div style="border:1px solid #ddd; border-radius:16px; background:#fafafa; padding:20px; margin-bottom:28px;">
                     <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
@@ -171,7 +278,7 @@ document.addEventListener('DOMContentLoaded', () => {
                       return `
                         <div class="melody-item" style="margin-bottom:16px; padding:24px; border-radius:16px; background:#fff; box-shadow:0 3px 12px rgba(0,0,0,0.08); display:flex; flex-direction:column; gap:12px; align-items:flex-start;">
                           <div class="melody-name" style="font-weight:600; font-size:1.15em; text-align:left;">
-                            ${m.melody || '名称不明'} ${m.direction ? `(${m.direction}方面)` : ''}
+                            ${m.melody || '発車メロディーなし'} ${m.direction ? `(${m.direction}方面)` : ''}
                           </div>
                           ${audioSrc ? `
                             <div style="display:flex; flex-direction:column; gap:6px; width:100%;">
@@ -200,7 +307,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       renderCompanyMelodies();
-
       // Fix: Use line-filter input for filtering
       filterInput.addEventListener('input', e => {
         renderCompanyMelodies(e.target.value);

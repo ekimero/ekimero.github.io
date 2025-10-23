@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
               </div>
               ${melodies.map(m => `
                 <div class="melody-item">
-                  <div class="melody-name">${m.melody || '名称不明'}</div>
+                  <div class="melody-name">${m.melody || '発車メロディーなし'}</div>
                   <div class="melody-line">${m.line}</div>
                   ${m.file ? `
                     <div style="display:flex; align-items:center; gap:8px; margin-top:8px;">
