@@ -199,12 +199,12 @@ document.addEventListener('DOMContentLoaded', () => {
               </div>
               ${melodies.map(m => `
                 <div class="melody-item">
-                  <div class="melody-name">${m.melody || '発車メロディーなし'}</div>
+                  <div class="melody-name"><a href="/melodies/${encodeURIComponent(m.melody)}.html" style="color:#333; font-weight:600; text-decoration:underline;">${m.melody || '発車メロディーなし'}</a></div>
                   <div class="melody-line">${m.line}</div>
                   ${m.file ? `
                     <div style="display:flex; align-items:center; gap:8px; margin-top:8px;">
                       <audio class="melody-audio" controls controlsList="nodownload" src="/${m.file}" loop></audio>
-                      <label style="font-size:0.85em; display:flex; align-items:center; gap:4px; cursor:pointer;">
+                      <label style="font-size:0.85em; display:block; margin-top:4px; cursor:pointer;">
                         <input type="checkbox" class="loop-checkbox"> ループ
                       </label>
                     </div>` : '<span style="color:#888;">音源なし</span>'}
@@ -434,6 +434,8 @@ document.addEventListener('DOMContentLoaded', function() {
     <a href="/other.html">その他</a>
     <a href="/history.html">更新履歴</a>
     <a href="/credits.html">素材提供・利用規約</a>
+<a href="/all-pages.html">全ページ
+</a>
   </div>
 
   <!-- Clear and open footer description -->
