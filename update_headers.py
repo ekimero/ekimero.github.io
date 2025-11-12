@@ -247,7 +247,7 @@ MOBILE_MENU_SCRIPT = r'''<script>
     document.body.classList.add('mobile-menu-open');
     btn.setAttribute('aria-expanded','true');
     overlay.setAttribute('aria-hidden','false');
-    setTimeout(()=> searchInput.focus(), 220);
+    
   }
   function closeMenu(){
     // Remove both classes simultaneously for smooth fade out
