@@ -1,0 +1,90 @@
+
+<script>
+(function(){
+  // create and insert the header button so it truly lives in the header
+  const header = document.querySelector('header');
+  const mobileBtn = document.createElement('button');
+  mobileBtn.id = 'mobileMenuButton';
+  mobileBtn.className = 'mobile-menu-btn';
+  mobileBtn.title = 'メニュー';
+  mobileBtn.setAttribute('aria-controls','mobileMenuPanel');
+  mobileBtn.setAttribute('aria-expanded','false');
+  mobileBtn.innerHTML = '<svg class="icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 7h16M4 12h16M4 17h16" stroke="#1976d2" stroke-width="2" stroke-linecap="round"/></svg>';
+  if (header) header.appendChild(mobileBtn);
+
+  const btn = mobileBtn;
+  const overlay = document.getElementById('mobileMenuOverlay');
+  const panel = document.getElementById('mobileMenuPanel');
+  const closeBtn = document.getElementById('mobileMenuClose');
+  const searchForm = document.getElementById('mobileMenuSearchForm');
+  const searchInput = document.getElementById('mobileMenuSearchInput');
+  const resultsEl = document.getElementById('mobileSearchResults');
+
+  function openMenu(){
+    overlay.classList.add('visible');
+    // allow layout, then fade panel in
+    requestAnimationFrame(()=> {
+      requestAnimationFrame(()=> panel.classList.add('open'));
+    });
+    document.body.classList.add('mobile-menu-open');
+    btn.setAttribute('aria-expanded','true');
+    overlay.setAttribute('aria-hidden','false');
+    setTimeout(()=> searchInput.focus(), 220);
+  }
+  function closeMenu(){
+    // Remove both classes simultaneously for smooth fade out
+    panel.classList.remove('open');
+    overlay.classList.remove('visible');
+    btn.setAttribute('aria-expanded','false');
+    overlay.setAttribute('aria-hidden','true');
+    document.body.classList.remove('mobile-menu-open');
+    // Focus button after animation completes
+    setTimeout(()=> btn.focus(), 400);
+  }
+
+  btn.addEventListener('click', (e)=>{ e.preventDefault(); openMenu(); });
+  closeBtn.addEventListener('click', (e)=>{ e.preventDefault(); closeMenu(); });
+  overlay.addEventListener('click', (e)=>{ if (!panel.contains(e.target)) closeMenu(); });
+  document.addEventListener('keydown', (e)=>{ if (e.key === 'Escape') closeMenu(); });
+
+  // search helper: ensure we have stations data, fetch if necessary
+  async function ensureStationsData(){
+    if (window.stationsData && Array.isArray(window.stationsData) && window.stationsData.length>0) return window.stationsData;
+    try {
+      const res = await fetch('/stations.json');
+      if (!res.ok) throw new Error('stations.json fetch failed');
+      const data = await res.json();
+      window.stationsData = data;
+      return data;
+    } catch (err) {
+      console.error('Failed to load stations.json for mobile search', err);
+      return null;
+    }
+  }
+
+  async function performSearch(q, targetEl){
+    if (!q) { if (targetEl) targetEl.innerHTML=''; return; }
+    const data = await ensureStationsData();
+    if (!data) { if (targetEl) targetEl.innerHTML = '<div style="padding:12px;color:#888;">検索データを読み込み中です…</div>'; return; }
+    const lowerQ = q.toLowerCase();
+    const matches = data.filter(st => (st.station||'').toLowerCase().includes(lowerQ) || (st.melody||'').toLowerCase().includes(lowerQ));
+    if (matches.length === 0) { if (targetEl) targetEl.innerHTML = '<div style="padding:12px;color:#888;">該当なし</div>'; return; }
+    const html = matches.slice(0,50).map(st=>{
+      const audioSrc = st.file ? (st.file.match(/^https?:\/\//) ? st.file : st.file) : '';
+      const stationUrl = `/stations/${encodeURIComponent(st.station)}.html`;
+      const melodyUrl = `/melodies/${encodeURIComponent(st.melody)}.html`;
+      return `<div class="mobile-menu-result">
+        <div><a href="${stationUrl}">${st.station}</a> <span style="color:#666;">(${st.line||''})</span></div>
+        <div style="color:#444;margin-top:6px;"><a href="${melodyUrl}">${st.melody}</a></div>
+        ${audioSrc?`<div style="margin-top:8px;"><audio controls controlsList="nodownload" src="${audioSrc}" style="width:100%;"></audio></div>`:''}
+      </div>`;
+    }).join('');
+    if (targetEl) targetEl.innerHTML = html;
+  }
+
+  // wire events
+  searchForm.addEventListener('submit', function(e){ e.preventDefault(); performSearch(searchInput.value.trim(), resultsEl); });
+  searchInput.addEventListener('input', function(e){ performSearch(this.value.trim(), resultsEl); });
+
+})();
+</script>
