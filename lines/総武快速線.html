@@ -739,7 +739,12 @@ document.addEventListener('click', e => {
     const matches = data.filter(st => (st.station||'').toLowerCase().includes(lowerQ) || (st.melody||'').toLowerCase().includes(lowerQ));
     if (matches.length === 0) { if (targetEl) targetEl.innerHTML = '<div style="padding:12px;color:#888;">該当なし</div>'; return; }
     const html = matches.slice(0,50).map(st=>{
-      const audioSrc = st.file ? (st.file.match(/^https?:\/\//) ? st.file : st.file) : '';
+        const audioSrc = st.file
+  ? (st.file.match(/^https?:\/\//)
+      ? st.file
+      : (st.file.startsWith('/') ? st.file : '/' + st.file))
+  : '';
+
       const stationUrl = `/stations/${encodeURIComponent(st.station)}.html`;
       const melodyUrl = `/melodies/${encodeURIComponent(st.melody)}.html`;
       return `<div class="mobile-menu-result">
