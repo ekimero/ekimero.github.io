@@ -138,6 +138,11 @@ MOBILE_MENU_STYLES = '''<!-- Redesigned Mobile Menu: fade in/out animation with 
     border-radius: 8px;
     margin-bottom: 8px;
   }
+  .mobile-menu-overlay,
+.mobile-menu-panel {
+  border-radius: 0 !important;
+}
+
   .mobile-menu-result a { color:#1976d2; font-weight:700; text-decoration:none; }
 
   @media (max-width: 768px) {
