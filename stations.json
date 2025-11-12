@@ -1942,6 +1942,13 @@
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "東神奈川",
+    "melody": "首都圏1-1番",
+    "file": "audio/首都圏1-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "京浜東北線",
+    "station": "東神奈川",
     "melody": "首都圏2-1番",
     "file": "audio/首都圏2-1番.mp3"
   },
@@ -2784,6 +2791,20 @@
     "station": "高尾",
     "melody": "首都圏9番",
     "file": "audio/首都圏9番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央線快速",
+    "station": "高尾",
+    "melody": "首都圏8-1番",
+    "file": "audio/首都圏8-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央線快速",
+    "station": "高尾",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
@@ -6233,15 +6254,23 @@
     "company": "JR東日本",
     "line": "中央本線",
     "station": "高尾",
-    "melody": "首都圏8番",
-    "file": "audio/首都圏8番.mp3"
+    "melody": "首都圏9番",
+    "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "高尾",
-    "melody": "首都圏9番",
-    "file": "audio/首都圏9番.mp3"
+    "melody": "首都圏8-1番",
+    "file": "audio/首都圏8-1番.mp3"
+  },
+
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "高尾",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
@@ -6253,9 +6282,30 @@
   {
     "company": "JR東日本",
     "line": "中央本線",
+    "station": "相模湖",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "相模湖",
+    "melody": "首都圏9-2番",
+    "file": "audio/首都圏9-2番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
     "station": "藤野",
     "melody": "首都圏9番",
     "file": "audio/首都圏9番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "藤野",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
@@ -6267,9 +6317,30 @@
   {
     "company": "JR東日本",
     "line": "中央本線",
+    "station": "上野原",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
     "station": "四方津",
     "melody": "首都圏9番",
     "file": "audio/首都圏9番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "四方津",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "四方津",
+    "melody": "首都圏9-2番",
+    "file": "audio/首都圏9-2番.mp3"
   },
   {
     "company": "JR東日本",
@@ -6281,9 +6352,23 @@
   {
     "company": "JR東日本",
     "line": "中央本線",
+    "station": "梁川",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
     "station": "鳥沢",
     "melody": "首都圏9番",
     "file": "audio/首都圏9番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "鳥沢",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
@@ -6295,9 +6380,30 @@
   {
     "company": "JR東日本",
     "line": "中央本線",
+    "station": "猿橋",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
     "station": "大月",
     "melody": "首都圏9番",
     "file": "audio/首都圏9番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "大月",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "大月",
+    "melody": "首都圏9-3番",
+    "file": "audio/首都圏9-3番.mp3"
   },
   {
     "company": "JR東日本",
@@ -6316,9 +6422,30 @@
   {
     "company": "JR東日本",
     "line": "中央本線",
+    "station": "笹子",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
     "station": "甲斐大和",
     "melody": "首都圏9番",
     "file": "audio/首都圏9番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "甲斐大和",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "甲斐大和",
+    "melody": "首都圏9-2番",
+    "file": "audio/首都圏9-2番.mp3"
   },
   {
     "company": "JR東日本",
@@ -6330,9 +6457,30 @@
   {
     "company": "JR東日本",
     "line": "中央本線",
+    "station": "勝沼ぶどう郷",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  }, 
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
     "station": "塩山",
     "melody": "首都圏9番",
     "file": "audio/首都圏9番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "塩山",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "塩山",
+    "melody": "首都圏9-4番",
+    "file": "audio/首都圏9-4番.mp3"
   },
   {
     "company": "JR東日本",
@@ -6344,6 +6492,13 @@
   {
     "company": "JR東日本",
     "line": "中央本線",
+    "station": "東山梨",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
     "station": "山梨市",
     "melody": "首都圏9番",
     "file": "audio/首都圏9番.mp3"
@@ -6351,9 +6506,30 @@
   {
     "company": "JR東日本",
     "line": "中央本線",
+    "station": "山梨市",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "山梨市",
+    "melody": "首都圏9-2番",
+    "file": "audio/首都圏9-2番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
     "station": "春日居町",
     "melody": "首都圏9番",
     "file": "audio/首都圏9番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "春日居町",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
@@ -6379,9 +6555,37 @@
   {
     "company": "JR東日本",
     "line": "中央本線",
+    "station": "酒折",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "酒折",
+    "melody": "首都圏9-2番",
+    "file": "audio/首都圏9-2番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
     "station": "甲府",
     "melody": "首都圏9番",
     "file": "audio/首都圏9番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "甲府",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "甲府",
+    "melody": "首都圏9-3番",
+    "file": "audio/首都圏9-3番.mp3"
   },
   {
     "company": "JR東日本",
@@ -6393,9 +6597,37 @@
   {
     "company": "JR東日本",
     "line": "中央本線",
+    "station": "竜王",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "竜王",
+    "melody": "首都圏9-3番",
+    "file": "audio/首都圏9-3番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "竜王",
+    "melody": "首都圏9-4番",
+    "file": "audio/首都圏9-4番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
     "station": "塩崎",
     "melody": "首都圏9番",
     "file": "audio/首都圏9番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "塩崎",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
@@ -6407,9 +6639,23 @@
   {
     "company": "JR東日本",
     "line": "中央本線",
+    "station": "韮崎",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
     "station": "新府",
     "melody": "首都圏9番",
     "file": "audio/首都圏9番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "新府",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
@@ -6421,9 +6667,23 @@
   {
     "company": "JR東日本",
     "line": "中央本線",
+    "station": "穴山",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
     "station": "日野春",
     "melody": "首都圏9番",
     "file": "audio/首都圏9番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "日野春",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
@@ -6435,9 +6695,23 @@
   {
     "company": "JR東日本",
     "line": "中央本線",
+    "station": "長坂",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
     "station": "小淵沢",
     "melody": "首都圏9番",
     "file": "audio/首都圏9番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
+    "station": "小淵沢",
+    "melody": "首都圏9-1番",
+    "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
@@ -7384,6 +7658,62 @@
     "station": "横川",
     "melody": "首都圏25番",
     "file": "audio/首都圏25番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "信越本線",
+    "station": "篠ノ井",
+    "melody": "Water Crown(篠ノ井Ver)",
+    "file": "audio/Water Crown(篠ノ井Ver).mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "信越本線",
+    "station": "今井",
+    "melody": "長野2番",
+    "file": "audio/長野2番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "信越本線",
+    "station": "長野",
+    "melody": "秋桜V1",
+    "file": "audio/秋桜V1.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "信越本線",
+    "station": "長野",
+    "melody": "古いオルゴール",
+    "file": "audio/古いオルゴール.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "信越本線",
+    "station": "長野",
+    "melody": "小川のせせらぎV1",
+    "file": "audio/小川のせせらぎV1.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "信越本線",
+    "station": "長野",
+    "melody": "光と風と",
+    "file": "audio/光と風と.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "信越本線",
+    "station": "長野",
+    "melody": "Twilight",
+    "file": "audio/Twilight.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "飯山線",
+    "station": "長野",
+    "melody": "スプリングボックス",
+    "file": "audio/スプリングボックス.mp3"
   },
   {
     "company": "JR東日本",
@@ -11712,13 +12042,6 @@
     "station": "未使用",
     "melody": "牧場の朝箱根ヶ崎Ver",
     "file": "audio/牧場の朝箱根ヶ崎Ver.mp3"
-  },
-      {
-    "company": "JR東日本",
-    "line": "未使用",
-    "station": "未使用",
-    "melody": "古いオルゴール (長野駅で使用)",
-    "file": ""
   },
       {
     "company": "JR東日本",
