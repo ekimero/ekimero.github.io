@@ -466,16 +466,16 @@ padding: 15px 12px;
     <h2 style="color:#f0f0f0; font-weight:500; margin-bottom:12px;">どこでも駅メロ | このメロディーを使用する駅一覧</h2>
     <div id="melody-audio-container" style="margin-top:8px;">
       <!-- audio block (inserted by generator). e.g. <audio src="/audio/xxx.mp3"> -->
-      <div style="margin-top:12px; display:flex; gap:8px; align-items:center; justify-content:center;"><audio id="melodyAudio" controls controlsList="nodownload" src="/audio/お江戸日本橋 Ver.E.mp3" style="width:100%;max-width:420px;"></audio><label style="font-size:0.95em;color:#fff;"><input id="melodyLoop" type="checkbox" style="margin-left:6px;"> ループ</label></div>
+      <div style="color:#888; margin-top:12px;">音源なし</div>
      </div>
    </div>
  </div>
 
-<div style="margin-bottom:24px; width:100%;">
-  <input id="line-filter" type="text" placeholder="駅名・路線名で絞り込み" style="width:100%; max-width:380px; padding:8px; border-radius:8px; border:1px solid #bcd;">
+ <div style="margin-bottom:32px; width:100%;">
+  <input id="line-filter" type="text" placeholder="駅名・メロディ名で絞り込み">
 </div>
 
-<div id="melody-stations-container" style="text-align:left; max-width:1000px; margin:0 auto;"></div>
+<div id="melody-stations-container" style="text-align:left; max-width:1052px; margin:0 auto;"></div>
 
 </main>
 
@@ -560,7 +560,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           return `
             <section style="margin-bottom:28px;">
-              <h2 style="color:#1976d2; margin-bottom:12px;">${company.name}</h2>
+              <h2 style="color:#1976d2; margin-bottom:12px; text-align:center;">${company.name}</h2>
               ${Object.entries(linesMap).map(([line, list]) => {
                 const filterLower = f;
                 const visibleList = list.filter(m => {

@@ -318,7 +318,7 @@ padding: 15px 12px;
      style="max-width:120px; height:auto; border-radius:16px;">
     </div>
     <h1>東西線の発車メロディー一覧</h1>
-    <h2>どこでも駅メロ | 東西線の発車メロディーの音声は現在準備中です。</h2>
+    <h2>どこでも駅メロ | 東西線の発車メロディーを駅ごとに再生できます</h2>
     <!-- Container for all line logos -->
     <div id="line-logos-container"></div>
   </div>
@@ -700,7 +700,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const matches = data.filter(st => (st.station||'').toLowerCase().includes(lowerQ) || (st.melody||'').toLowerCase().includes(lowerQ));
     if (matches.length === 0) { if (targetEl) targetEl.innerHTML = '<div style="padding:12px;color:#888;">該当なし</div>'; return; }
     const html = matches.slice(0,50).map(st=>{
-      const audioSrc = st.file
+        const audioSrc = st.file
   ? (st.file.match(/^https?:\/\//)
       ? st.file
       : (st.file.startsWith('/') ? st.file : '/' + st.file))

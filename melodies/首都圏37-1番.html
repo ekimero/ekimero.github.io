@@ -471,11 +471,11 @@ padding: 15px 12px;
    </div>
  </div>
 
-<div style="margin-bottom:24px; width:100%;">
-  <input id="line-filter" type="text" placeholder="駅名・路線名で絞り込み" style="width:100%; max-width:380px; padding:8px; border-radius:8px; border:1px solid #bcd;">
+ <div style="margin-bottom:32px; width:100%;">
+  <input id="line-filter" type="text" placeholder="駅名・メロディ名で絞り込み">
 </div>
 
-<div id="melody-stations-container" style="text-align:left; max-width:1000px; margin:0 auto;"></div>
+<div id="melody-stations-container" style="text-align:left; max-width:1052px; margin:0 auto;"></div>
 
 </main>
 
@@ -560,7 +560,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
           return `
             <section style="margin-bottom:28px;">
-              <h2 style="color:#1976d2; margin-bottom:12px;">${company.name}</h2>
+              <h2 style="color:#1976d2; margin-bottom:12px; text-align:center;">${company.name}</h2>
               ${Object.entries(linesMap).map(([line, list]) => {
                 const filterLower = f;
                 const visibleList = list.filter(m => {
