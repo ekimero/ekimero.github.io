@@ -6737,6 +6737,48 @@
   {
     "company": "JR東日本",
     "line": "中央本線",
+    "station": "塩尻",
+    "melody": "遊園地ベル",
+    "file": "audio/遊園地ベル.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線（辰野支線）",
+    "station": "塩尻",
+    "melody": "遊園地ベル",
+    "file": "audio/遊園地ベル.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線（辰野支線）",
+    "station": "辰野",
+    "melody": "For Tomorrow",
+    "file": "audio/For Tomorrow.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線（辰野支線）",
+    "station": "辰野",
+    "melody": "SF10-31（短縮ver.）",
+    "file": "audio/SF10-31（短縮ver.）.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "飯田線",
+    "station": "辰野",
+    "melody": "For Tomorrow",
+    "file": "audio/For Tomorrow.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "飯田線",
+    "station": "辰野",
+    "melody": "SF10-31（短縮ver.）",
+    "file": "audio/SF10-31（短縮ver.）.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央本線",
     "station": "松本",
     "melody": "首都圏9-5番",
     "file": "audio/首都圏9-5番.mp3"
@@ -8435,6 +8477,20 @@
     "station": "中之条",
     "melody": "首都圏28-1番",
     "file": "audio/首都圏28-1番.mp3"
+  },
+    {
+    "company": "JR東日本",
+    "line": "吾妻線",
+    "station": "長野原草津口",
+    "melody": "首都圏28番",
+    "file": "audio/首都圏28番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "吾妻線",
+    "station": "長野原草津口",
+    "melody": "首都圏28番",
+    "file": "audio/首都圏28番.mp3"
   },
   {
     "company": "JR東日本",
