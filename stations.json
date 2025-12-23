@@ -3,14 +3,14 @@
     "company": "JR東日本",
     "line": "山手線",
     "station": "東京",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "東京",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
@@ -31,42 +31,42 @@
     "company": "JR東日本",
     "line": "山手線",
     "station": "秋葉原",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "秋葉原",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "御徒町",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "御徒町",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "上野",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "上野",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
@@ -87,7 +87,7 @@
     "company": "JR東日本",
     "line": "山手線",
     "station": "日暮里",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
@@ -101,21 +101,21 @@
     "company": "JR東日本",
     "line": "山手線",
     "station": "西日暮里",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "西日暮里",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "田端",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
@@ -227,70 +227,70 @@
     "company": "JR東日本",
     "line": "山手線",
     "station": "新大久保",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "新大久保",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "新宿",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "新宿",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "代々木",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "代々木",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "原宿",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "原宿",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "渋谷",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "渋谷",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
@@ -311,56 +311,73 @@
     "company": "JR東日本",
     "line": "山手線",
     "station": "目黒",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "目黒",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "五反田",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
+
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "五反田",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
+
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "大崎",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "大崎",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-03 (首都圏11-2番)",
+    "file": "audio/首都圏11-2番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "山手線",
+    "station": "大崎",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
+  },
+
+  {
+    "company": "JR東日本",
+    "line": "山手線",
+    "station": "大崎",
+    "melody": "JRE-IKST-010-05 (首都圏11-3番)",
+    "file": "audio/首都圏11-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "品川",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "品川",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
@@ -381,56 +398,56 @@
     "company": "JR東日本",
     "line": "山手線",
     "station": "田町",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "田町",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "浜松町",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "浜松町",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "新橋",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "新橋",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "有楽町",
-    "melody": "首都圏11番",
+    "melody": "JRE-IKST-010-01 (首都圏11番)",
     "file": "audio/首都圏11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "山手線",
     "station": "有楽町",
-    "melody": "首都圏11-1番",
+    "melody": "JRE-IKST-010-02 (首都圏11-1番)",
     "file": "audio/首都圏11-1番.mp3"
   },
   {
@@ -444,42 +461,42 @@
     "company": "JR東日本",
     "line": "埼京線",
     "station": "武蔵小杉",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "武蔵小杉",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "西大井",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "西大井",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "大崎",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "大崎",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
@@ -500,56 +517,56 @@
     "company": "JR東日本",
     "line": "埼京線",
     "station": "渋谷",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "渋谷",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "新宿",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "新宿",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "新宿",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "新宿",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "池袋",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "池袋",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
@@ -584,14 +601,14 @@
     "company": "JR東日本",
     "line": "埼京線",
     "station": "赤羽",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "赤羽",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
@@ -633,7 +650,7 @@
     "company": "JR東日本",
     "line": "埼京線",
     "station": "戸田公園",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
@@ -647,7 +664,7 @@
     "company": "JR東日本",
     "line": "埼京線",
     "station": "戸田",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
@@ -661,182 +678,182 @@
     "company": "JR東日本",
     "line": "埼京線",
     "station": "北戸田",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "武蔵浦和",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "武蔵浦和",
-    "melody": "首都圏5-2番",
+    "melody": "JRE-IKST-006-04 (首都圏5-2番)",
     "file": "audio/首都圏5-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "武蔵浦和",
-    "melody": "首都圏5-3番",
+    "melody": "JRE-IKST-006-05 (首都圏5-3番)",
     "file": "audio/首都圏5-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "武蔵浦和",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "中浦和",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "中浦和",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "南与野",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "南与野",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "与野本町",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "与野本町",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "北与野",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "北与野",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "大宮",
-    "melody": "首都圏20番",
+    "melody": "JRE-IKST-014-01 (首都圏20番)",
     "file": "audio/首都圏20番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "大宮",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "埼京線",
     "station": "大宮",
-    "melody": "首都圏20-1番",
+    "melody": "JRE-IKST-014-02 (首都圏20-1番)",
     "file": "audio/首都圏20-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "東京",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "東京",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "東京",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "東京",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "新橋",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "新橋",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "品川",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "品川",
-    "melody": "首都圏3-3番",
+    "melody": "JRE-IKST-021-06 (首都圏3-3番)",
     "file": "audio/首都圏3-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "品川",
-    "melody": "首都圏3-4番",
+    "melody": "JRE-IKST-021-05 (首都圏3-4番)",
     "file": "audio/首都圏3-4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "品川",
-    "melody": "首都圏3-2番",
+    "melody": "JRE-IKST-021-03 (首都圏3-2番)",
     "file": "audio/首都圏3-2番.mp3"
   },
   {
@@ -857,7 +874,7 @@
     "company": "JR東日本",
     "line": "東海道線",
     "station": "品川",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
@@ -878,42 +895,42 @@
     "company": "JR東日本",
     "line": "東海道線",
     "station": "横浜",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "横浜",
-    "melody": "首都圏3-3番",
+    "melody": "JRE-IKST-021-06 (首都圏3-3番)",
     "file": "audio/首都圏3-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "横浜",
-    "melody": "首都圏3-4番",
+    "melody": "JRE-IKST-021-05 (首都圏3-4番)",
     "file": "audio/首都圏3-4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "横浜",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "戸塚",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "戸塚",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
@@ -962,14 +979,14 @@
     "company": "JR東日本",
     "line": "東海道線",
     "station": "藤沢",
-    "melody": "首都圏3-6番",
+    "melody": "JRE-IKST-021-10 (首都圏3-6番)",
     "file": "audio/首都圏3-6番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "藤沢",
-    "melody": "首都圏3-7番",
+    "melody": "JRE-IKST-021-08 (首都圏3-7番)",
     "file": "audio/首都圏3-7番.mp3"
   },
   {
@@ -1004,14 +1021,14 @@
     "company": "JR東日本",
     "line": "東海道線",
     "station": "茅ケ崎",
-    "melody": "首都圏3-6番",
+    "melody": "JRE-IKST-021-10 (首都圏3-6番)",
     "file": "audio/首都圏3-6番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "茅ケ崎",
-    "melody": "首都圏3-7番",
+    "melody": "JRE-IKST-021-08 (首都圏3-7番)",
     "file": "audio/首都圏3-7番.mp3"
   },
   {
@@ -1046,14 +1063,14 @@
     "company": "JR東日本",
     "line": "東海道線",
     "station": "大磯",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "大磯",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
@@ -1081,14 +1098,14 @@
     "company": "JR東日本",
     "line": "東海道線",
     "station": "鴨宮",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "鴨宮",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
@@ -1123,203 +1140,203 @@
     "company": "JR東日本",
     "line": "東海道線",
     "station": "早川",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "早川",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "根府川",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "根府川",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "真鶴",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "真鶴",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "湯河原",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "湯河原",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "熱海",
-    "melody": "首都圏19番",
+    "melody": "JRE-IKST-018-02 (首都圏19番)",
     "file": "audio/首都圏19番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "熱海",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "熱海",
-    "melody": "首都圏19-1番",
+    "melody": "JRE-IKST-018-01 (首都圏19-1番)",
     "file": "audio/首都圏19-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東海道線",
     "station": "熱海",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "久里浜",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "久里浜",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "衣笠",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "衣笠",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "横須賀",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "横須賀",
-    "melody": "首都圏4-2番",
+    "melody": "JRE-IKST-015-05 (首都圏4-2番)",
     "file": "audio/首都圏4-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "田浦",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "田浦",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "東逗子",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "東逗子",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "逗子",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "逗子",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "逗子",
-    "melody": "首都圏16番",
+    "melody": "JRE-IKST-008-03 (首都圏16番)",
     "file": "audio/首都圏16番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "鎌倉",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "鎌倉",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "北鎌倉",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "北鎌倉",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
@@ -1340,98 +1357,98 @@
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "戸塚",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "戸塚",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "東戸塚",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "東戸塚",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "保土ケ谷",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "保土ケ谷",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "横浜",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "横浜",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "新川崎",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "新川崎",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "武蔵小杉",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "武蔵小杉",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "西大井",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "西大井",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
@@ -1452,210 +1469,210 @@
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "品川",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "新橋",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "新橋",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "東京",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "東京",
-    "melody": "首都圏13番",
+    "melody": "JRE-IKST-005-01 (首都圏13番)",
     "file": "audio/首都圏13番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "東京",
-    "melody": "首都圏13-1番",
+    "melody": "JRE-IKST-005-02 (首都圏13-1番)",
     "file": "audio/首都圏13-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横須賀線",
     "station": "東京",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "東京",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "東京",
-    "melody": "首都圏13番",
+    "melody": "JRE-IKST-005-01 (首都圏13番)",
     "file": "audio/首都圏13番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "東京",
-    "melody": "首都圏13-1番",
+    "melody": "JRE-IKST-005-02 (首都圏13-1番)",
     "file": "audio/首都圏13-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "東京",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "新日本橋",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "新日本橋",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "馬喰町",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "馬喰町",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "錦糸町",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "錦糸町",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "新小岩",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "新小岩",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "市川",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "市川",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "船橋",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "船橋",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "津田沼",
-    "melody": "首都圏16-2番",
+    "melody": "JRE-IKST-008-02 (首都圏16-2番)",
     "file": "audio/首都圏16-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "津田沼",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "津田沼",
-    "melody": "首都圏13番",
+    "melody": "JRE-IKST-005-01 (首都圏13番)",
     "file": "audio/首都圏13番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "津田沼",
-    "melody": "首都圏13-1番",
+    "melody": "JRE-IKST-005-02 (首都圏13-1番)",
     "file": "audio/首都圏13-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "津田沼",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "稲毛",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武快速線",
     "station": "稲毛",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
@@ -1690,112 +1707,112 @@
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "戸塚",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "戸塚",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "東戸塚",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "東戸塚",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "保土ケ谷",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "保土ケ谷",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "横浜",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "横浜",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "新川崎",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "新川崎",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "武蔵小杉",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "武蔵小杉",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "西大井",
-    "melody": "首都圏4番",
+    "melody": "JRE-IKST-015-01 (首都圏4番)",
     "file": "audio/首都圏4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "西大井",
-    "melody": "首都圏4-1番",
+    "melody": "JRE-IKST-015-02 (首都圏4-1番)",
     "file": "audio/首都圏4-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "大崎",
-    "melody": "首都圏19番",
+    "melody": "JRE-IKST-018-02 (首都圏19番)",
     "file": "audio/首都圏19番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "大崎",
-    "melody": "首都圏19-1番",
+    "melody": "JRE-IKST-018-01 (首都圏19-1番)",
     "file": "audio/首都圏19-1番.mp3"
   },
   {
@@ -1816,42 +1833,42 @@
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "渋谷",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "渋谷",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "新宿",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "新宿",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "池袋",
-    "melody": "首都圏19番",
+    "melody": "JRE-IKST-018-02 (首都圏19番)",
     "file": "audio/首都圏19番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "池袋",
-    "melody": "首都圏19-1番",
+    "melody": "JRE-IKST-018-01 (首都圏19-1番)",
     "file": "audio/首都圏19-1番.mp3"
   },
   {
@@ -1872,126 +1889,126 @@
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "浦和",
-    "melody": "首都圏19番",
+    "melody": "JRE-IKST-018-02 (首都圏19番)",
     "file": "audio/首都圏19番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "浦和",
-    "melody": "首都圏19-1番",
+    "melody": "JRE-IKST-018-01 (首都圏19-1番)",
     "file": "audio/首都圏19-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "大宮",
-    "melody": "首都圏19番",
+    "melody": "JRE-IKST-018-02 (首都圏19番)",
     "file": "audio/首都圏19番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "大宮",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "大宮",
-    "melody": "首都圏6番",
+    "melody": "JRE-IKST-009-01 (首都圏6番)",
     "file": "audio/首都圏6番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "大宮",
-    "melody": "首都圏16-1番",
+    "melody": "JRE-IKST-008-01 (首都圏16-1番)",
     "file": "audio/首都圏16-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "湘南新宿ライン",
     "station": "大宮",
-    "melody": "首都圏19-1番",
+    "melody": "JRE-IKST-018-01 (首都圏19-1番)",
     "file": "audio/首都圏19-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "横浜",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "横浜",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "東神奈川",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "東神奈川",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "東神奈川",
-    "melody": "首都圏2-1番",
+    "melody": "JRE-IKST-017-01 (首都圏2-1番)",
     "file": "audio/首都圏2-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "新子安",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "新子安",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "鶴見",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "鶴見",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "川崎",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "川崎",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
@@ -2012,28 +2029,28 @@
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "大森",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "大森",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "大井町",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "大井町",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
@@ -2054,126 +2071,126 @@
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "田町",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "田町",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "浜松町",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "浜松町",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "新橋",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "新橋",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "有楽町",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "有楽町",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "東京",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "東京",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "神田",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "神田",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "秋葉原",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "秋葉原",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "御徒町",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "御徒町",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "上野",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "上野",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
@@ -2201,21 +2218,21 @@
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "日暮里",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "西日暮里",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "西日暮里",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
@@ -2229,49 +2246,49 @@
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "田端",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "上中里",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "上中里",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "王子",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "王子",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "東十条",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "東十条",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
@@ -2292,70 +2309,70 @@
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "川口",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "川口",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "西川口",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "西川口",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "蕨",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "蕨",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "南浦和",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "南浦和",
-    "melody": "首都圏1-2番",
+    "melody": "JRE-IKST-007-05 (首都圏1-2番)",
     "file": "audio/首都圏1-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "南浦和",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "南浦和",
-    "melody": "首都圏1-3番",
+    "melody": "JRE-IKST-007-03 (首都圏1-3番)",
     "file": "audio/首都圏1-3番.mp3"
   },
   {
@@ -2376,7 +2393,7 @@
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "北浦和",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
@@ -2390,7 +2407,7 @@
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "与野",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
@@ -2404,7 +2421,7 @@
     "company": "JR東日本",
     "line": "京浜東北線",
     "station": "さいたま新都心",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
@@ -2432,98 +2449,105 @@
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "東京",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "東京",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "神田",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "神田",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "御茶ノ水",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "御茶ノ水",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "四ツ谷",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "四ツ谷",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "新宿",
-    "melody": "首都圏7番",
+    "melody": "JRE-IKST-011-01 (首都圏7番)",
     "file": "audio/首都圏7番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "新宿",
-    "melody": "首都圏7-1番",
+    "melody": "JRE-IKST-011-02 (首都圏7-1番)",
     "file": "audio/首都圏7-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "中野",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "中野",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-011-01 (首都圏7番)",
+    "file": "audio/首都圏7番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "中央線快速",
+    "station": "中野",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "高円寺",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "高円寺",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
   {
@@ -2544,42 +2568,42 @@
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "荻窪",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "荻窪",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "西荻窪",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "西荻窪",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "吉祥寺",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "吉祥寺",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
   {
@@ -2600,28 +2624,28 @@
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "武蔵境",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "武蔵境",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "東小金井",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "東小金井",
-    "melody": "首都圏8-2番",
+    "melody": "JRE-IKST-016-04 (首都圏8-2番)",
     "file": "audio/首都圏8-2番.mp3"
   },
   {
@@ -2684,14 +2708,14 @@
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "国立",
-    "melody": "首都圏8-2番",
+    "melody": "JRE-IKST-016-04 (首都圏8-2番)",
     "file": "audio/首都圏8-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "国立",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
   {
@@ -2712,28 +2736,28 @@
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "立川",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "立川",
-    "melody": "首都圏8-3番",
+    "melody": "JRE-IKST-016-03 (首都圏8-3番)",
     "file": "audio/首都圏8-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "日野",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "日野",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
   {
@@ -2768,196 +2792,196 @@
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "西八王子",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "西八王子",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "高尾",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "高尾",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "高尾",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央線快速",
     "station": "高尾",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "東京",
-    "melody": "首都圏14番",
+    "melody": "JRE-IKST-004-02 (首都圏14番)",
     "file": "audio/首都圏14番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "東京",
-    "melody": "首都圏14-1番",
+    "melody": "JRE-IKST-004-01 (首都圏14-1番)",
     "file": "audio/首都圏14-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "東京",
-    "melody": "首都圏15番",
+    "melody": "JRE-IKST-001-02 (首都圏15番)",
     "file": "audio/首都圏15番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "東京",
-    "melody": "首都圏15-1番",
+    "melody": "JRE-IKST-001-01 (首都圏15-1番)",
     "file": "audio/首都圏15-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "八丁堀",
-    "melody": "首都圏15-1番",
+    "melody": "JRE-IKST-001-01 (首都圏15-1番)",
     "file": "audio/首都圏15-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "八丁堀",
-    "melody": "首都圏15番",
+    "melody": "JRE-IKST-001-02 (首都圏15番)",
     "file": "audio/首都圏15番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "新浦安",
-    "melody": "首都圏15-1番",
+    "melody": "JRE-IKST-001-01 (首都圏15-1番)",
     "file": "audio/首都圏15-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "新浦安",
-    "melody": "首都圏15-3番",
+    "melody": "JRE-IKST-001-04 (首都圏15-3番)",
     "file": "audio/首都圏15-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "新浦安",
-    "melody": "首都圏15-2番",
+    "melody": "JRE-IKST-001-07 (首都圏15-2番)",
     "file": "audio/首都圏15-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "新浦安",
-    "melody": "首都圏15番",
+    "melody": "JRE-IKST-001-02 (首都圏15番)",
     "file": "audio/首都圏15番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "市川塩浜",
-    "melody": "首都圏15-1番",
+    "melody": "JRE-IKST-001-01 (首都圏15-1番)",
     "file": "audio/首都圏15-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "市川塩浜",
-    "melody": "首都圏15番",
+    "melody": "JRE-IKST-001-02 (首都圏15番)",
     "file": "audio/首都圏15番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "二俣新町",
-    "melody": "首都圏15-1番",
+    "melody": "JRE-IKST-001-01 (首都圏15-1番)",
     "file": "audio/首都圏15-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "二俣新町",
-    "melody": "首都圏15番",
+    "melody": "JRE-IKST-001-02 (首都圏15番)",
     "file": "audio/首都圏15番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "南船橋",
-    "melody": "首都圏15-1番",
+    "melody": "JRE-IKST-001-01 (首都圏15-1番)",
     "file": "audio/首都圏15-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "南船橋",
-    "melody": "首都圏15番",
+    "melody": "JRE-IKST-001-02 (首都圏15番)",
     "file": "audio/首都圏15番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "新習志野",
-    "melody": "首都圏15-2番",
+    "melody": "JRE-IKST-001-07 (首都圏15-2番)",
     "file": "audio/首都圏15-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "新習志野",
-    "melody": "首都圏15-3番",
+    "melody": "JRE-IKST-001-04 (首都圏15-3番)",
     "file": "audio/首都圏15-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "新習志野",
-    "melody": "首都圏15-1番",
+    "melody": "JRE-IKST-001-01 (首都圏15-1番)",
     "file": "audio/首都圏15-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "新習志野",
-    "melody": "首都圏15番",
+    "melody": "JRE-IKST-001-02 (首都圏15番)",
     "file": "audio/首都圏15番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "幕張豊砂",
-    "melody": "首都圏15-1番",
+    "melody": "JRE-IKST-001-01 (首都圏15-1番)",
     "file": "audio/首都圏15-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "幕張豊砂",
-    "melody": "首都圏15番",
+    "melody": "JRE-IKST-001-02 (首都圏15番)",
     "file": "audio/首都圏15番.mp3"
   },
   {
@@ -2971,49 +2995,49 @@
     "company": "JR東日本",
     "line": "京葉線",
     "station": "検見川浜",
-    "melody": "首都圏15-1番",
+    "melody": "JRE-IKST-001-01 (首都圏15-1番)",
     "file": "audio/首都圏15-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "検見川浜",
-    "melody": "首都圏15番",
+    "melody": "JRE-IKST-001-02 (首都圏15番)",
     "file": "audio/首都圏15番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "稲毛海岸",
-    "melody": "首都圏15-1番",
+    "melody": "JRE-IKST-001-01 (首都圏15-1番)",
     "file": "audio/首都圏15-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "稲毛海岸",
-    "melody": "首都圏15番",
+    "melody": "JRE-IKST-001-02 (首都圏15番)",
     "file": "audio/首都圏15番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "千葉みなと",
-    "melody": "首都圏15-4番",
+    "melody": "JRE-IKST-001-05 (首都圏15-4番)",
     "file": "audio/首都圏15-4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "千葉みなと",
-    "melody": "首都圏15-1番",
+    "melody": "JRE-IKST-001-01 (首都圏15-1番)",
     "file": "audio/首都圏15-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "京葉線",
     "station": "千葉みなと",
-    "melody": "首都圏15番",
+    "melody": "JRE-IKST-001-02 (首都圏15番)",
     "file": "audio/首都圏15番.mp3"
   },
   {
@@ -3034,28 +3058,28 @@
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "府中本町",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "府中本町",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "北府中",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "北府中",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
@@ -3076,56 +3100,56 @@
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "新小平",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "新小平",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "新秋津",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "新秋津",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "東所沢",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "東所沢",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "東所沢",
-    "melody": "首都圏18番",
+    "melody": "JRE-IKST-019-01 (首都圏18番)",
     "file": "audio/首都圏18番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "東所沢",
-    "melody": "首都圏18-1番",
+    "melody": "JRE-IKST-019-02 (首都圏18-1番)",
     "file": "audio/首都圏18-1番.mp3"
   },
   {
@@ -3160,70 +3184,70 @@
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "西浦和",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "西浦和",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "武蔵浦和",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "武蔵浦和",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "南浦和",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "南浦和",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "東浦和",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "東浦和",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "東川口",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "東川口",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
@@ -3244,77 +3268,77 @@
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "越谷レイクタウン",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "越谷レイクタウン",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "吉川",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "吉川",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "吉川美南",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "吉川美南",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "吉川美南",
-    "melody": "首都圏18-1番",
+    "melody": "JRE-IKST-019-02 (首都圏18-1番)",
     "file": "audio/首都圏18-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "新三郷",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "新三郷",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "三郷",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "三郷",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
@@ -3335,133 +3359,133 @@
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "新松戸",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "新松戸",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "新八柱",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "新八柱",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "東松戸",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "東松戸",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "市川大野",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "市川大野",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "船橋法典",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "船橋法典",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "西船橋",
-    "melody": "首都圏18番",
+    "melody": "JRE-IKST-019-01 (首都圏18番)",
     "file": "audio/首都圏18番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "西船橋",
-    "melody": "首都圏17-1番",
+    "melody": "JRE-IKST-002-01 (首都圏17-1番)",
     "file": "audio/首都圏17-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "西船橋",
-    "melody": "首都圏17番",
+    "melody": "JRE-IKST-002-02 (首都圏17番)",
     "file": "audio/首都圏17番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "武蔵野線",
     "station": "西船橋",
-    "melody": "首都圏18-1番",
+    "melody": "JRE-IKST-019-02 (首都圏18-1番)",
     "file": "audio/首都圏18-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "上野",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "上野",
-    "melody": "首都圏21番",
+    "melody": "JRE-IKST-020-01 (首都圏21番)",
     "file": "audio/首都圏21番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "上野",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "上野",
-    "melody": "首都圏13-1番",
+    "melody": "JRE-IKST-005-02 (首都圏13-1番)",
     "file": "audio/首都圏13-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "上野",
-    "melody": "首都圏21-1番",
+    "melody": "JRE-IKST-020-02 (首都圏21-1番)",
     "file": "audio/首都圏21-1番.mp3"
   },
   {
@@ -3489,28 +3513,28 @@
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "三河島",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "三河島",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "南千住",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "南千住",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
@@ -3538,35 +3562,35 @@
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "松戸",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "松戸",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "松戸",
-    "melody": "首都圏21番",
+    "melody": "JRE-IKST-020-01 (首都圏21番)",
     "file": "audio/首都圏21番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "柏",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "柏",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
@@ -3615,28 +3639,28 @@
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "取手",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "取手",
-    "melody": "首都圏21番",
+    "melody": "JRE-IKST-020-01 (首都圏21番)",
     "file": "audio/首都圏21番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "取手",
-    "melody": "首都圏21-1番",
+    "melody": "JRE-IKST-020-02 (首都圏21-1番)",
     "file": "audio/首都圏21-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線快速",
     "station": "取手",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
     {
@@ -3650,42 +3674,42 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "取手",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "取手",
-    "melody": "首都圏21番",
+    "melody": "JRE-IKST-020-01 (首都圏21番)",
     "file": "audio/首都圏21番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "取手",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "取手",
-    "melody": "首都圏21-1番",
+    "melody": "JRE-IKST-020-02 (首都圏21-1番)",
     "file": "audio/首都圏21-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "藤代",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "藤代",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
@@ -3727,14 +3751,14 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "ひたち野うしく",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "ひたち野うしく",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
@@ -3783,14 +3807,14 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "高浜",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "高浜",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
@@ -3818,28 +3842,28 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "羽鳥",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "羽鳥",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
     {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "羽鳥",
-    "melody": "首都圏12-2番",
+    "melody": "JRE-IKST-013-03 (首都圏12-2番)",
     "file": "audio/首都圏12-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "羽鳥",
-    "melody": "首都圏12-3番",
+    "melody": "JRE-IKST-013-05 (首都圏12-3番)",
     "file": "audio/首都圏12-3番.mp3"
   },
   {
@@ -3881,133 +3905,133 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "内原",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "内原",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "赤塚",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "赤塚",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
     {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "赤塚",
-    "melody": "首都圏12-2番",
+    "melody": "JRE-IKST-013-03 (首都圏12-2番)",
     "file": "audio/首都圏12-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "水郡線",
     "station": "水戸",
-    "melody": "首都圏32番",
+    "melody": "JRE-IKST-031-01 (首都圏32番)",
     "file": "audio/首都圏32番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "水郡線",
     "station": "水戸",
-    "melody": "首都圏32-1番",
+    "melody": "JRE-IKST-031-02 (首都圏32-1番)",
     "file": "audio/首都圏32-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "水戸",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
     {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "水戸",
-    "melody": "首都圏12-4番",
+    "melody": "JRE-IKST-013-04 (首都圏12-4番)",
     "file": "audio/首都圏12-4番.mp3"
   },
     {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "水戸",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
     {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "水戸",
-    "melody": "首都圏12-2番",
+    "melody": "JRE-IKST-013-03 (首都圏12-2番)",
     "file": "audio/首都圏12-2番.mp3"
   },
     {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "水戸",
-    "melody": "首都圏12-3番",
+    "melody": "JRE-IKST-013-05 (首都圏12-3番)",
     "file": "audio/首都圏12-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "勝田",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "勝田",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
     {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "勝田",
-    "melody": "首都圏12-2番",
+    "melody": "JRE-IKST-013-03 (首都圏12-2番)",
     "file": "audio/首都圏12-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "佐和",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "佐和",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "東海",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "東海",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
@@ -4105,42 +4129,42 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "勿来",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "勿来",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "植田",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "植田",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "泉",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "泉",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
@@ -4154,14 +4178,14 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "内郷",
-    "melody": "首都圏12-1番",
+    "melody": "JRE-IKST-013-01 (首都圏12-1番)",
     "file": "audio/首都圏12-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "内郷",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
@@ -4175,77 +4199,77 @@
     "company": "JR東日本",
     "line": "常磐線",
     "station": "いわき",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "常磐線",
     "station": "いわき",
-    "melody": "首都圏12-4番",
+    "melody": "JRE-IKST-013-04 (首都圏12-4番)",
     "file": "audio/首都圏12-4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "伊東線",
     "station": "熱海",
-    "melody": "首都圏21-1番",
+    "melody": "JRE-IKST-020-02 (首都圏21-1番)",
     "file": "audio/首都圏21-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "伊東線",
     "station": "熱海",
-    "melody": "首都圏19-1番",
+    "melody": "JRE-IKST-018-01 (首都圏19-1番)",
     "file": "audio/首都圏19-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "伊東線",
     "station": "熱海",
-    "melody": "首都圏21番",
+    "melody": "JRE-IKST-020-01 (首都圏21番)",
     "file": "audio/首都圏21番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "伊東線",
     "station": "来宮",
-    "melody": "首都圏21-1番",
+    "melody": "JRE-IKST-020-02 (首都圏21-1番)",
     "file": "audio/首都圏21-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "伊東線",
     "station": "来宮",
-    "melody": "首都圏21番",
+    "melody": "JRE-IKST-020-01 (首都圏21番)",
     "file": "audio/首都圏21番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "伊東線",
     "station": "伊豆多賀",
-    "melody": "首都圏21-1番",
+    "melody": "JRE-IKST-020-02 (首都圏21-1番)",
     "file": "audio/首都圏21-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "伊東線",
     "station": "伊豆多賀",
-    "melody": "首都圏21番",
+    "melody": "JRE-IKST-020-01 (首都圏21番)",
     "file": "audio/首都圏21番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "伊東線",
     "station": "網代",
-    "melody": "首都圏21-1番",
+    "melody": "JRE-IKST-020-02 (首都圏21-1番)",
     "file": "audio/首都圏21-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "伊東線",
     "station": "網代",
-    "melody": "首都圏21番",
+    "melody": "JRE-IKST-020-01 (首都圏21番)",
     "file": "audio/首都圏21番.mp3"
   },
   {
@@ -4427,112 +4451,112 @@
     "company": "JR東日本",
     "line": "根岸線",
     "station": "本郷台",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "本郷台",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "港南台",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "港南台",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "洋光台",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "洋光台",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "新杉田",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "新杉田",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "磯子",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "磯子",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "根岸",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "根岸",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "山手",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "山手",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "石川町",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "石川町",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
@@ -4553,42 +4577,42 @@
     "company": "JR東日本",
     "line": "根岸線",
     "station": "桜木町",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "桜木町",
-    "melody": "首都圏1-3番",
+    "melody": "JRE-IKST-007-03 (首都圏1-3番)",
     "file": "audio/首都圏1-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "桜木町",
-    "melody": "首都圏1-2番",
+    "melody": "JRE-IKST-007-05 (首都圏1-2番)",
     "file": "audio/首都圏1-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "桜木町",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "横浜",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "根岸線",
     "station": "横浜",
-    "melody": "首都圏1-1番",
+    "melody": "JRE-IKST-007-01 (首都圏1-1番)",
     "file": "audio/首都圏1-1番.mp3"
   },
   {
@@ -4609,42 +4633,42 @@
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "吉祥寺",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "吉祥寺",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "西荻窪",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "西荻窪",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "荻窪",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "荻窪",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
@@ -4679,119 +4703,119 @@
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "中野",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "中野",
-    "melody": "首都圏2番",
+    "melody": "JRE-IKST-017-02 (首都圏2番)",
     "file": "audio/首都圏2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "中野",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "東中野",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "東中野",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "大久保",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "大久保",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "新宿",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "新宿",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "代々木",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "代々木",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "千駄ケ谷",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "千駄ケ谷",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "信濃町",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "信濃町",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "四ツ谷",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "四ツ谷",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
@@ -4812,14 +4836,14 @@
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "飯田橋",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "飯田橋",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
@@ -4840,14 +4864,14 @@
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "御茶ノ水",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "御茶ノ水",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
@@ -4868,427 +4892,427 @@
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "浅草橋",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "浅草橋",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "両国",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "両国",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "錦糸町",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "錦糸町",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "亀戸",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "亀戸",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "平井",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "平井",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "新小岩",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "新小岩",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "小岩",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "小岩",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "市川",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "市川",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "本八幡",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "本八幡",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "下総中山",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "下総中山",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "西船橋",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "西船橋",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "西船橋",
-    "melody": "首都圏2-1番",
+    "melody": "JRE-IKST-017-01 (首都圏2-1番)",
     "file": "audio/首都圏2-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "西船橋",
-    "melody": "首都圏2番",
+    "melody": "JRE-IKST-017-02 (首都圏2番)",
     "file": "audio/首都圏2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "船橋",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "船橋",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "東船橋",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "東船橋",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "津田沼",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "津田沼",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "津田沼",
-    "melody": "首都圏2-1番",
+    "melody": "JRE-IKST-017-01 (首都圏2-1番)",
     "file": "audio/首都圏2-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "津田沼",
-    "melody": "首都圏2番",
+    "melody": "JRE-IKST-017-02 (首都圏2番)",
     "file": "audio/首都圏2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "幕張本郷",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "幕張本郷",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "幕張",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "幕張",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "幕張",
-    "melody": "首都圏10-2番",
+    "melody": "JRE-IKST-003-06 (首都圏10-2番)",
     "file": "audio/首都圏10-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "幕張",
-    "melody": "首都圏10-3番",
+    "melody": "JRE-IKST-003-05 (首都圏10-3番)",
     "file": "audio/首都圏10-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "新検見川",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "新検見川",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "稲毛",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "稲毛",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "西千葉",
-    "melody": "首都圏10-1番",
+    "melody": "JRE-IKST-003-01 (首都圏10-1番)",
     "file": "audio/首都圏10-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央・総武線各駅停車",
     "station": "西千葉",
-    "melody": "首都圏10番",
+    "melody": "JRE-IKST-003-02 (首都圏10番)",
     "file": "audio/首都圏10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "川越線",
     "station": "大宮",
-    "melody": "首都圏20-1番",
+    "melody": "JRE-IKST-014-02 (首都圏20-1番)",
     "file": "audio/首都圏20-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "川越線",
     "station": "大宮",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "川越線",
     "station": "大宮",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "川越線",
     "station": "日進",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "川越線",
     "station": "日進",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "川越線",
     "station": "西大宮",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "川越線",
     "station": "西大宮",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "川越線",
     "station": "指扇",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "川越線",
     "station": "指扇",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "川越線",
     "station": "南古谷",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "川越線",
     "station": "南古谷",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "川越線",
     "station": "川越",
-    "melody": "首都圏5番",
+    "melody": "JRE-IKST-006-01 (首都圏5番)",
     "file": "audio/首都圏5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "川越線",
     "station": "川越",
-    "melody": "首都圏5-1番",
+    "melody": "JRE-IKST-006-02 (首都圏5-1番)",
     "file": "audio/首都圏5-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "川越線",
     "station": "川越",
-    "melody": "首都圏5-3番",
+    "melody": "JRE-IKST-006-05 (首都圏5-3番)",
     "file": "audio/首都圏5-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "川越線",
     "station": "川越",
-    "melody": "首都圏5-2番",
+    "melody": "JRE-IKST-006-04 (首都圏5-2番)",
     "file": "audio/首都圏5-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "立川",
-    "melody": "首都圏8番",
+    "melody": "JRE-IKST-016-01 (首都圏8番)",
     "file": "audio/首都圏8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "立川",
-    "melody": "首都圏8-2番",
+    "melody": "JRE-IKST-016-04 (首都圏8-2番)",
     "file": "audio/首都圏8-2番.mp3"
   },
   {
@@ -5309,14 +5333,14 @@
     "company": "JR東日本",
     "line": "青梅線",
     "station": "立川",
-    "melody": "首都圏8-3番",
+    "melody": "JRE-IKST-016-03 (首都圏8-3番)",
     "file": "audio/首都圏8-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "青梅線",
     "station": "立川",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
   {
@@ -5981,14 +6005,14 @@
     "company": "JR東日本",
     "line": "横浜線",
     "station": "東神奈川",
-    "melody": "首都圏1番",
+    "melody": "JRE-IKST-007-02 (首都圏1番)",
     "file": "audio/首都圏1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "横浜線",
     "station": "東神奈川",
-    "melody": "首都圏2番",
+    "melody": "JRE-IKST-017-02 (首都圏2番)",
     "file": "audio/首都圏2番.mp3"
   },
   {
@@ -6254,14 +6278,14 @@
     "company": "JR東日本",
     "line": "中央本線",
     "station": "高尾",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "高尾",
-    "melody": "首都圏8-1番",
+    "melody": "JRE-IKST-016-02 (首都圏8-1番)",
     "file": "audio/首都圏8-1番.mp3"
   },
 
@@ -6269,266 +6293,266 @@
     "company": "JR東日本",
     "line": "中央本線",
     "station": "高尾",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "相模湖",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "相模湖",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "相模湖",
-    "melody": "首都圏9-2番",
+    "melody": "JRE-IKST-012-08 (首都圏9-2番)",
     "file": "audio/首都圏9-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "藤野",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "藤野",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "上野原",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "上野原",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "四方津",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "四方津",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "四方津",
-    "melody": "首都圏9-2番",
+    "melody": "JRE-IKST-012-08 (首都圏9-2番)",
     "file": "audio/首都圏9-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "梁川",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "梁川",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "鳥沢",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "鳥沢",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "猿橋",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "猿橋",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "大月",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "大月",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "大月",
-    "melody": "首都圏9-3番",
+    "melody": "JRE-IKST-012-03 (首都圏9-3番)",
     "file": "audio/首都圏9-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "初狩",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "笹子",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "笹子",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "甲斐大和",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "甲斐大和",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "甲斐大和",
-    "melody": "首都圏9-2番",
+    "melody": "JRE-IKST-012-08 (首都圏9-2番)",
     "file": "audio/首都圏9-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "勝沼ぶどう郷",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "勝沼ぶどう郷",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   }, 
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "塩山",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "塩山",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "塩山",
-    "melody": "首都圏9-4番",
+    "melody": "JRE-IKST-012-04 (首都圏9-4番)",
     "file": "audio/首都圏9-4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "東山梨",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "東山梨",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "山梨市",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "山梨市",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "山梨市",
-    "melody": "首都圏9-2番",
+    "melody": "JRE-IKST-012-08 (首都圏9-2番)",
     "file": "audio/首都圏9-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "春日居町",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "春日居町",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
@@ -6549,175 +6573,175 @@
     "company": "JR東日本",
     "line": "中央本線",
     "station": "酒折",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "酒折",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "酒折",
-    "melody": "首都圏9-2番",
+    "melody": "JRE-IKST-012-08 (首都圏9-2番)",
     "file": "audio/首都圏9-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "甲府",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "甲府",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "甲府",
-    "melody": "首都圏9-3番",
+    "melody": "JRE-IKST-012-03 (首都圏9-3番)",
     "file": "audio/首都圏9-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "竜王",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "竜王",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "竜王",
-    "melody": "首都圏9-3番",
+    "melody": "JRE-IKST-012-03 (首都圏9-3番)",
     "file": "audio/首都圏9-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "竜王",
-    "melody": "首都圏9-4番",
+    "melody": "JRE-IKST-012-04 (首都圏9-4番)",
     "file": "audio/首都圏9-4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "塩崎",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "塩崎",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "韮崎",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "韮崎",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "新府",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "新府",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "穴山",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "穴山",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "日野春",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "日野春",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "長坂",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "長坂",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "小淵沢",
-    "melody": "首都圏9番",
+    "melody": "JRE-IKST-012-01 (首都圏9番)",
     "file": "audio/首都圏9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "小淵沢",
-    "melody": "首都圏9-1番",
+    "melody": "JRE-IKST-012-02 (首都圏9-1番)",
     "file": "audio/首都圏9-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "中央本線",
     "station": "小淵沢",
-    "melody": "首都圏24番",
+    "melody": "JRE-IKST-023-02 (首都圏24番)",
     "file": "audio/首都圏24番.mp3"
   },
   {
@@ -6780,7 +6804,7 @@
     "company": "JR東日本",
     "line": "中央本線",
     "station": "松本",
-    "melody": "首都圏9-5番",
+    "melody": "JRE-IKST-012-XX (首都圏9-5番)",
     "file": "audio/首都圏9-5番.mp3"
   },
   {
@@ -6801,15 +6825,15 @@
     "company": "JR東日本",
     "line": "総武本線",
     "station": "四街道",
-    "melody": "Verde Rayo(遅い)",
-    "file": "audio/Verde Rayo(遅い).mp3"
+    "melody": "JRE-IKST-039-01 (首都圏34-1番)",
+    "file": "audio/首都圏34-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武本線",
     "station": "四街道",
-    "melody": "Gota del Vient 四街道Ver",
-    "file": "audio/Gota del Vient 四街道Ver.mp3"
+    "melody": "JRE-IKST-039-02 (首都圏34-2番)",
+    "file": "audio/首都圏34-2番.mp3"
   },
   {
     "company": "JR東日本",
@@ -6850,70 +6874,70 @@
     "company": "JR東日本",
     "line": "総武本線",
     "station": "榎戸",
-    "melody": "首都圏34-1番",
+    "melody": "JRE-IKST-039-01 (首都圏34-1番)",
     "file": "audio/首都圏34-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武本線",
     "station": "榎戸",
-    "melody": "首都圏34-2番",
+    "melody": "JRE-IKST-039-02 (首都圏34-2番)",
     "file": "audio/首都圏34-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武本線",
     "station": "八街",
-    "melody": "首都圏34番",
+    "melody": "JRE-IKST-039-01 (首都圏34-1番)",
     "file": "audio/首都圏34-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武本線",
     "station": "八街",
-    "melody": "首都圏34-1番",
-    "file": "audio/首都圏34-1番.mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "総武本線",
-    "station": "八街",
-    "melody": "首都圏34-2番",
+    "melody": "JRE-IKST-039-02 (首都圏34-2番)",
     "file": "audio/首都圏34-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武本線",
+    "station": "八街",
+    "melody": "JRE-IKST-039-03 (首都圏34-3番)",
+    "file": "audio/首都圏34-3番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "総武本線",
     "station": "成東",
-    "melody": "首都圏34-1番",
+    "melody": "JRE-IKST-039-01 (首都圏34-1番)",
     "file": "audio/首都圏34-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武本線",
     "station": "成東",
-    "melody": "首都圏38番",
+    "melody": "JRE-IKST-044-01 (首都圏38番)",
     "file": "audio/首都圏38番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武本線",
     "station": "銚子",
-    "melody": "首都圏34番",
+    "melody": "JRE-IKST-039-04 (首都圏34番)",
     "file": "audio/首都圏34番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武本線",
     "station": "銚子",
-    "melody": "首都圏34-1番",
+    "melody": "JRE-IKST-039-01 (首都圏34-1番)",
     "file": "audio/首都圏34-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "総武本線",
     "station": "銚子",
-    "melody": "首都圏35番",
+    "melody": "JRE-IKST-042-01 (首都圏35番)",
     "file": "audio/首都圏35番.mp3"
   },
   {
@@ -6934,15 +6958,8 @@
     "company": "JR東日本",
     "line": "成田線",
     "station": "四街道",
-    "melody": "Verde Rayo(遅い)",
-    "file": "audio/Verde Rayo(遅い).mp3"
-  },
-  {
-    "company": "JR東日本",
-    "line": "成田線",
-    "station": "四街道",
-    "melody": "Gota del Vient 四街道Ver",
-    "file": "audio/Gota del Vient 四街道Ver.mp3"
+    "melody": "JRE-IKST-039-02 (首都圏34-2番)",
+    "file": "audio/首都圏34-2番.mp3"
   },
   {
     "company": "JR東日本",
@@ -7004,112 +7021,112 @@
     "company": "JR東日本",
     "line": "成田線",
     "station": "成田",
-    "melody": "首都圏35-3番",
+    "melody": "JRE-IKST-042-XX (首都圏35-3番)",
     "file": "audio/首都圏35-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "成田",
-    "melody": "首都圏35-2番",
+    "melody": "JRE-IKST-042-02 (首都圏35-2番)",
     "file": "audio/首都圏35-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "成田",
-    "melody": "首都圏35-4番",
+    "melody": "JRE-IKST-042-XX (首都圏35-4番)",
     "file": "audio/首都圏35-4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "成田",
-    "melody": "首都圏35-1番",
+    "melody": "JRE-IKST-042-05 (首都圏35-1番)",
     "file": "audio/首都圏35-1番.mp3"
   },
     {
     "company": "JR東日本",
     "line": "鹿島線",
     "station": "佐原",
-    "melody": "首都圏37番",
+    "melody": "JRE-IKST-047-02 (首都圏37番)",
     "file": "audio/首都圏37番.mp3"
   },
       {
     "company": "JR東日本",
     "line": "鹿島線",
     "station": "鹿島神宮",
-    "melody": "首都圏37番",
+    "melody": "JRE-IKST-047-02 (首都圏37番)",
     "file": "audio/首都圏37番.mp3"
   },
         {
     "company": "JR東日本",
     "line": "鹿島線",
     "station": "鹿島神宮",
-    "melody": "首都圏37-1番",
+    "melody": "JRE-IKST-047-01 (首都圏37-1番)",
     "file": "audio/首都圏37-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "佐原",
-    "melody": "首都圏35番",
+    "melody": "JRE-IKST-042-01 (首都圏35番)",
     "file": "audio/首都圏35番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "佐原",
-    "melody": "首都圏35番",
-    "file": "audio/首都圏35番.mp3"
+    "melody": "JRE-IKST-042-02 (首都圏35-2番)",
+    "file": "audio/首都圏35-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "佐原",
-    "melody": "首都圏35番",
-    "file": "audio/首都圏35番.mp3"
+    "melody": "JRE-IKST-042-05 (首都圏35-1番)",
+    "file": "audio/首都圏35-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "銚子",
-    "melody": "首都圏34番",
+    "melody": "JRE-IKST-039-04 (首都圏34番)",
     "file": "audio/首都圏34番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "銚子",
-    "melody": "首都圏34-1番",
+    "melody": "JRE-IKST-039-01 (首都圏34-1番)",
     "file": "audio/首都圏34-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "銚子",
-    "melody": "首都圏35番",
+    "melody": "JRE-IKST-042-01 (首都圏35番)",
     "file": "audio/首都圏35番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "空港第2ビル",
-    "melody": "首都圏35番",
+    "melody": "JRE-IKST-042-01 (首都圏35番)",
     "file": "audio/首都圏35番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "成田空港",
-    "melody": "首都圏35番",
+    "melody": "JRE-IKST-042-01 (首都圏35番)",
     "file": "audio/首都圏35番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "成田空港",
-    "melody": "首都圏35-2番",
+    "melody": "JRE-IKST-042-02 (首都圏35-2番)",
     "file": "audio/首都圏35-2番.mp3"
   },
   {
@@ -7228,14 +7245,14 @@
     "company": "JR東日本",
     "line": "外房線",
     "station": "本千葉",
-    "melody": "首都圏33番",
+    "melody": "JRE-IKST-027-02 (首都圏33番)",
     "file": "audio/首都圏33番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "本千葉",
-    "melody": "首都圏33-1番",
+    "melody": "JRE-IKST-027-01 (首都圏33-1番)",
     "file": "audio/首都圏33-1番.mp3"
   },
   {
@@ -7256,182 +7273,182 @@
     "company": "JR東日本",
     "line": "外房線",
     "station": "鎌取",
-    "melody": "首都圏33番",
+    "melody": "JRE-IKST-027-02 (首都圏33番)",
     "file": "audio/首都圏33番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "鎌取",
-    "melody": "首都圏33-1番",
+    "melody": "JRE-IKST-027-01 (首都圏33-1番)",
     "file": "audio/首都圏33-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "誉田",
-    "melody": "JR-SHR5-1",
-    "file": "audio/JR-SHR5-1.mp3"
+    "melody": "JRE-IKST-027-02 (首都圏33番)",
+    "file": "audio/首都圏33番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "誉田",
-    "melody": "JR-SHR7-3",
-    "file": "audio/JR-SHR7-3.mp3"
+    "melody": "JRE-IKST-027-01 (首都圏33-1番)",
+    "file": "audio/首都圏33-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "土気",
-    "melody": "首都圏33番",
+    "melody": "JRE-IKST-027-02 (首都圏33番)",
     "file": "audio/首都圏33番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "土気",
-    "melody": "首都圏33-1番",
+    "melody": "JRE-IKST-027-01 (首都圏33-1番)",
     "file": "audio/首都圏33-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "大網",
-    "melody": "首都圏33番",
+    "melody": "JRE-IKST-027-02 (首都圏33番)",
     "file": "audio/首都圏33番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "大網",
-    "melody": "首都圏33-1番",
+    "melody": "JRE-IKST-027-01 (首都圏33-1番)",
     "file": "audio/首都圏33-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "本納",
-    "melody": "首都圏33番",
+    "melody": "JRE-IKST-027-02 (首都圏33番)",
     "file": "audio/首都圏33番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "本納",
-    "melody": "首都圏33-1番",
+    "melody": "JRE-IKST-027-01 (首都圏33-1番)",
     "file": "audio/首都圏33-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "茂原",
-    "melody": "首都圏33番",
+    "melody": "JRE-IKST-027-02 (首都圏33番)",
     "file": "audio/首都圏33番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "茂原",
-    "melody": "首都圏33-1番",
+    "melody": "JRE-IKST-027-01 (首都圏33-1番)",
     "file": "audio/首都圏33-1番.mp3"
   },
     {
     "company": "JR東日本",
     "line": "外房線",
     "station": "八積",
-    "melody": "首都圏33番",
+    "melody": "JRE-IKST-027-02 (首都圏33番)",
     "file": "audio/首都圏33番.mp3"
   },
     {
     "company": "JR東日本",
     "line": "外房線",
     "station": "八積",
-    "melody": "首都圏33-1番",
+    "melody": "JRE-IKST-027-01 (首都圏33-1番)",
     "file": "audio/首都圏33-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "上総一ノ宮",
-    "melody": "首都圏33番",
+    "melody": "JRE-IKST-027-02 (首都圏33番)",
     "file": "audio/首都圏33番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "上総一ノ宮",
-    "melody": "首都圏33-1番",
+    "melody": "JRE-IKST-027-01 (首都圏33-1番)",
     "file": "audio/首都圏33-1番.mp3"
   },
     {
     "company": "JR東日本",
     "line": "外房線",
     "station": "上総一ノ宮",
-    "melody": "首都圏33-2番",
+    "melody": "JRE-IKST-027-05 (首都圏33-2番)",
     "file": "audio/首都圏33-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "大原",
-    "melody": "首都圏33-3番",
+    "melody": "JRE-IKST-027-XX (首都圏33-3番)",
     "file": "audio/首都圏33-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "大原",
-    "melody": "首都圏33-1番",
+    "melody": "JRE-IKST-027-01 (首都圏33-1番)",
     "file": "audio/首都圏33-1番.mp3"
   },
     {
     "company": "JR東日本",
     "line": "外房線",
     "station": "大原",
-    "melody": "首都圏33-2番",
+    "melody": "JRE-IKST-027-05 (首都圏33-2番)",
     "file": "audio/首都圏33-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "勝浦",
-    "melody": "首都圏33-2番",
+    "melody": "JRE-IKST-027-05 (首都圏33-2番)",
     "file": "audio/JR-SH8-3.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "勝浦",
-    "melody": "首都圏33番",
+    "melody": "JRE-IKST-027-02 (首都圏33番)",
     "file": "audio/首都圏33番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "安房鴨川",
-    "melody": "朝の教会",
-    "file": "audio/朝の教会.mp3"
+    "melody": "JRE-IKST-027-01 (首都圏33-1番)",
+    "file": "audio/首都圏33-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "外房線",
     "station": "安房鴨川",
-    "melody": "幸せチャイム",
-    "file": "audio/幸せチャイム.mp3"
+    "melody": "JRE-IKST-027-02 (首都圏33番)",
+    "file": "audio/首都圏33番.mp3"
   },
       {
     "company": "JR東日本",
     "line": "内房線",
     "station": "本千葉",
-    "melody": "首都圏33番",
+    "melody": "JRE-IKST-027-02 (首都圏33番)",
     "file": "audio/首都圏33番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "内房線",
     "station": "本千葉",
-    "melody": "首都圏33番",
+    "melody": "JRE-IKST-027-02 (首都圏33番)",
     "file": "audio/首都圏33番.mp3"
   },
   {
@@ -7452,14 +7469,14 @@
     "company": "JR東日本",
     "line": "内房線",
     "station": "浜野",
-    "melody": "首都圏36番",
+    "melody": "JRE-IKST-022-01 (首都圏36番)",
     "file": "audio/首都圏36番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "内房線",
     "station": "浜野",
-    "melody": "首都圏36-1番",
+    "melody": "JRE-IKST-022-02 (首都圏36-1番)",
     "file": "audio/首都圏36-1番.mp3"
   },
   {
@@ -7486,23 +7503,44 @@
   {
     "company": "JR東日本",
     "line": "内房線",
-    "station": "姉ケ崎",
-    "melody": "Water Crown(半音低い)",
-    "file": "audio/Water Crown(半音低い).mp3"
+    "station": "姉ヶ崎",
+    "melody": "JRE-IKST-022-02 (首都圏36-1番)",
+    "file": "audio/首都圏36-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "内房線",
+    "station": "姉ヶ崎",
+    "melody": "JRE-IKST-022-01 (首都圏36番)",
+    "file": "audio/首都圏36番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "内房線",
+    "station": "長浦",
+    "melody": "JRE-IKST-022-02 (首都圏36-1番)",
+    "file": "audio/首都圏36-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "内房線",
+    "station": "長浦",
+    "melody": "JRE-IKST-022-01 (首都圏36番)",
+    "file": "audio/首都圏36番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "内房線",
+    "station": "巌根",
+    "melody": "キッズステーション",
+    "file": "audio/キッズステーション.mp3"
   },
   {
     "company": "JR東日本",
     "line": "内房線",
     "station": "袖ヶ浦",
-    "melody": "朝の静けさ",
-    "file": ""
-  },
-  {
-    "company": "JR東日本",
-    "line": "内房線",
-    "station": "袖ヶ浦",
-    "melody": "美しき丘",
-    "file": ""
+    "melody": "JRE-IKST-022-01 (首都圏36番)",
+    "file": "audio/首都圏36番.mp3"
   },
   {
     "company": "JR東日本",
@@ -7557,22 +7595,22 @@
     "company": "JR東日本",
     "line": "内房線",
     "station": "千倉",
-    "melody": "Cielo Estrellado(半音低い)",
-    "file": "audio/Cielo Estrellado(半音低い).mp3"
+    "melody": "JRE-IKST-022-01 (首都圏36番)",
+    "file": "audio/首都圏36番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "内房線",
     "station": "千倉",
-    "melody": "Gota del Vient 四街道Ver",
-    "file": "audio/Gota del Vient 四街道Ver.mp3"
+    "melody": "JRE-IKST-022-02 (首都圏36-1番)",
+    "file": "audio/首都圏36-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "内房線",
     "station": "安房鴨川",
-    "melody": "Gota del Vient(エンドレス)",
-    "file": "audio/Gota del Vient(エンドレス).mp3"
+    "melody": "JRE-IKST-022-01 (首都圏36番)",
+    "file": "audio/首都圏36番.mp3"
   },
 
   {
@@ -7593,14 +7631,14 @@
     "company": "JR東日本",
     "line": "東金線",
     "station": "東金",
-    "melody": "首都圏38番",
+    "melody": "JRE-IKST-044-01 (首都圏38番)",
     "file": "audio/首都圏38番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東金線",
     "station": "東金",
-    "melody": "首都圏38-1番",
+    "melody": "JRE-IKST-044-02 (首都圏38-1番)",
     "file": "audio/首都圏38-1番.mp3"
   },
     {
@@ -7614,63 +7652,63 @@
     "company": "JR東日本",
     "line": "東金線",
     "station": "成東",
-    "melody": "首都圏38番",
+    "melody": "JRE-IKST-044-01 (首都圏38番)",
     "file": "audio/首都圏38番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "東金線",
     "station": "成東",
-    "melody": "首都圏38-1番",
+    "melody": "JRE-IKST-044-02 (首都圏38-1番)",
     "file": "audio/首都圏38-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "信越本線",
     "station": "高崎",
-    "melody": "首都圏25番",
+    "melody": "JRE-IKST-026-02 (首都圏25番)",
     "file": "audio/首都圏25番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "信越本線",
     "station": "高崎",
-    "melody": "首都圏26番",
+    "melody": "JRE-IKST-025-02 (首都圏26番)",
     "file": "audio/首都圏26番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "信越本線",
     "station": "高崎",
-    "melody": "首都圏6番",
+    "melody": "JRE-IKST-009-01 (首都圏6番)",
     "file": "audio/首都圏6番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "信越本線",
     "station": "安中",
-    "melody": "首都圏25-1番",
+    "melody": "JRE-IKST-026-01 (首都圏25-1番)",
     "file": "audio/首都圏25-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "信越本線",
     "station": "安中",
-    "melody": "首都圏25番",
+    "melody": "JRE-IKST-026-02 (首都圏25番)",
     "file": "audio/首都圏25番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "信越本線",
     "station": "横川",
-    "melody": "首都圏25-1番",
+    "melody": "JRE-IKST-026-01 (首都圏25-1番)",
     "file": "audio/首都圏25-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "信越本線",
     "station": "横川",
-    "melody": "首都圏25番",
+    "melody": "JRE-IKST-026-02 (首都圏25番)",
     "file": "audio/首都圏25番.mp3"
   },
   {
@@ -7733,42 +7771,42 @@
     "company": "JR東日本",
     "line": "高崎線",
     "station": "大宮",
-    "melody": "首都圏6番",
+    "melody": "JRE-IKST-009-01 (首都圏6番)",
     "file": "audio/首都圏6番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "大宮",
-    "melody": "首都圏6-1番",
+    "melody": "JRE-IKST-009-02 (首都圏6-1番)",
     "file": "audio/首都圏6-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "大宮",
-    "melody": "首都圏19-1番",
+    "melody": "JRE-IKST-018-01 (首都圏19-1番)",
     "file": "audio/首都圏19-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "大宮",
-    "melody": "首都圏16-1番",
+    "melody": "JRE-IKST-008-01 (首都圏16-1番)",
     "file": "audio/首都圏16-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "宮原",
-    "melody": "首都圏6番",
+    "melody": "JRE-IKST-009-01 (首都圏6番)",
     "file": "audio/首都圏6番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "宮原",
-    "melody": "首都圏6-1番",
+    "melody": "JRE-IKST-009-02 (首都圏6-1番)",
     "file": "audio/首都圏6-1番.mp3"
   },
   {
@@ -7789,21 +7827,21 @@
     "company": "JR東日本",
     "line": "高崎線",
     "station": "桶川",
-    "melody": "首都圏6番",
+    "melody": "JRE-IKST-009-01 (首都圏6番)",
     "file": "audio/首都圏6番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "桶川",
-    "melody": "首都圏6-1番",
+    "melody": "JRE-IKST-009-02 (首都圏6-1番)",
     "file": "audio/首都圏6-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "北本",
-    "melody": "首都圏6-1番",
+    "melody": "JRE-IKST-009-02 (首都圏6-1番)",
     "file": "audio/首都圏6-1番.mp3"
   },
   {
@@ -7859,119 +7897,119 @@
     "company": "JR東日本",
     "line": "高崎線",
     "station": "岡部",
-    "melody": "首都圏6番",
+    "melody": "JRE-IKST-009-01 (首都圏6番)",
     "file": "audio/首都圏6番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "岡部",
-    "melody": "首都圏6-1番",
+    "melody": "JRE-IKST-009-02 (首都圏6-1番)",
     "file": "audio/首都圏6-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "本庄",
-    "melody": "首都圏6番",
+    "melody": "JRE-IKST-009-01 (首都圏6番)",
     "file": "audio/首都圏6番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "本庄",
-    "melody": "首都圏6-1番",
+    "melody": "JRE-IKST-009-02 (首都圏6-1番)",
     "file": "audio/首都圏6-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "神保原",
-    "melody": "首都圏6-1番",
+    "melody": "JRE-IKST-009-02 (首都圏6-1番)",
     "file": "audio/首都圏6-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "新町",
-    "melody": "首都圏6番",
+    "melody": "JRE-IKST-009-01 (首都圏6番)",
     "file": "audio/首都圏6番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "倉賀野",
-    "melody": "首都圏6番",
+    "melody": "JRE-IKST-009-01 (首都圏6番)",
     "file": "audio/首都圏6番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "倉賀野",
-    "melody": "首都圏6-1番",
+    "melody": "JRE-IKST-009-02 (首都圏6-1番)",
     "file": "audio/首都圏6-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "高崎",
-    "melody": "首都圏25番",
+    "melody": "JRE-IKST-026-02 (首都圏25番)",
     "file": "audio/首都圏25番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "高崎線",
     "station": "高崎",
-    "melody": "首都圏6番",
+    "melody": "JRE-IKST-009-01 (首都圏6番)",
     "file": "audio/首都圏6番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "東京",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "東京",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "上野",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "上野",
-    "melody": "首都圏21番",
+    "melody": "JRE-IKST-020-01 (首都圏21番)",
     "file": "audio/首都圏21番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "上野",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "上野",
-    "melody": "首都圏12番",
+    "melody": "JRE-IKST-013-02 (首都圏12番)",
     "file": "audio/首都圏12番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "上野",
-    "melody": "首都圏3-2番",
+    "melody": "JRE-IKST-021-03 (首都圏3-2番)",
     "file": "audio/首都圏3-2番.mp3"
   },
   {
@@ -8006,84 +8044,84 @@
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "浦和",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "浦和",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "さいたま新都心",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "さいたま新都心",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "大宮",
-    "melody": "首都圏19番",
+    "melody": "JRE-IKST-018-02 (首都圏19番)",
     "file": "audio/首都圏19番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "大宮",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "大宮",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "大宮",
-    "melody": "首都圏19-1番",
+    "melody": "JRE-IKST-018-01 (首都圏19-1番)",
     "file": "audio/首都圏19-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "土呂",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "土呂",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "東大宮",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "東大宮",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
@@ -8104,231 +8142,231 @@
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "白岡",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "白岡",
-    "melody": "首都圏3-5番",
+    "melody": "JRE-IKST-021-04 (首都圏3-5番)",
     "file": "audio/首都圏3-5番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "白岡",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "新白岡",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "新白岡",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "久喜",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "久喜",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "東鷲宮",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "東鷲宮",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "栗橋",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "栗橋",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "古河",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "古河",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "古河",
-    "melody": "首都圏3-8番",
+    "melody": "JRE-IKST-021-12 (首都圏3-8番)",
     "file": "audio/首都圏3-8番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "古河",
-    "melody": "首都圏3-9番",
+    "melody": "JRE-IKST-021-13 (首都圏3-9番)",
     "file": "audio/首都圏3-9番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "野木",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "野木",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "間々田",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "間々田",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小山",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小山",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小山",
-    "melody": "首都圏3-4番",
+    "melody": "JRE-IKST-021-05 (首都圏3-4番)",
     "file": "audio/首都圏3-4番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小山",
-    "melody": "首都圏3-3番",
+    "melody": "JRE-IKST-021-06 (首都圏3-3番)",
     "file": "audio/首都圏3-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小金井",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小金井",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小金井",
-    "melody": "首都圏3-10番",
+    "melody": "JRE-IKST-021-14 (首都圏3-10番)",
     "file": "audio/首都圏3-10番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "小金井",
-    "melody": "首都圏3-11番",
+    "melody": "JRE-IKST-021-11 (首都圏3-11番)",
     "file": "audio/首都圏3-11番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "自治医大",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "自治医大",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "石橋",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "石橋",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "雀宮",
-    "melody": "首都圏3-1番",
+    "melody": "JRE-IKST-021-01 (首都圏3-1番)",
     "file": "audio/首都圏3-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "宇都宮線",
     "station": "雀宮",
-    "melody": "首都圏3番",
+    "melody": "JRE-IKST-021-02 (首都圏3番)",
     "file": "audio/首都圏3番.mp3"
   },
   {
@@ -8349,91 +8387,91 @@
     "company": "JR東日本",
     "line": "上越線",
     "station": "高崎",
-    "melody": "首都圏6番",
+    "melody": "JRE-IKST-009-01 (首都圏6番)",
     "file": "audio/首都圏6番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "上越線",
     "station": "高崎",
-    "melody": "首都圏25番",
+    "melody": "JRE-IKST-026-02 (首都圏25番)",
     "file": "audio/首都圏25番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "上越線",
     "station": "高崎",
-    "melody": "首都圏26番",
+    "melody": "JRE-IKST-025-02 (首都圏26番)",
     "file": "audio/首都圏26番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "上越線",
     "station": "高崎問屋町",
-    "melody": "首都圏26-1番",
+    "melody": "JRE-IKST-025-01 (首都圏26-1番)",
     "file": "audio/首都圏26-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "上越線",
     "station": "高崎問屋町",
-    "melody": "首都圏26番",
+    "melody": "JRE-IKST-025-02 (首都圏26番)",
     "file": "audio/首都圏26番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "上越線",
     "station": "井野",
-    "melody": "首都圏26-1番",
+    "melody": "JRE-IKST-025-01 (首都圏26-1番)",
     "file": "audio/首都圏26-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "上越線",
     "station": "井野",
-    "melody": "首都圏26番",
+    "melody": "JRE-IKST-025-02 (首都圏26番)",
     "file": "audio/首都圏26番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "上越線",
     "station": "新前橋",
-    "melody": "首都圏26-1番",
+    "melody": "JRE-IKST-025-01 (首都圏26-1番)",
     "file": "audio/首都圏26-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "上越線",
     "station": "新前橋",
-    "melody": "首都圏26番",
+    "melody": "JRE-IKST-025-02 (首都圏26番)",
     "file": "audio/首都圏26番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "上越線",
     "station": "渋川",
-    "melody": "首都圏26-1番",
+    "melody": "JRE-IKST-025-01 (首都圏26-1番)",
     "file": "audio/首都圏26-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "上越線",
     "station": "渋川",
-    "melody": "首都圏26番",
+    "melody": "JRE-IKST-025-02 (首都圏26番)",
     "file": "audio/首都圏26番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "上越線",
     "station": "沼田",
-    "melody": "首都圏26-1番",
+    "melody": "JRE-IKST-025-01 (首都圏26-1番)",
     "file": "audio/首都圏26-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "上越線",
     "station": "沼田",
-    "melody": "首都圏26番",
+    "melody": "JRE-IKST-025-02 (首都圏26番)",
     "file": "audio/首都圏26番.mp3"
   },
   {
@@ -8454,56 +8492,56 @@
     "company": "JR東日本",
     "line": "吾妻線",
     "station": "渋川",
-    "melody": "首都圏26-1番",
+    "melody": "JRE-IKST-025-01 (首都圏26-1番)",
     "file": "audio/首都圏26-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "吾妻線",
     "station": "渋川",
-    "melody": "首都圏26番",
+    "melody": "JRE-IKST-025-02 (首都圏26番)",
     "file": "audio/首都圏26番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "吾妻線",
     "station": "中之条",
-    "melody": "首都圏28番",
+    "melody": "JRE-IKST-038-01 (首都圏28番)",
     "file": "audio/首都圏28番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "吾妻線",
     "station": "中之条",
-    "melody": "首都圏28-1番",
+    "melody": "JRE-IKST-038-02 (首都圏28-1番)",
     "file": "audio/首都圏28-1番.mp3"
   },
     {
     "company": "JR東日本",
     "line": "吾妻線",
     "station": "長野原草津口",
-    "melody": "首都圏28番",
+    "melody": "JRE-IKST-038-01 (首都圏28番)",
     "file": "audio/首都圏28番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "吾妻線",
     "station": "長野原草津口",
-    "melody": "首都圏28番",
+    "melody": "JRE-IKST-038-01 (首都圏28番)",
     "file": "audio/首都圏28番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "両毛線",
     "station": "新前橋",
-    "melody": "首都圏26-1番",
+    "melody": "JRE-IKST-025-01 (首都圏26-1番)",
     "file": "audio/首都圏26-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "両毛線",
     "station": "新前橋",
-    "melody": "首都圏26番",
+    "melody": "JRE-IKST-025-02 (首都圏26番)",
     "file": "audio/首都圏26番.mp3"
   },
   {
@@ -8524,42 +8562,42 @@
     "company": "JR東日本",
     "line": "両毛線",
     "station": "前橋大島",
-    "melody": "首都圏27番",
+    "melody": "JRE-IKST-028-01 (首都圏27番)",
     "file": "audio/首都圏27番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "両毛線",
     "station": "前橋大島",
-    "melody": "首都圏27-1番",
+    "melody": "JRE-IKST-028-02 (首都圏27-1番)",
     "file": "audio/首都圏27-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "両毛線",
     "station": "駒形",
-    "melody": "首都圏27番",
+    "melody": "JRE-IKST-028-01 (首都圏27番)",
     "file": "audio/首都圏27番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "両毛線",
     "station": "駒形",
-    "melody": "首都圏27-1番",
+    "melody": "JRE-IKST-028-02 (首都圏27-1番)",
     "file": "audio/首都圏27-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "両毛線",
     "station": "伊勢崎",
-    "melody": "首都圏27番",
+    "melody": "JRE-IKST-028-01 (首都圏27番)",
     "file": "audio/首都圏27番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "両毛線",
     "station": "伊勢崎",
-    "melody": "首都圏27-1番",
+    "melody": "JRE-IKST-028-02 (首都圏27-1番)",
     "file": "audio/首都圏27-1番.mp3"
   },
   {
@@ -8601,28 +8639,28 @@
     "company": "JR東日本",
     "line": "両毛線",
     "station": "富田",
-    "melody": "首都圏27番",
+    "melody": "JRE-IKST-028-01 (首都圏27番)",
     "file": "audio/首都圏27番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "両毛線",
     "station": "富田",
-    "melody": "首都圏27-1番",
+    "melody": "JRE-IKST-028-02 (首都圏27-1番)",
     "file": "audio/首都圏27-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "両毛線",
     "station": "佐野",
-    "melody": "首都圏27番",
+    "melody": "JRE-IKST-028-01 (首都圏27番)",
     "file": "audio/首都圏27番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "両毛線",
     "station": "佐野",
-    "melody": "首都圏27-1番",
+    "melody": "JRE-IKST-028-02 (首都圏27-1番)",
     "file": "audio/首都圏27-1番.mp3"
   },
   {
@@ -8643,51 +8681,52 @@
     "company": "JR東日本",
     "line": "両毛線",
     "station": "小山",
-    "melody": "首都圏27番",
+    "melody": "JRE-IKST-028-01 (首都圏27番)",
     "file": "audio/首都圏27番.mp3"
   },
     {
     "company": "JR東日本",
     "line": "両毛線",
     "station": "小山",
-    "melody": "首都圏27-1番",
+    "melody": "JRE-IKST-028-02 (首都圏27-1番)",
     "file": "audio/首都圏27-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "篠ノ井線",
     "station": "松本",
-    "melody": "首都圏39番",
+    "melody": "JRE-IKST-XXX-XX (首都圏39番)",
     "file": "audio/首都圏39番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "篠ノ井線",
     "station": "松本",
-    "melody": "首都圏39-1番",
+    "melody": "JRE-IKST-XXX-XX (首都圏39-1番)",
     "file": "audio/首都圏39-1番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "篠ノ井線",
     "station": "松本",
-    "melody": "首都圏39-2番",
+    "melody": "JRE-IKST-XXX-XX (首都圏39-2番)",
     "file": "audio/首都圏39-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "篠ノ井線",
     "station": "松本",
-    "melody": "首都圏39-3番",
+    "melody": "JRE-IKST-XXX-XX (首都圏39-3番)",
     "file": "audio/首都圏39-3番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "大糸線",
     "station": "松本",
-    "melody": "首都圏40番",
+    "melody": "JRE-IKST-XXX-XX (首都圏40番)",
     "file": "audio/首都圏40番.mp3"
   },
+
   {
     "company": "東京メトロ",
     "line": "丸ノ内線",
@@ -12182,7 +12221,7 @@
     "company": "JR東日本",
     "line": "未使用",
     "station": "未使用",
-    "melody": "首都圏3-12番",
+    "melody": "JRE-IKST-021-XX (首都圏3-12番)",
     "file": "audio/首都圏3-12番.mp3"
   },
       {
@@ -12277,7 +12316,64 @@
     "melody": "希望の朝",
     "file": "audio/希望の朝.mp3"
   }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "Gota del Vient 四街道Ver",
+    "file": "audio/Gota del Vient 四街道Ver.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "朝の教会",
+    "file": "audio/朝の教会.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "幸せチャイム",
+    "file": "audio/幸せチャイム.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "Gota del Vient(エンドレス)",
+    "file": "audio/Gota del Vient(エンドレス).mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "JR-SHR-7-3",
+    "file": "audio/JR-SHR-7-3.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "JR-SHR-5-1",
+    "file": "audio/JR-SHR-5-1.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "Cielo Estrellado 上野Ver",
+    "file": "audio/Cielo Estrellado 上野Ver.mp3"
+  }
 
+
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "美しき丘",
+    "file": ""
+  }
   ,{
     "company": "JR東日本",
     "line": "未使用",
