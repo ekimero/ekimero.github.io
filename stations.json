@@ -6958,6 +6958,13 @@
     "company": "JR東日本",
     "line": "成田線",
     "station": "四街道",
+    "melody": "JRE-IKST-039-01 (首都圏34-1番)",
+    "file": "audio/首都圏34-1番.mp3"
+  },
+  {
+    "company": "JR東日本",
+    "line": "成田線",
+    "station": "四街道",
     "melody": "JRE-IKST-039-02 (首都圏34-2番)",
     "file": "audio/首都圏34-2番.mp3"
   },
