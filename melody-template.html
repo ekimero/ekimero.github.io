@@ -515,24 +515,13 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      // Build line logos area and pick background
-      const uniqueLines = [...new Set(candidates.map(c => c.line).filter(Boolean))];
-      const logosContainer = document.getElementById('station-line-logos');
-      uniqueLines.forEach(line => {
-        const img = document.createElement('img');
-        img.src = `/images/${line}.png`;
-        img.alt = `${line}ロゴ`;
-        img.style.maxHeight = '48px';
-        img.style.height = 'auto';
-        img.style.marginRight = '8px';
-        logosContainer.appendChild(img);
-      });
-
-      // Set background from a random line among those lines (like station-template)
+      // Set background from a random line (logos are already pre-rendered by generator)
       const headerEl = document.querySelector('.melody-header');
-      if (headerEl && uniqueLines.length) {
-        const randomLine = uniqueLines[Math.floor(Math.random() * uniqueLines.length)];
-        headerEl.style.setProperty('--station-bg-image', `url("/images/${randomLine}.jpg")`);
+      const existingLogos = document.querySelectorAll('#station-line-logos img');
+      if (headerEl && existingLogos.length > 0) {
+        const randomLogo = existingLogos[Math.floor(Math.random() * existingLogos.length)];
+        const lineName = randomLogo.alt.replace('ロゴ', '').trim();
+        headerEl.style.setProperty('--station-bg-image', `url("/images/${lineName}.jpg")`);
       }
 
       // Group by company then by line

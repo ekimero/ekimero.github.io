@@ -53,7 +53,7 @@
     "@type": "WebPage",
     "name": "JRE-IKST-012-03 (首都圏9-3番) | どこでも駅メロ・発車メロディー検索",
     "url": "https://ekimero.github.io/melodies/JRE-IKST-012-03 (首都圏9-3番).html",
-    "description": "{JRE-IKST-012-03 (首都圏9-3番) | 駅メロを探して簡単に再生できるサイトです。さまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。",
+    "description": "JRE-IKST-012-03 (首都圏9-3番) | 駅メロを探して簡単に再生できるサイトです。さまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。",
     "inLanguage": "ja"
   }
   </script>
@@ -458,10 +458,10 @@ padding: 15px 12px;
 <main style="padding:24px; text-align:center;">
 
   <!-- Melody header with background (replaces station header) -->
-<div class="station-header melody-header">
+<div class="station-header melody-header" style="--station-bg-image: url("/images/中央本線.jpg");">
   <div class="station-header-overlay"></div>
   <div class="station-header-content">
-    <div id="station-line-logos" style="margin-bottom:16px; display:flex; gap:8px; justify-content:center; flex-wrap:wrap;"></div>
+    <div id="station-line-logos" style="margin-bottom:16px; display:flex; gap:8px; justify-content:center; flex-wrap:wrap;"><img src="/images/中央本線.png" alt="中央本線ロゴ" style="max-height:48px; height:auto; margin-right:8px; border-radius:6px;"></div>
     <h1 id="melodyTitle">JRE-IKST-012-03 (首都圏9-3番)</h1>
     <h2 style="color:#f0f0f0; font-weight:500; margin-bottom:12px;">どこでも駅メロ | このメロディーを使用する駅一覧</h2>
     <div id="melody-audio-container" style="margin-top:8px;">
@@ -475,7 +475,44 @@ padding: 15px 12px;
   <input id="line-filter" type="text" placeholder="駅名・メロディ名で絞り込み">
 </div>
 
-<div id="melody-stations-container" style="text-align:left; max-width:1052px; margin:0 auto;"></div>
+<div id="melody-stations-container" style="text-align:left; max-width:1052px; margin:0 auto;">
+      <section style="margin-bottom:28px;">
+        <h2 style="color:#1976d2; margin-bottom:12px; text-align:center;">JR東日本</h2>
+        
+            <div style="border:1px solid #ddd; border-radius:16px; background:#fafafa; padding:18px; margin-bottom:20px;">
+              <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+                <img src="/images/中央本線.png" alt="中央本線ロゴ" style="max-width:24px; height:auto;">
+                <h3 style="margin:0; font-size:1.1em;"><a href="/jr-east/%E4%B8%AD%E5%A4%AE%E6%9C%AC%E7%B7%9A.html" style="color:#1976d2; text-decoration:underline;">中央本線</a></h3>
+              </div>
+              
+                <div style="padding:10px 12px; border-bottom:1px solid #eee; display:flex; justify-content:space-between; align-items:center;">
+                  <div style="text-align:left;">
+                    <a href="/stations/%E5%A4%A7%E6%9C%88.html" style="font-weight:700; color:#1976d2; text-decoration:underline;">大月</a>
+                    <div style="font-size:0.95em; color:#666;">JRE-IKST-012-03 (首都圏9-3番)</div>
+                  </div>
+                  <div style="font-size:0.9em; color:#888;">JR東日本</div>
+                </div>
+              
+                <div style="padding:10px 12px; border-bottom:1px solid #eee; display:flex; justify-content:space-between; align-items:center;">
+                  <div style="text-align:left;">
+                    <a href="/stations/%E7%94%B2%E5%BA%9C.html" style="font-weight:700; color:#1976d2; text-decoration:underline;">甲府</a>
+                    <div style="font-size:0.95em; color:#666;">JRE-IKST-012-03 (首都圏9-3番)</div>
+                  </div>
+                  <div style="font-size:0.9em; color:#888;">JR東日本</div>
+                </div>
+              
+                <div style="padding:10px 12px; border-bottom:1px solid #eee; display:flex; justify-content:space-between; align-items:center;">
+                  <div style="text-align:left;">
+                    <a href="/stations/%E7%AB%9C%E7%8E%8B.html" style="font-weight:700; color:#1976d2; text-decoration:underline;">竜王</a>
+                    <div style="font-size:0.95em; color:#666;">JRE-IKST-012-03 (首都圏9-3番)</div>
+                  </div>
+                  <div style="font-size:0.9em; color:#888;">JR東日本</div>
+                </div>
+              
+            </div>
+          
+      </section>
+    </div>
 
 </main>
 
@@ -515,24 +552,13 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      // Build line logos area and pick background
-      const uniqueLines = [...new Set(candidates.map(c => c.line).filter(Boolean))];
-      const logosContainer = document.getElementById('station-line-logos');
-      uniqueLines.forEach(line => {
-        const img = document.createElement('img');
-        img.src = `/images/${line}.png`;
-        img.alt = `${line}ロゴ`;
-        img.style.maxHeight = '48px';
-        img.style.height = 'auto';
-        img.style.marginRight = '8px';
-        logosContainer.appendChild(img);
-      });
-
-      // Set background from a random line among those lines (like station-template)
+      // Set background from a random line (logos are already pre-rendered by generator)
       const headerEl = document.querySelector('.melody-header');
-      if (headerEl && uniqueLines.length) {
-        const randomLine = uniqueLines[Math.floor(Math.random() * uniqueLines.length)];
-        headerEl.style.setProperty('--station-bg-image', `url("/images/${randomLine}.jpg")`);
+      const existingLogos = document.querySelectorAll('#station-line-logos img');
+      if (headerEl && existingLogos.length > 0) {
+        const randomLogo = existingLogos[Math.floor(Math.random() * existingLogos.length)];
+        const lineName = randomLogo.alt.replace('ロゴ', '').trim();
+        headerEl.style.setProperty('--station-bg-image', `url("/images/${lineName}.jpg")`);
       }
 
       // Group by company then by line

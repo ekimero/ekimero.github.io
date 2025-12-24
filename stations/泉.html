@@ -53,7 +53,7 @@
     "@type": "WebPage",
     "name": "泉駅 | どこでも駅メロ・発車メロディー検索",
     "url": "https://ekimero.github.io/stations/泉.html",
-    "description": "{泉駅 | 駅メロを探して簡単に再生できるサイトです。さまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。",
+    "description": "泉駅 | 駅メロを探して簡単に再生できるサイトです。さまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。",
     "inLanguage": "ja"
   }
   </script>
@@ -359,7 +359,7 @@ padding: 15px 12px;
     <div style="margin-bottom:16px;">
 
       <div id="station-line-logos">
-        <img src="/images/常磐線.png" alt="常磐線ロゴ" class="line-logo" style="max-height:48px; height:auto; margin-right:8px;">
+        <img src="/images/常磐線.png" alt="常磐線ロゴ" style="max-width:48px; height:auto; margin-right:8px; border-radius:8px;">
       </div>
     </div>
     <h1>泉駅の発車メロディー一覧</h1>
@@ -373,7 +373,50 @@ padding: 15px 12px;
 
   </section>
   <!-- Company Sections -->
-  <div id="company-sections"></div>
+  <div id="company-sections">
+      <section style="margin-bottom:32px;">
+        <h2 style="color:#1976d2; margin-bottom:16px;">JR東日本</h2>
+        
+            <div style="border:1px solid #ddd; border-radius:16px; background:#fafafa; padding:20px; margin-bottom:28px;">
+              <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+                <img src="/images/常磐線.png" alt="常磐線ロゴ" style="max-width:24px; height:auto;">
+                <h3 style="margin:0; font-size:1.2em;">
+                  <a href="/jr-east/%E5%B8%B8%E7%A3%90%E7%B7%9A.html" style="color:#1976d2; text-decoration:underline;">常磐線</a>
+                </h3>
+              </div>
+              
+                  <div class="melody-item" style="margin-bottom:16px; padding:24px; border-radius:16px; background:#fff; box-shadow:0 3px 12px rgba(0,0,0,0.08); display:flex; flex-direction:column; gap:12px; align-items:flex-start;">
+                    <div class="melody-name" style="font-weight:600; font-size:1.15em; text-align:left;">
+                      <a href="/melodies/JRE-IKST-013-01%20(%E9%A6%96%E9%83%BD%E5%9C%8F12-1%E7%95%AA).html" style="color:#333; text-decoration:underline;">JRE-IKST-013-01 (首都圏12-1番)</a> 
+                    </div>
+                    
+                      <div style="display:flex; flex-direction:column; gap:6px; width:100%;">
+                        <audio controls controlsList="nodownload" src="/audio/首都圏12-1番.mp3" style="width:100%;"></audio>
+                        <label style="font-size:0.9em; cursor:pointer; display:flex; align-items:center; gap:4px;">
+                          <input type="checkbox" class="loop-checkbox"> ループ
+                        </label>
+                      </div>
+                    
+                  </div>
+                
+                  <div class="melody-item" style="margin-bottom:16px; padding:24px; border-radius:16px; background:#fff; box-shadow:0 3px 12px rgba(0,0,0,0.08); display:flex; flex-direction:column; gap:12px; align-items:flex-start;">
+                    <div class="melody-name" style="font-weight:600; font-size:1.15em; text-align:left;">
+                      <a href="/melodies/JRE-IKST-013-02%20(%E9%A6%96%E9%83%BD%E5%9C%8F12%E7%95%AA).html" style="color:#333; text-decoration:underline;">JRE-IKST-013-02 (首都圏12番)</a> 
+                    </div>
+                    
+                      <div style="display:flex; flex-direction:column; gap:6px; width:100%;">
+                        <audio controls controlsList="nodownload" src="/audio/首都圏12番.mp3" style="width:100%;"></audio>
+                        <label style="font-size:0.9em; cursor:pointer; display:flex; align-items:center; gap:4px;">
+                          <input type="checkbox" class="loop-checkbox"> ループ
+                        </label>
+                      </div>
+                    
+                  </div>
+                
+            </div>
+          
+      </section>
+    </div>
 </main>
 
 <script>
