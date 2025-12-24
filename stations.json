@@ -7147,43 +7147,43 @@
     "company": "JR東日本",
     "line": "成田線",
     "station": "東我孫子",
-    "melody": "JR-SHR1-1",
-    "file": "audio/JR-SHR1-1.mp3"
+    "melody": "JRE-IKST-042-02 (首都圏35-2番)",
+    "file": "audio/首都圏35-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "東我孫子",
-    "melody": "JR-SHR2-3",
-    "file": "audio/JR-SHR2-3.mp3"
+    "melody": "JRE-IKST-042-01 (首都圏35番)",
+    "file": "audio/首都圏35番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "湖北",
-    "melody": "JR-SHR7-1",
-    "file": "audio/JR-SHR7-1.mp3"
+    "melody": "JRE-IKST-042-02 (首都圏35-2番)",
+    "file": "audio/首都圏35-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "湖北",
-    "melody": "JR-SHR3-3",
-    "file": "audio/JR-SHR3-3.mp3"
+    "melody": "JRE-IKST-042-01 (首都圏35番)",
+    "file": "audio/首都圏35番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "新木",
-    "melody": "JR-SHR6-1",
-    "file": "audio/JR-SHR6-1.mp3"
+    "melody": "JRE-IKST-042-02 (首都圏35-2番)",
+    "file": "audio/首都圏35-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "新木",
-    "melody": "JR-SHR9-3",
-    "file": "audio/JR-SHR9-3.mp3"
+    "melody": "JRE-IKST-042-01 (首都圏35番)",
+    "file": "audio/首都圏35番.mp3"
   },
   {
     "company": "JR東日本",
@@ -7203,43 +7203,43 @@
     "company": "JR東日本",
     "line": "成田線",
     "station": "木下",
-    "melody": "JR-SHR3-1",
-    "file": "audio/JR-SHR3-1.mp3"
+    "melody": "JRE-IKST-042-02 (首都圏35-2番)",
+    "file": "audio/首都圏35-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "木下",
-    "melody": "JR-SHR5-3",
-    "file": "audio/JR-SHR5-3.mp3"
+    "melody": "JRE-IKST-042-01 (首都圏35番)",
+    "file": "audio/首都圏35番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "小林",
-    "melody": "JR-SHR2-1",
-    "file": "audio/JR-SHR2-1.mp3"
+    "melody": "JRE-IKST-042-02 (首都圏35-2番)",
+    "file": "audio/首都圏35-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "小林",
-    "melody": "JR-SHR6-3",
-    "file": "audio/JR-SHR6-3.mp3"
+    "melody": "JRE-IKST-042-01 (首都圏35番)",
+    "file": "audio/首都圏35番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "安食",
-    "melody": "JR-SHR9-1",
-    "file": "audio/JR-SHR9-1.mp3"
+    "melody": "JRE-IKST-042-02 (首都圏35-2番)",
+    "file": "audio/首都圏35-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "安食",
-    "melody": "JR-SHR1-3",
-    "file": "audio/JR-SHR1-3.mp3"
+    "melody": "JRE-IKST-042-01 (首都圏35番)",
+    "file": "audio/首都圏35番.mp3"
   },
     {
     "company": "JR東日本",
@@ -12348,15 +12348,15 @@
     "company": "JR東日本",
     "line": "未使用",
     "station": "未使用",
-    "melody": "JR-SHR-7-3",
-    "file": "audio/JR-SHR-7-3.mp3"
+    "melody": "JR-SHR7-3",
+    "file": "audio/JR-SHR7-3.mp3"
   }
   ,{
     "company": "JR東日本",
     "line": "未使用",
     "station": "未使用",
-    "melody": "JR-SHR-5-1",
-    "file": "audio/JR-SHR-5-1.mp3"
+    "melody": "JR-SHR5-1",
+    "file": "audio/JR-SHR5-1.mp3"
   }
   ,{
     "company": "JR東日本",
@@ -12364,6 +12364,90 @@
     "station": "未使用",
     "melody": "Cielo Estrellado 上野Ver",
     "file": "audio/Cielo Estrellado 上野Ver.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "JR-SHR1-1",
+    "file": "audio/JR-SHR1-1.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "JR-SHR1-3",
+    "file": "audio/JR-SHR1-3.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "JR-SHR2-1",
+    "file": "audio/JR-SHR2-1.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "JR-SHR2-3",
+    "file": "audio/JR-SHR2-3.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "JR-SHR3-1",
+    "file": "audio/JR-SHR3-1.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "JR-SHR3-3",
+    "file": "audio/JR-SHR3-3.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "JR-SHR5-3",
+    "file": "audio/JR-SHR5-3.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "JR-SHR6-1",
+    "file": "audio/JR-SHR6-1.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "JR-SHR6-3",
+    "file": "audio/JR-SHR6-3.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "JR-SHR7-1",
+    "file": "audio/JR-SHR7-1.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "JR-SHR9-1",
+    "file": "audio/JR-SHR9-1.mp3"
+  }
+  ,{
+    "company": "JR東日本",
+    "line": "未使用",
+    "station": "未使用",
+    "melody": "JR-SHR9-3",
+    "file": "audio/JR-SHR9-3.mp3"
   }
 
 

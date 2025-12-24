@@ -9,8 +9,10 @@ const zlib = require('zlib');
 const ROOT = path.resolve(__dirname);
 const OUT = path.join(ROOT, 'sitemap.xml');
 const OUT_GZ = path.join(ROOT, 'sitemap.xml.gz');
-const SITE_URL = process.env.SITE_URL || 'https://dokodemo-ekimero.github.io';
+const SITE_URL = process.env.SITE_URL || 'https://ekimero.github.io';
 
+// directories to include in sitemap
+const INCLUDE_DIRS = new Set(['jr-east', 'tokyo-metro', 'toei', 'stations', 'lines', 'melodies']);
 // directories to skip while scanning
 const SKIP_DIRS = new Set(['node_modules', '.git', 'audio', 'images', 'analytics', 'node_modules1', 'docs']);
 // files to skip
@@ -58,9 +60,17 @@ function toUrl(root, file) {
     const urls = [];
     for (const f of htmlFiles) {
       const rel = path.relative(ROOT, f);
-      // skip files in skipped folders (defensive)
       const parts = rel.split(path.sep);
+      
+      // Skip files in skipped folders (defensive)
       if (parts.some(p => SKIP_DIRS.has(p))) continue;
+      
+      // Only include files from allowed directories or root index.html
+      const isRootIndex = rel === 'index.html';
+      const isInAllowedDir = parts.some(p => INCLUDE_DIRS.has(p));
+      
+      if (!isRootIndex && !isInAllowedDir) continue;
+      
       const st = await fs.stat(f);
       const lastmod = formatDate(st.mtime);
       const loc = toUrl(ROOT, f);
