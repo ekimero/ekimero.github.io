@@ -1,2 +1,4 @@
 User-agent: ia_archiver
 Disallow: /
+
+Sitemap: https://yourdomain.com/sitemap.xml
