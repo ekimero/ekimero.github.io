@@ -28,6 +28,7 @@ function generateLinePages(company, folderName) {
 
     // Fill template
     let html = template.replace(/\{\{line\}\}/g, line);
+    html = html.replace(/\{\{basePath\}\}/g, folderName);
     html = html.replace(/\{\{stations\}\}/g, lineStations);
 
     // Save file
