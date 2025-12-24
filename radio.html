@@ -818,7 +818,7 @@ padding: 15px 12px;
             return state.stations.filter(station => {
                 const companyMatch = company === '' || station.company === company;
                 const lineMatch = line === '' || station.line === line;
-                const shutokenSkip = skipShutoken ? !(station.melody && station.melody.startsWith('首都圏')) : true;
+                const shutokenSkip = skipShutoken ? !(station.melody && station.melody.startsWith('JRE')) : true;
                 // Only include stations with valid audio files
                 return companyMatch && lineMatch && shutokenSkip && hasValidAudio(station);
             });
