@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <!-- Google tag (gtag.js) -->
+  <!-- Google Analytics & Clarity -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E7R52K1NYL"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -16,22 +16,22 @@
       y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "spvu3f92us");
   </script>
-  <meta name="title" content="消滅した・未使用のメロディー | どこでも駅メロ・発車メロディー検索">
-  <meta name="author" content="ekimero">
+
   <meta charset="utf-8" />
+  <meta name="title" content="未使用 | どこでも駅メロ・発車メロディー検索">
+  <meta name="author" content="ekimero">
   <meta name="robots" content="index, follow">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="description" content="消滅した・未使用のメロディー | 駅メロを探して簡単に再生できるサイトです。さまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。">
-  <meta name="keywords" content="消滅した発車メロディー,発車メロディ,発車メロディー,駅メロ,駅ベル,発車ベル,どこでも駅メロ,どこでも発車ベル,どこでも発車メロディー, 未使用駅発車メロディー">
-  <meta property="og:image" content="logo.png">
-  <meta property="og:description" content="消滅した・未使用のメロディー | 駅メロを探して簡単に再生できるサイトです。さまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。">
-  <meta property="og:title" content="消滅した・未使用のメロディー | どこでも駅メロ・発車メロディー検索">
-  <meta property="og:url" content="https://ekimero.github.io/stations/未使用.html">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="未使用 | 駅メロを探して簡単に再生できるサイトです。さまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。">
+  <meta name="keywords" content="発車メロディ,発車メロディー,駅メロ,駅ベル,発車ベル,どこでも駅メロ,どこでも発車ベル,どこでも発車メロディー,未使用発車メロディー">
+  <meta property="og:image" content="/logo.png">
+  <meta property="og:description" content="未使用 | 駅メロを探して簡単に再生できるサイトです。さまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。">
+  <meta property="og:title" content="未使用 | どこでも駅メロ・発車メロディー検索">
+  <meta property="og:url" content="https://ekimero.github.io/jr-east/未使用.html">
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:site_name" content="消滅した・未使用のメロディー | どこでも駅メロ・発車メロディー検索">
-  <title>消滅した・未使用のメロディー | どこでも駅メロ・発車メロディー検索</title>
-  <link rel="stylesheet" href="/index.css">
-  <link rel="canonical" href="https://ekimero.github.io/stations/未使用.html" />
+  <title>未使用 | どこでも駅メロ・発車メロディー検索</title>
+  <link rel="canonical" href="https://ekimero.github.io/jr-east/未使用.html" />
+   <link rel="stylesheet" href="/index.css">
 
 <link rel="icon" href="/images/new-logo.png" type="image/png">
  <link rel="icon" href="/images/new-favicon-32x32.png" type="image/png" sizes="32x32">
@@ -47,106 +47,63 @@
   <link rel="apple-touch-icon" href="/images/new-apple-touch-icon.png">
   <meta name="msapplication-TileImage" content="/images/favicon-32x32.png">
   <meta name="msapplication-TileColor" content="#000000">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebPage",
-    "name": "消滅した・未使用のメロディー | どこでも駅メロ・発車メロディー検索",
-    "url": "https://ekimero.github.io/stations/未使用.html",
-    "description": "{消滅した・未使用のメロディー | 駅メロを探して簡単に再生できるサイトです。さまざまな鉄道会社の発車メロディーを聴けます。どこでも発車メロディーからインスポ。",
-    "inLanguage": "ja"
-  }
-  </script>
+
  
 </head>
 <style>
-.station-header {
-  position: relative !important;
-  width: 100% !important;
-  min-height: 260px !important; /* Match line-header exactly with !important */
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-  text-align: center !important;
-  margin-bottom: 32px !important; /* Match line-header exactly with !important */
-  overflow: hidden !important;
-  border-radius: 12px !important; /* Match line-header exactly with !important */
+.line-header {
+  position: relative;
+  width: 100%;
+  min-height: 260px; /* adjust height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 32px;
+  overflow: hidden;
+  border-radius: 12px;
   background: url("/images/未使用.jpg") center/cover no-repeat;
-  color: white !important;
-  padding: 0 !important; /* Override any padding from main>div:first-child */
+  color: white; /* fallback for text */
 }
-.station-header-overlay {
+
+.line-header-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(4, 12, 20, 0.6); /* Same as line-header */
+  background: rgba(4, 12, 20, 0.6); /* blue tint */
   z-index: 1;
 }
-.station-header-content {
+
+.line-header-content {
   position: relative;
   z-index: 2;
-  padding: 24px !important; /* Match line-header exactly with !important */
-}
-.station-header h1 {
-  color: #fff !important;
-  margin-bottom: 16px !important; /* Match line-header exactly with !important */
-}
-.station-header h2 {
-  color: #f0f0f0 !important;
-  font-weight: 500 !important;
-  margin-bottom: 47px !important; /* Match line-header exactly with !important */
-}
-#station-line-logos {
-  margin-top: 47px !important; /* Match line-header with !important */
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 12px !important;
-  justify-content: center !important;
-  margin-bottom: 24px;
-}
-/* Ensure mobile overrides don't affect the station header */
-@media screen and (max-width: 768px) {
-  .station-header {
-    min-height: 260px !important;
-    margin-bottom: 32px !important;
-    border-radius: 12px !important;
-    padding: 0 !important;
-  }
- 
-  .station-header-content {
-    padding: 24px !important;
-  }
-}
-#station-line-logos img {
-  max-width: 48px !important;  /* 現在の24pxから大きくする */
-  height: auto !important;
-  width: auto !important;
+  padding: 24px;
 }
 
-/* モバイル表示用の調整 */
-@media screen and (max-width: 768px) {
-  #station-line-logos img {
-    max-width: 40px !important;
-  }
+.line-header h1 {
+  color: #fff;
+  margin-bottom: 16px;
 }
-#station-line-logos img {
-  border-radius: 8px !important; /* 角丸の大きさを調整 */
-  /* 既存のスタイルはそのまま保持 */
-  max-width: 48px !important;
-  height: auto !important;
-  width: auto !important;
+
+.line-header h2 {
+  color: #f0f0f0;
+  font-weight: 500;
+  margin-bottom: 24px;
 }
-@media screen and (max-width: 768px) {
-  #station-line-logos img {
-    border-radius: 6px !important; /* モバイル用の角丸サイズ */
-    /* 他のモバイルスタイル */
-  }
+
+#line-logos-container {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
 }
+
 </style>
 <body>
-            <header>
+          <header>
     <a href="/index.html" class="title-link">
       <img src="/logo.png" alt="どこでも駅メロのロゴ - 発車メロディ検索サイト" class="logo">
       <b class="header1">どこでも駅メロ</b>
@@ -352,177 +309,108 @@ padding: 15px 12px;
 
 
 <main style="padding:24px; text-align:center;">
-
-  <!-- Station header with background -->
-<div class="station-header">
-  <div class="station-header-overlay"></div>
-  <div class="station-header-content">
+<!-- Line header with background -->
+<div class="line-header">
+  <div class="line-header-overlay"></div>
+  <div class="line-header-content">
     <div style="margin-bottom:16px;">
-
-
+<img src="/images/未使用.png" alt="未使用ロゴ" 
+     style="max-width:120px; height:auto; border-radius:16px;">
     </div>
-    <h1>消滅した発車メロディー</h1>
-    <h2>どこでも駅メロ | 現在使用されていない発車メロディー一覧</h2>
-    <p style="font-size: 0.8em;">櫻井音楽工房によって管理されている発車メロディーは取り扱っていません。</p>
+    <h1>未使用の発車メロディー一覧</h1>
+    <h2>どこでも駅メロ | 未使用の発車メロディーを駅ごとに再生できます</h2>
+    <!-- Container for all line logos -->
+    <div id="line-logos-container"></div>
   </div>
 </div>
+
 <div style="margin-bottom:32px; width:100%;">
   <input id="line-filter" type="text" placeholder="駅名・メロディ名で絞り込み">
 </div>
 
   <div id="stations-container" style="text-align:left;"></div>
-  <div id="stations-container" style="text-align:left;"></div>
-
-  </section>
-  <!-- Company Sections -->
-  <div id="company-sections"></div>
 </main>
 
-<script>
-// Set random line background for the station header
-document.addEventListener('DOMContentLoaded', () => {
-  const stationHeader = document.querySelector('.station-header');
-  if (stationHeader) {
-    // Get all line logos in the station
-    const lineLogos = document.querySelectorAll('#station-line-logos img');
-    if (lineLogos.length > 0) {
-      // Pick a random line logo from the station
-      const randomIndex = Math.floor(Math.random() * lineLogos.length);
-      const randomLineLogo = lineLogos[randomIndex];
-      const lineName = randomLineLogo.alt.replace('ロゴ', '').trim();
-      
-      // Set the background image
-      stationHeader.style.setProperty('--station-bg-image', `url("/images/${lineName}.jpg")`);
-    }
-  }
-});
-</script>
+
+
+
 <script>
 document.addEventListener('DOMContentLoaded', () => {
-    const lineName = decodeURIComponent(window.location.pathname.split('/').pop().replace('.html',''));
-  const container = document.getElementById('company-sections');
+  const lineName = decodeURIComponent(window.location.pathname.split('/').pop().replace('.html',''));
+  const container = document.getElementById('stations-container');
   const filterInput = document.getElementById('line-filter');
-  const stationName = decodeURIComponent(window.location.pathname.split('/').pop().replace('.html',''));
-  const companySectionsContainer = document.getElementById('company-sections');
-  const searchInput = document.getElementById('station-search');
+
+  // Detect operator based on URL path
+  let companyFilter = null;
+  if (window.location.pathname.includes('/jr-east/')) {
+    companyFilter = 'JR東日本';
+  } else if (window.location.pathname.includes('/tokyo-metro/')) {
+    companyFilter = '東京メトロ';
+  } 
+  // (you can add more companies here as needed)
 
   fetch('/stations.json')
     .then(res => res.json())
-    .then(allStations => {
-      const stationMelodies = allStations.filter(s => s.station === stationName);
-      if (!stationMelodies.length) {
-        companySectionsContainer.innerHTML = '<p style="text-align:center;color:#888;">この駅の発車メロディーは見つかりませんでした</p>';
+    .then(data => {
+      const lineStations = data.filter(s =>
+        s.line === lineName && (!companyFilter || s.company === companyFilter)
+      );
+
+      if (!lineStations.length) {
+        container.innerHTML = '<p style="text-align:center;color:#888;">この路線の駅メロは見つかりませんでした</p>';
         return;
       }
 
-      const companies = [
-        { id: 'jr', name: 'JR東日本' },
-        { id: 'metro', name: '東京メトロ' },
-        { id: 'toei', name: '都営地下鉄' },
-        { id: 'archive', name: '過去のメロディ' }
-      ];
+      // Group by station
+      const stationsMap = {};
+      lineStations.forEach(s => {
+        if (!stationsMap[s.station]) stationsMap[s.station] = [];
+        stationsMap[s.station].push(s);
+      });
 
-      let currentPage = 1;
-      let lastFilter = '';
-      const PAGE_SIZE = 10;
-      let totalFilteredMelodies = 0;
-      let pageNavContainer = null;
-
-      function renderCompanyMelodies(filter = '', page = 1) {
-        lastFilter = filter;
-        currentPage = page;
-        let html = '';
-        totalFilteredMelodies = 0;
-        html += companies.map(company => {
-          const companyMelodies = stationMelodies.filter(m => 
-            m.company === company.name || (company.id==='archive' && (m.company==='過去のメロディ' || m.status==='過去'))
-          );
-          if (!companyMelodies.length) return '';
-          // Group by line
-          const linesMap = {};
-          companyMelodies.forEach(m => {
-            if (!linesMap[m.line]) linesMap[m.line] = [];
-            linesMap[m.line].push(m);
-          });
-          return Object.entries(linesMap).map(([line, melodies]) => {
-            // Filter melodies
-            const filteredMelodies = melodies.filter(m => 
-              m.melody.toLowerCase().includes(filter.toLowerCase()) ||
-              (m.direction && m.direction.toLowerCase().includes(filter.toLowerCase()))
-            );
-            if (!filteredMelodies.length && !line.toLowerCase().includes(filter.toLowerCase())) return '';
-            totalFilteredMelodies += filteredMelodies.length;
-            // Pagination
-            const startIdx = (currentPage - 1) * PAGE_SIZE;
-            const endIdx = startIdx + PAGE_SIZE;
-            const pagedMelodies = filteredMelodies.slice(startIdx, endIdx);
-            const logoSrc = `/images/${line}.png`;
-            let basePath = '';
-            if (company.id === 'jr') basePath = '/jr-east';
-            else if (company.id === 'metro') basePath = '/tokyo-metro';
-            else if (company.id === 'toei') basePath = '/toei';
-            else basePath = '/archive';
-            const lineUrl = `${basePath}/${encodeURIComponent(line)}.html`;
-            return `
-              <div style="border:1px solid #ddd; border-radius:16px; background:#fafafa; padding:20px; margin-bottom:28px;">
-                <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
-                  
-                  <h3 style="margin:0; font-size:1.2em;">
-                    <a href="${lineUrl}" style="color:#1976d2; text-decoration:underline;">${line}</a>
-                  </h3>
-                </div>
-                ${pagedMelodies.map(m => {
-                  const audioSrc = m.file ? (m.file.startsWith('audio/') ? `/${m.file}` : `/audio/${m.file}`) : '';
-                  return `
-                    <div class="melody-item" style="margin-bottom:16px; padding:24px; border-radius:16px; background:#fff; box-shadow:0 3px 12px rgba(0,0,0,0.08); display:flex; flex-direction:column; gap:12px; align-items:flex-start;">
-                      <div class="melody-name" style="font-weight:600; font-size:1.15em; text-align:left;">
-                        ${m.melody ? `<a href="/melodies/${encodeURIComponent(m.melody)}.html"
-   style="color:#000; text-decoration:underline;">
-   ${m.melody}</a>` : '発車メロディーなし'} ${m.direction ? `(${m.direction}方面)` : ''}
-                      </div>
-                      ${audioSrc ? `
-                        <div style="display:flex; flex-direction:column; gap:6px; width:100%;">
-                          <audio controls controlsList="nodownload" src="${audioSrc}" loop style="width:100%;"></audio>
-                          <label style="font-size:0.9em; cursor:pointer; display:flex; align-items:center; gap:4px;">
-                            <input type="checkbox" class="loop-checkbox"> ループ
-                          </label>
-                        </div>
-                      ` : '<span style="color:#888;">音源なし</span>'}
-                    </div>
-                  `;
-                }).join('')}
-                <div class="page-nav" style="text-align:center; margin-top:16px;"></div>
+      function renderStations() {
+        const query = filterInput.value.toLowerCase().trim();
+        container.innerHTML = Object.entries(stationsMap).map(([station, melodies]) => {
+          const matchStation = station.toLowerCase().includes(query);
+          const filteredMelodies = melodies.filter(m => m.melody.toLowerCase().includes(query));
+          if (!matchStation && !filteredMelodies.length) return '';
+          return `
+            <div class="station-card">
+              <div class="station-title">
+                <a href="/stations/${encodeURIComponent(station)}.html" style="color:#1976d2; text-decoration:underline;">
+                  ${station}駅
+                </a>
               </div>
-            `;
-          }).join('');
+              ${melodies.map(m => `
+                <div class="melody-item">
+                  <div class="melody-name"><a href="/melodies/${encodeURIComponent(m.melody)}.html" style="color:#333; font-weight:600; text-decoration:underline;">${m.melody || '発車メロディーなし'}</a></div>
+                  <div class="melody-line">${m.line}</div>
+                  ${m.file ? `
+                    <div style="display:flex; align-items:center; gap:8px; margin-top:8px;">
+                      <audio class="melody-audio" controls controlsList="nodownload" src="/${m.file}" loop></audio>
+                      <label style="font-size:0.85em; display:block; margin-top:4px; cursor:pointer;">
+                        <input type="checkbox" class="loop-checkbox"> ループ
+                      </label>
+                    </div>` : '<span style="color:#888;">音源なし</span>'}
+                </div>
+              `).join('')}
+            </div>
+          `;
         }).join('');
-        companySectionsContainer.innerHTML = html;
-        // Add pagination controls if needed
-        if (totalFilteredMelodies > PAGE_SIZE) {
-          const totalPages = Math.ceil(totalFilteredMelodies / PAGE_SIZE);
-          const navHtml = `<button id="prevPageBtn" ${currentPage === 1 ? 'disabled' : ''} style="margin:0 8px;">前へ</button>
-            <span style="font-size:1em;">${currentPage} / ${totalPages}</span>
-            <button id="nextPageBtn" ${currentPage === totalPages ? 'disabled' : ''} style="margin:0 8px;">次へ</button>`;
-          document.querySelectorAll('.page-nav').forEach(nav => nav.innerHTML = navHtml);
-          // Add event listeners
-          document.querySelectorAll('#prevPageBtn').forEach(btn => btn.onclick = () => renderCompanyMelodies(lastFilter, currentPage - 1));
-          document.querySelectorAll('#nextPageBtn').forEach(btn => btn.onclick = () => renderCompanyMelodies(lastFilter, currentPage + 1));
-        }
-        // Loop checkbox functionality
+
+        // Attach loop checkbox functionality
         document.querySelectorAll('.loop-checkbox').forEach(cb => {
           const audio = cb.closest('div').querySelector('audio');
-          if(audio) audio.loop = cb.checked;
-          cb.addEventListener('change', () => { if(audio) audio.loop = cb.checked; });
+          if (audio) audio.loop = cb.checked;
+          cb.addEventListener('change', () => { if (audio) audio.loop = cb.checked; });
         });
       }
-      renderCompanyMelodies();
-      filterInput.addEventListener('input', e => {
-        renderCompanyMelodies(e.target.value, 1);
-      });
+
+      renderStations();
+      filterInput.addEventListener('input', renderStations);
     });
 });
 </script>
-
 <script>
 // Header search bar instant search
 let headerStationsData = [];
@@ -587,8 +475,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-
-  <!-- Firebase Integration -->
+<!-- Firebase & play counter -->
 <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-database-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
@@ -692,11 +579,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
-
-  
-  <!-- Play Counter Tracking -->
-  <script src="/playcounter.js"></script>
-
+<script src="/playcounter.js"></script>
 <button id="backToTop" style="display: none; position: fixed; bottom: 30px; right: 30px; z-index: 99; border: none; outline: none; background-color: #1976d2; color: white; cursor: pointer; width: 50px; height: 50px; border-radius: 50%; font-size: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.3); transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#1565c0'; this.style.transform='scale(1.1)'" onmouseout="this.style.backgroundColor='#1976d2'; this.style.transform='scale(1)'">
   ↑
 </button>
@@ -745,29 +628,6 @@ document.addEventListener('DOMContentLoaded', function() {
     鉄道モバイル: <a href="https://www.te2do.jp" target="_blank">https://www.te2do.jp</a>
   </div>
 </footer>
-  
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-  const filterInput = document.getElementById('line-filter');
-  const stationsContainer = document.getElementById('company-container');
-
-  filterInput.addEventListener('input', () => {
-    const query = filterInput.value.toLowerCase().trim();
-
-    // Show/hide station cards based on filter
-    document.querySelectorAll('.station-card').forEach(card => {
-      const stationName = card.querySelector('.station-title').textContent.toLowerCase();
-      const melodies = Array.from(card.querySelectorAll('.melody-item')).map(m => m.querySelector('.melody-name').textContent.toLowerCase());
-
-      const matchStation = stationName.includes(query);
-      const matchMelody = melodies.some(name => name.includes(query));
-
-      card.style.display = (matchStation || matchMelody) ? 'block' : 'none';
-    });
-  });
-});
-
-</script>
 
 <script>
 (function(){
@@ -864,4 +724,26 @@ document.addEventListener('DOMContentLoaded', function() {
 })();
 </script>
 </body>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+  const filterInput = document.getElementById('line-filter');
+  const stationsContainer = document.getElementById('stations-container');
+
+  filterInput.addEventListener('input', () => {
+    const query = filterInput.value.toLowerCase().trim();
+
+    // Show/hide station cards based on filter
+    document.querySelectorAll('.station-card').forEach(card => {
+      const stationName = card.querySelector('.station-title').textContent.toLowerCase();
+      const melodies = Array.from(card.querySelectorAll('.melody-item')).map(m => m.querySelector('.melody-name').textContent.toLowerCase());
+
+      const matchStation = stationName.includes(query);
+      const matchMelody = melodies.some(name => name.includes(query));
+
+      card.style.display = (matchStation || matchMelody) ? 'block' : 'none';
+    });
+  });
+});
+
+</script>
 </html>

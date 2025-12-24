@@ -24,17 +24,19 @@ if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
 
 melodiesMap.forEach((entries, key) => {
   // Derive melody display name and audio src
-  let melodyName = key;
+  // Use the melody field from entries instead of deriving from filename
+  let melodyName = '';
   let audioSrc = '';
 
   if (key === '__unknown__') {
     melodyName = '未指定のメロディー';
   } else if (/\.[a-z0-9]{2,5}$/i.test(key)) {
-    // key looks like filename
-    melodyName = path.basename(key).replace(/\.[^.]+$/, '');
+    // key looks like filename - use melody field from entries
+    const firstEntry = entries.find(e => e.melody && e.melody.trim());
+    melodyName = firstEntry ? firstEntry.melody.trim() : path.basename(key).replace(/\.[^.]+$/, '');
     audioSrc = key.startsWith('/') ? key : `/${key}`;
   } else {
-    // treat key as melody name
+    // treat key as melody name (no file, so key is already the melody name)
     melodyName = key;
   }
 
