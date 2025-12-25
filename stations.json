@@ -7182,8 +7182,8 @@
     "company": "JR東日本",
     "line": "成田線",
     "station": "新木",
-    "melody": "JRE-IKST-042-02 (首都圏35-2番)",
-    "file": "audio/首都圏35-2番.mp3"
+    "melody": "JRE-IKST-042-XX (首都圏35-4番)",
+    "file": "audio/首都圏35-4番.mp3"
   },
   {
     "company": "JR東日本",
@@ -7245,8 +7245,8 @@
     "company": "JR東日本",
     "line": "成田線",
     "station": "安食",
-    "melody": "JRE-IKST-042-01 (首都圏35番)",
-    "file": "audio/首都圏35番.mp3"
+    "melody": "JRE-IKST-042-XX (首都圏35-3番)",
+    "file": "audio/首都圏35-3番.mp3"
   },
     {
     "company": "JR東日本",
