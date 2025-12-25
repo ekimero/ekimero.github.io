@@ -7196,15 +7196,15 @@
     "company": "JR東日本",
     "line": "成田線",
     "station": "布佐",
-    "melody": "JR-SHR8-1",
-    "file": "audio/JR-SHR8-1.mp3"
+    "melody": "JRE-IKST-042-02 (首都圏35-2番)",
+    "file": "audio/首都圏35-2番.mp3"
   },
   {
     "company": "JR東日本",
     "line": "成田線",
     "station": "布佐",
-    "melody": "JR-SHR4-3",
-    "file": "audio/JR-SHR4-3.mp3"
+    "melody": "JRE-IKST-042-01 (首都圏35番)",
+    "file": "audio/首都圏35番.mp3"
   },
   {
     "company": "JR東日本",
