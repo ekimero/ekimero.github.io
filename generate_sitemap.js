@@ -9,7 +9,7 @@ const zlib = require('zlib');
 const ROOT = path.resolve(__dirname);
 const OUT = path.join(ROOT, 'sitemap.xml');
 const OUT_GZ = path.join(ROOT, 'sitemap.xml.gz');
-const SITE_URL = process.env.SITE_URL || 'https://ekimero.github.io';
+const SITE_URL = process.env.SITE_URL || 'https://ekimero.com';
 
 // directories to include in sitemap
 const INCLUDE_DIRS = new Set(['jr-east', 'tokyo-metro', 'toei', 'stations', 'lines', 'melodies']);
