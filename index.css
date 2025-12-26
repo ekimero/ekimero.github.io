@@ -2394,3 +2394,9 @@ footer a:hover {
   }
 }
 }
+.notice {
+  background: #1976d2;
+  padding: 10px 15px;
+  text-align: center;
+  font-weight: bold;
+}
